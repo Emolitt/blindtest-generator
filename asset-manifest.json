@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/blindtest-generator/static/css/main.7d180cbf.chunk.css",
+    "main.js": "/blindtest-generator/static/js/main.eca1284f.chunk.js",
+    "main.js.map": "/blindtest-generator/static/js/main.eca1284f.chunk.js.map",
+    "runtime-main.js": "/blindtest-generator/static/js/runtime-main.0dc6e9e2.js",
+    "runtime-main.js.map": "/blindtest-generator/static/js/runtime-main.0dc6e9e2.js.map",
+    "static/js/2.97aeeb4a.chunk.js": "/blindtest-generator/static/js/2.97aeeb4a.chunk.js",
+    "static/js/2.97aeeb4a.chunk.js.map": "/blindtest-generator/static/js/2.97aeeb4a.chunk.js.map",
+    "static/js/3.7a0ec529.chunk.js": "/blindtest-generator/static/js/3.7a0ec529.chunk.js",
+    "static/js/3.7a0ec529.chunk.js.map": "/blindtest-generator/static/js/3.7a0ec529.chunk.js.map",
+    "index.html": "/blindtest-generator/index.html",
+    "static/css/main.7d180cbf.chunk.css.map": "/blindtest-generator/static/css/main.7d180cbf.chunk.css.map",
+    "static/js/2.97aeeb4a.chunk.js.LICENSE.txt": "/blindtest-generator/static/js/2.97aeeb4a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0dc6e9e2.js",
+    "static/js/2.97aeeb4a.chunk.js",
+    "static/css/main.7d180cbf.chunk.css",
+    "static/js/main.eca1284f.chunk.js"
+  ]
+}

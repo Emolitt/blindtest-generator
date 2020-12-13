@@ -114,6 +114,15 @@ const steps = ['Select theme', 'Select Parameters', 'Validate'];
 
 
 export default class Checkout extends React.Component {
+    /*
+    TODO ajouter une visuel d'aide des touches
+    Arrow Up: Volume Up (Max 100)
+    Arrow Down: Volume Down (Min 0)
+    Space: Pause/Play
+    Escape: Go back to Menu
+    F11: Toggle Fullscreen
+    */
+
     constructor(props) {
         super(props);
 

@@ -2,7 +2,16 @@ import React from "react";
 import YouTube from 'react-youtube';
 import {GenerateSelectionFromJSON} from '../Generator/SelectionGenerator'
 import KeyboardEventHandler from "react-keyboard-event-handler";
+import {Helmet} from "react-helmet";
 import KeyboardEvents from './KeyboardEvent';
+
+const Status = {
+    None: -1,
+    Play: 1,
+    Pause: 2,
+    Restart: 3,
+    Pass: 4
+}
 
 export default class BlindtestGenerator extends React.Component {
     constructor(props) {
@@ -18,11 +27,10 @@ export default class BlindtestGenerator extends React.Component {
         this.waitTime = parseInt(window.localStorage.getItem('wait_time'))
 
         this.playlist = GenerateSelectionFromJSON(theme, playlistSize, allowSameLicence)
-        console.log(this.playlist)
 
         this.state = {
             display: false,
-            paused: false,
+            status: Status.None,
             counter: this.guessTime,
             waiter: this.waitTime,
             embed: this.createPlayer(),
@@ -33,6 +41,7 @@ export default class BlindtestGenerator extends React.Component {
         this.startGuessTime = this.startGuessTime.bind(this)
         this.startAnswerTime = this.startAnswerTime.bind(this)
         this.handleKeyDown = this.handleKeyDown.bind(this)
+        this._onStateChange = this._onStateChange.bind(this)
 
         if (this.playlist.length === 0) {
             this.props.history.push('/')
@@ -43,13 +52,13 @@ export default class BlindtestGenerator extends React.Component {
 
     createPlayer() {
         const opts = {
-            height: '1076',
-            width: '1920',
+            height: window.screen.height - 5,
+            width: window.screen.width,
             playerVars: {
                 // https://developers.google.com/youtube/player_parameters
                 autoplay: 1,
                 start: this.playlist[0].start,
-                end: this.playlist[0].start + this.guessTime + this.waitTime + 1,
+                end: this.playlist[0].start + this.guessTime + this.waitTime + 2,
                 fs: 0,
                 origin: window.location
             }
@@ -67,18 +76,15 @@ export default class BlindtestGenerator extends React.Component {
         } else {
             this.setState({
                 embed: this.createPlayer(),
-                loaded: false
+                loaded: false,
+                status: Status.None
             })
         }
     }
 
     startAnswerTime() {
         const timer = setInterval(() => {
-            if (this.state.paused === true) {
-                return
-            }
-            const counter = this.state.waiter
-            if (counter === 0) {
+            const doneAction = (nextGuess) => {
                 clearInterval(timer)
                 this.setState({
                     display: false,
@@ -86,7 +92,24 @@ export default class BlindtestGenerator extends React.Component {
                     waiter: 0,
                     embed: null
                 })
-                this.nextGuess(true)
+                this.nextGuess(nextGuess)
+            }
+            //check status
+            switch (this.state.status) {
+                case Status.Pause:
+                    return
+                case Status.Restart:
+                    doneAction(false)
+                    return
+                case Status.Pass:
+                    doneAction(true)
+                    return
+                default:
+                    break
+            }
+            const counter = this.state.waiter
+            if (counter === 0) {
+                doneAction(true)
             } else {
                 this.setState({
                     waiter: counter - 1
@@ -97,8 +120,28 @@ export default class BlindtestGenerator extends React.Component {
 
     startGuessTime() {
         const timer = setInterval(() => {
-            if (this.state.paused === true) {
-                return
+            const doneAction = (nextGuess) => {
+                clearInterval(timer)
+                this.setState({
+                    display: false,
+                    counter: this.guessTime,
+                    waiter: 0,
+                    embed: null
+                })
+                this.nextGuess(nextGuess)
+            }
+            //check status
+            switch (this.state.status) {
+                case Status.Pause:
+                    return
+                case Status.Restart:
+                    doneAction(false)
+                    return
+                case Status.Pass:
+                    doneAction(true)
+                    return
+                default:
+                    break
             }
             const counter = this.state.counter
             if (counter === 1) {
@@ -132,10 +175,11 @@ export default class BlindtestGenerator extends React.Component {
         console.log("video started")
         if (this.state.loaded !== true) {
             this.startGuessTime()
+            this.setState({
+                loaded: true,
+                status: Status.Play
+            })
         }
-        this.setState({
-            loaded: true
-        });
     }
 
     _onEnd(event) {
@@ -151,12 +195,26 @@ export default class BlindtestGenerator extends React.Component {
         this.nextGuess(true)
     }
 
-    _onStateChange(event) {
+    _onStateChange = (event) => {
         //Can do something with all states here
         console.log("state changed: " + event.data)
         const code = event.data;
-        if (code === -1) {
-            event.target.playVideo()
+        switch (code) {
+            case -1:
+                event.target.playVideo()
+                break
+            case 1:
+                this.setState({
+                    status: Status.Play
+                })
+                break
+            case 2:
+                this.setState({
+                    status: Status.Pause
+                })
+                break
+            default:
+                break
         }
         /*
         -1 (unstarted)
@@ -180,11 +238,18 @@ export default class BlindtestGenerator extends React.Component {
             case 'down':
                 KeyboardEvents.HandleVolumeDown(this.state.player)
                 break
+            case 'left':
+                this.setState({
+                    status: Status.Restart
+                })
+                break
+            case 'right':
+                this.setState({
+                    status: Status.Pass
+                })
+                break
             case 'space':
                 KeyboardEvents.HandlePause(this.state.player)
-                this.setState({
-                    paused: !this.state.paused
-                })
                 break
             case 'esc':
                 this.props.history.push('/')
@@ -196,13 +261,26 @@ export default class BlindtestGenerator extends React.Component {
 
     render() {
         return <div>
-            {this.state.counter !== 0 && <span>{this.state.counter}</span>}
+            <Helmet bodyAttributes={{style: 'background-color : #242629'}}/>
+            {this.state.counter !== 0 &&
+            <div style={{
+                position: 'absolute', left: '50%', top: '50%',
+                transform: 'translate(-50%, -50%)',
+                fontSize: '200px',
+                color: '#BFC6D0',
+                fontWeight: 'bold'
+            }}>
+                {this.state.counter}
+            </div>
+            }
             <div style={{ display: this.state.display ? '' : 'none' }}>
                 {this.state.embed}
             </div>
-            <KeyboardEventHandler
-                handleKeys={['up', 'down', 'space', 'esc']}
-                onKeyEvent={this.handleKeyDown} />
+            <div style={{ display: 'none' }}>
+                <KeyboardEventHandler
+                    handleKeys={['up', 'down', 'left', 'right', 'space', 'esc']}
+                    onKeyEvent={this.handleKeyDown} />
+            </div>
         </div>
     }
 }

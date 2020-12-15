@@ -35,33 +35,33 @@ export default function Review() {
 
     return (
         <React.Fragment>
-            <Typography variant="h6" gutterBottom align='center'>
+            <Typography variant="h6" gutterBottom align='center' style={{ color: 'white' }}>
                 Configuration summary
             </Typography>
             <Typography variant="h6" gutterBottom align='center'>
-                <Grid container>
+                <Grid container spacing={5} style={{ marginTop: '5%' }}>
                     <React.Fragment key="Theme">
                         <Grid item xs={6}>
-                            <Typography gutterBottom>Theme</Typography>
+                            <Typography gutterBottom style={{ color: 'white' }}>Theme</Typography>
                         </Grid>
                         <Grid item xs={6}>
-                            <Typography gutterBottom>{getTheme()}</Typography>
+                            <Typography gutterBottom style={{ color: 'white' }}>{getTheme()}</Typography>
                         </Grid>
                     </React.Fragment>
                     <React.Fragment key="Size of Playlist">
                         <Grid item xs={6}>
-                            <Typography gutterBottom>Size of Playlist</Typography>
+                            <Typography gutterBottom style={{ color: 'white' }}>Size of Playlist</Typography>
                         </Grid>
                         <Grid item xs={6}>
-                            <Typography gutterBottom>{getFormattedPlaylistSize()}</Typography>
+                            <Typography gutterBottom style={{ color: 'white' }}>{getFormattedPlaylistSize()}</Typography>
                         </Grid>
                     </React.Fragment>
                     <React.Fragment key="Guess Time">
                         <Grid item xs={6}>
-                            <Typography gutterBottom>Guess/Answer Time</Typography>
+                            <Typography gutterBottom style={{ color: 'white' }}>Guess/Answer Time</Typography>
                         </Grid>
                         <Grid item xs={6}>
-                            <Typography gutterBottom>{getFormattedGuessTime()}</Typography>
+                            <Typography gutterBottom style={{ color: 'white' }}>{getFormattedGuessTime()}</Typography>
                         </Grid>
                     </React.Fragment>
                 </Grid>

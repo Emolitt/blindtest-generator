@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import Route from 'react-router-dom/Route';
+import {Route, HashRouter} from 'react-router-dom';
 import Checkout from './Configuration/Checkout';
 import BlindtestGenerator from "./Session/BlindtestGenerator";
-import HashRouter from "react-router-dom/HashRouter";
 
 class RoutingConfig extends Component {
 

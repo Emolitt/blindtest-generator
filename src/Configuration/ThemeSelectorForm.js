@@ -25,6 +25,18 @@ export default class ThemeSelectorForm extends React.Component {
                     display: 'block',
                     marginTop: theme.spacing(2),
                 },
+                select: {
+                    backgroundColor: 'white',
+                    '&:before': {
+                        borderColor: '#eaeaf0',
+                    },
+                    '&:after': {
+                        borderColor: '#0FDC06',
+                    }
+                },
+                icon: {
+                    fill: '#0FDC06',
+                },
                 formControl: {
                     margin: theme.spacing(1),
                     minWidth: 120,
@@ -62,12 +74,11 @@ export default class ThemeSelectorForm extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Typography variant="h6" gutterBottom align='center'>
+                <Typography variant="h6" gutterBottom align='center' style={{ color: 'white'}}>
                     Select Theme
                 </Typography>
                 <Box align='center'>
-                    <FormControl className={this.state.classes.formControl} fullWidth>
-                        <InputLabel id="demo-controlled-open-select-label">Theme</InputLabel>
+                    <FormControl style={{ marginTop: '10%', minWidth: 300 }}>
                         <Select
                             labelId="demo-controlled-open-select-label"
                             id="demo-controlled-open-select"
@@ -77,10 +88,16 @@ export default class ThemeSelectorForm extends React.Component {
                             value={this.state.theme}
                             onChange={this.handleChange}
                             defaultValue={this.defaultTheme}
+                            inputProps={{
+                                style: {
+                                    color: 'white'
+                                },
+                                classes: {
+                                    icon: this.state.classes.icon
+                                }
+                            }}
                         >
-                            <MenuItem value="">
-                                <em>None</em>
-                            </MenuItem>
+                            <MenuItem value=""><em>None</em></MenuItem>
                             <MenuItem value='games'>Video Games</MenuItem>
                             <MenuItem value='animes'>Anime</MenuItem>
                             <MenuItem value='film'>Films</MenuItem>

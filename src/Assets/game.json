@@ -1254,6 +1254,15 @@
         ]
     },
     {
+      "name": "hades",
+      "url": [
+        {
+          "link": "https://www.youtube.com/watch?v=oksESAMg7WM",
+          "start": 0
+        }
+      ]
+    },
+    {
         "name": "half life",
         "url": [
           {
@@ -1897,6 +1906,15 @@
       "url": [
         {
           "link": "https://www.youtube.com/watch?v=-GK41pLUuP0",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "nier automata",
+      "url": [
+        {
+          "link": "https://www.youtube.com/watch?v=lTmmYA1YB4s",
           "start": 0
         }
       ]
@@ -2596,6 +2614,15 @@
     "url": [
       {
         "link": "https://www.youtube.com/watch?v=vyZMj6v9J4o",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "silent hill: homecoming",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=nhLA_CoNS5c",
         "start": 0
       }
     ]
@@ -3321,6 +3348,15 @@
       ]
     },
     {
+      "name": "totally accurate battle simulator",
+      "url": [
+        {
+          "link": "https://www.youtube.com/watch?v=8Lf_1-w6aLw",
+          "start": 0
+        }
+      ]
+    },
+    {
       "name": "trackmania",
       "url": [
         {
@@ -3387,6 +3423,10 @@
         },
         {
           "link": "https://www.youtube.com/watch?v=Ba1pTmgImww",
+          "start": 0
+        },
+        {
+          "link": "https://www.youtube.com/watch?v=M_fNJqIOeEk",
           "start": 0
         }
       ]

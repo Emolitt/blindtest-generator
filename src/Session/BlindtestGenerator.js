@@ -27,7 +27,7 @@ export default class BlindtestGenerator extends React.Component {
         this.waitTime = parseInt(window.localStorage.getItem('wait_time'))
 
         this.playlist = GenerateSelectionFromJSON(theme, playlistSize, allowSameLicence)
-        this.playlistManager = new PlaylistManager(this.playlist);
+        this.playlistManager = new PlaylistManager(this.playlist, this.guessTime, this.waitTime);
 
         this.state = {
             display: false,
@@ -56,7 +56,7 @@ export default class BlindtestGenerator extends React.Component {
             this.startGuessTime();
         }).catch(() => {
             console.log("erreur du chargement de la music");
-            if (this.state.playlistManager.playlist.length === 0) {
+            if (this.playlistManager.playlist.length === 0) {
                 this.props.history.push('/')
             } else {
                 this.nextGuess(shift);
@@ -154,7 +154,8 @@ export default class BlindtestGenerator extends React.Component {
                 this.setState({
                     status: this.state.status === Status.Pause ? Status.Play : Status.Pause
                 })
-                KeyboardEvents.HandlePause(this.playlistManager.player)
+                //fix player non reconnu
+                //KeyboardEvents.HandlePause(this.playlistManager.player)
                 break
             case 'esc':
                 //TODO arreter le chargement des autres musiques

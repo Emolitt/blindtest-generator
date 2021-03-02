@@ -29,15 +29,14 @@ export default class PlaylistManager {
                 width: window.screen.width,
                 playerVars: {
                     // https://developers.google.com/youtube/player_parameters
-                    autoplay: 0,
+                    autoplay: 1,
                     start: music.start,
-                    end: music.start + this.guessTime + this.answerTime + 2,
+                    end: music.start + this.guessTime + this.answerTime,
                     fs: 0,
                     origin: window.location,
                 }
             }
-            console.log(music.url)
-            this.player = <YouTube videoId={music.url} opts={opt} onReady={this._onReady} onPlay={this._onPlay} onError={this._onError} onStateChange={this._onStateChange} />
+            this.player = <YouTube videoId={music.url} opts={opt} onReady={this._onReady} onPlay={this._onPlay} onEnd={this._onEnd} onError={this._onError} onStateChange={this._onStateChange} />
 
             const timer = setInterval(() => {
                 timeoutCounter--;
@@ -70,6 +69,7 @@ export default class PlaylistManager {
     _onEnd(event) {
         // access to player in all event handlers via event.target
         //event.target.pauseVideo();
+        console.log("stop video");
         event.target.stopVideo();
         //this.nextGuess(true)
     }
@@ -91,6 +91,9 @@ export default class PlaylistManager {
             case 1:
                 break
             case 2:
+                break
+            case 5:
+                event.target.playVideo();
                 break
             default:
                 break

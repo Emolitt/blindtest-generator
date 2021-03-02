@@ -131,7 +131,7 @@ export default class BlindtestCustomizerForm extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Typography variant="h6" gutterBottom align='center' style={{ color: 'white' }}>
+                <Typography variant="h6" align='center' style={{ color: 'white' }}>
                     Customize Blindtest
                 </Typography>
                 <Box align='center'>
@@ -151,7 +151,7 @@ export default class BlindtestCustomizerForm extends React.Component {
                             />
                         </FormGroup>
                         <FormGroup>
-                            <FormLabel component="legend" gutterBottom style={{ marginBottom: '40px', marginTop: '40px', color: '#DCDDDC' }}>
+                            <FormLabel component="legend" style={{ marginBottom: '40px', marginTop: '40px', color: '#DCDDDC' }}>
                                 Guess Time
                             </FormLabel>
                             <CustomSlider
@@ -167,7 +167,7 @@ export default class BlindtestCustomizerForm extends React.Component {
                             />
                         </FormGroup>
                         <FormGroup>
-                            <FormLabel component="legend" gutterBottom style={{ marginBottom: '40px', marginTop: '40px', color: '#DCDDDC' }}>
+                            <FormLabel component="legend" style={{ marginBottom: '40px', marginTop: '40px', color: '#DCDDDC' }}>
                                 Time before next Guess
                             </FormLabel>
                             <CustomSlider

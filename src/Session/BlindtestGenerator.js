@@ -3,7 +3,7 @@ import {GenerateSelectionFromJSON} from '../Generator/SelectionGenerator'
 import KeyboardEventHandler from "react-keyboard-event-handler";
 import {Helmet} from "react-helmet";
 import KeyboardEvents from './KeyboardEvent';
-import PlaylistManager from "./PlaylistManager";
+import YouTube from "react-youtube";
 
 const Status = {
     None: -1,
@@ -16,6 +16,7 @@ const Status = {
 export default class BlindtestGenerator extends React.Component {
     constructor(props) {
         super(props);
+        const sessionId = window.localStorage.getItem('session_id');
 
         //Playlist Configuration
         const playlistSize = window.localStorage.getItem('playlist_size')
@@ -27,28 +28,157 @@ export default class BlindtestGenerator extends React.Component {
         this.waitTime = parseInt(window.localStorage.getItem('wait_time'))
 
         this.playlist = GenerateSelectionFromJSON(theme, playlistSize, allowSameLicence)
-        this.playlistManager = new PlaylistManager(this.playlist, this.guessTime, this.waitTime);
 
         this.state = {
             display: false,
             status: Status.None,
-            counter: this.guessTime
+            counter: this.guessTime,
+            player: undefined,
+            playerObj: null,
+            playlistIndex: 0,
+            loaded: false,
+            error: false,
+            stop: false
         }
 
         this.nextGuess = this.nextGuess.bind(this)
+        this.updatePlayer = this.updatePlayer.bind(this)
+        this._onError = this._onError.bind(this)
+        this._onPlay = this._onPlay.bind(this)
+        this._onReady = this._onReady.bind(this)
         this.startGuessTime = this.startGuessTime.bind(this)
         this.startAnswerTime = this.startAnswerTime.bind(this)
         this.handleKeyDown = this.handleKeyDown.bind(this)
         //this._onStateChange = this._onStateChange.bind(this)
 
-        if (this.playlist.length === 0) {
+        if (this.playlist.length === 0 || !sessionId) {
             this.props.history.push('/')
         }
     }
 
+    //---------------------------------------------------------Iframe Handler
+    _onReady = (event) => {
+        // access to player in all event handlers via event.target
+        event.target.playVideo();
+        this.setState({
+            playerObj: event.target
+        })
+        console.log("ready to play video")
+    }
+
+    _onPlay = (event) => {
+        // access to player in all event handlers via event.target
+        //event.target.pauseVideo();
+        console.log("video started")
+        this.setState({
+            loaded: true,
+            playlistIndex: this.state.playlistIndex + 1
+        });
+    }
+
+    _onEnd = (event) => {
+        // access to player in all event handlers via event.target
+        event.target.stopVideo();
+        console.log("stop video");
+        //this.nextGuess(true)
+    }
+
+    _onError = (event) => {
+        // access to player in all event handlers via event.target
+        alert("Failed to load video")
+        this.setState({
+            error: true
+        })
+        //this.nextGuess(true)
+    }
+
+    _onStateChange = (event) => {
+        //Can do something with all states here
+        console.log("state changed: " + event.data)
+        const code = event.data;
+        switch (code) {
+            case -1:
+                break
+            case 1:
+                break
+            case 2:
+                break
+            case 5:
+                break
+            default:
+                break
+        }
+        /*
+        -1 (unstarted)
+        0 (ended)
+        1 (playing)
+        2 (paused)
+        3 (buffering)
+        5 (video cued).
+         */
+    }
+
+    //---------------------------------------------------------Player Config
+    updatePlayer = (shift) => {
+        let timeoutCounter = 10;
+        this.setState({
+            loaded: false,
+            error: false
+        });
+        return new Promise((resolve, reject) => {
+            if (this.playlist.length === 0) {
+                reject();
+                return;
+            }
+
+            const music = shift === true ? this.playlist.shift() : this.playlist[0];
+
+            //console.log("Loading music: " + music.name);
+            const opt = {
+                height: window.screen.height - 5,
+                width: window.screen.width,
+                playerVars: {
+                    // https://developers.google.com/youtube/player_parameters
+                    autoplay: 1,
+                    start: music.start,
+                    end: music.start + this.guessTime + this.answerTime,
+                    fs: 0,
+                    origin: window.location,
+                }
+            }
+            console.log("init Player");
+            this.setState({
+                player: <YouTube videoId={music.url}
+                                opts={opt}
+                                onReady={this._onReady}
+                                onPlay={this._onPlay}
+                                onEnd={this._onEnd}
+                                onError={this._onError}
+                                onStateChange={this._onStateChange}
+                />
+            });
+
+            const timer = setInterval(() => {
+                timeoutCounter--;
+                if (this.state.loaded === true) {
+                    clearInterval(timer);
+                    resolve();
+                } else if (timeoutCounter <= 0 || this.state.error === true) {
+                    console.log("Failed to load music");
+                    clearInterval(timer);
+                    reject();
+                }
+            }, 1000);
+        })
+    }
+
     nextGuess(shift) {
+        const sessionId = window.localStorage.getItem('session_id');
+        if (!sessionId) {
+            return ;
+        }
         console.log("Starting new guess");
-        this.playlistManager.updatePlayer(shift).then(() => {
+        this.updatePlayer(shift).then(() => {
             this.setState({
                 status: Status.Play,
                 counter: this.guessTime
@@ -56,7 +186,7 @@ export default class BlindtestGenerator extends React.Component {
             this.startGuessTime();
         }).catch(() => {
             console.log("erreur du chargement de la music");
-            if (this.playlistManager.playlist.length === 0) {
+            if (this.playlist.length === 0) {
                 this.props.history.push('/')
             } else {
                 this.nextGuess(shift);
@@ -64,6 +194,7 @@ export default class BlindtestGenerator extends React.Component {
         })
     }
 
+    //---------------------------------------------------------Player Status
     doneAction = (timer, nextGuess) => {
         clearInterval(timer)
         this.setState({
@@ -89,6 +220,7 @@ export default class BlindtestGenerator extends React.Component {
         }
     }
 
+    //---------------------------------------------------------Timers
     startAnswerTime() {
         const timer = setInterval(() => {
             //check status
@@ -128,6 +260,7 @@ export default class BlindtestGenerator extends React.Component {
         }, 1000)
     }
 
+    //---------------------------------------------------------User Inputs
     handleKeyDown(key, event) {
         if (this.state.player === null) {
             return
@@ -135,10 +268,10 @@ export default class BlindtestGenerator extends React.Component {
         console.log("receiving key: " + key)
         switch (key) {
             case 'up':
-                KeyboardEvents.HandleVolumeUp(this.playlistManager.player)
+                KeyboardEvents.HandleVolumeUp(this.state.playerObj)
                 break
             case 'down':
-                KeyboardEvents.HandleVolumeDown(this.playlistManager.player)
+                KeyboardEvents.HandleVolumeDown(this.state.playerObj)
                 break
             case 'left':
                 this.setState({
@@ -155,7 +288,7 @@ export default class BlindtestGenerator extends React.Component {
                     status: this.state.status === Status.Pause ? Status.Play : Status.Pause
                 })
                 //fix player non reconnu
-                //KeyboardEvents.HandlePause(this.playlistManager.player)
+                KeyboardEvents.HandlePause(this.state.playerObj)
                 break
             case 'esc':
                 //TODO arreter le chargement des autres musiques
@@ -166,6 +299,7 @@ export default class BlindtestGenerator extends React.Component {
         }
     }
 
+    //---------------------------------------------------------Renderer
     componentWillMount() {
         this.nextGuess(true);
     }
@@ -188,7 +322,7 @@ export default class BlindtestGenerator extends React.Component {
             </div>
             }
             <div style={{ display: this.state.display ? '' : 'none' }}>
-                {this.playlistManager.player}
+                {this.state.player}
             </div>
             <div style={{ display: 'none' }}>
                 <KeyboardEventHandler

@@ -7,6 +7,7 @@ import Check from "@material-ui/icons/Check";
 import PropTypes from "prop-types";
 import BlindtestCustomizerForm from "./BlindtestCustomizerForm";
 import HelpIcon from "@material-ui/icons/Help"
+import { v4 } from 'uuid';
 
 import {
     CssBaseline,
@@ -144,6 +145,8 @@ export default class Checkout extends React.Component {
         this.handleNext = this.handleNext.bind(this);
         this.startBlindtest = this.startBlindtest.bind(this);
 
+        window.localStorage.setItem('session_id', '');
+
     }
 
     getStepContent() {
@@ -161,6 +164,7 @@ export default class Checkout extends React.Component {
     }
 
     startBlindtest() {
+        window.localStorage.setItem('session_id', v4());
         this.props.history.push('/blindtest');
     }
 
@@ -268,7 +272,7 @@ export default class Checkout extends React.Component {
                         </Typography>
                         <Stepper style={{backgroundColor : '#282D35'}} alternativeLabel activeStep={this.state.activeStep} connector={<QontoConnector />}>
                             {steps.map((label) => (
-                                <Step key={label}>
+                                <Step key={label} >
                                     <StepLabel StepIconComponent={QontoStepIcon}>{label}</StepLabel>
                                 </Step>
                             ))}

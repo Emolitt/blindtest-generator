@@ -1,0 +1,14 @@
+#A Faire
+- Afficher le nom du jeu dans la popup d'erreur - OK
+- Afficher le nom du jeu une fois la réponse tombée
+- Afficher un compteur de musique au format: musiqueActuel/TailleDePlaylist
+- Faire une page d'accueil pour choisir trois options:
+    - jouer => redirige vers le checkout
+    - Visionner la bibliotèque de donnée
+    - Visionner les contributeurs
+- Faire une refonte graphique
+
+
+#A experimenter
+- Faire un formulaire pour ajouter des musiqus directement depuis le site (voir si c'est possible avec la solution build)
+

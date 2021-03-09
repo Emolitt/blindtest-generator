@@ -36,6 +36,7 @@ export default class BlindtestGenerator extends React.Component {
             player: undefined,
             playerObj: null,
             playlistIndex: 0,
+            currMusic: null,
             loaded: false,
             error: false,
             stop: false
@@ -85,7 +86,7 @@ export default class BlindtestGenerator extends React.Component {
 
     _onError = (event) => {
         // access to player in all event handlers via event.target
-        alert("Failed to load video")
+        alert(`[${this.state.currMusic.name}]: Failed to load video with id: ${this.state.currMusic.url}`)
         this.setState({
             error: true
         })
@@ -148,6 +149,7 @@ export default class BlindtestGenerator extends React.Component {
             }
             console.log("init Player");
             this.setState({
+                currMusic: music,
                 player: <YouTube videoId={music.url}
                                 opts={opt}
                                 onReady={this._onReady}

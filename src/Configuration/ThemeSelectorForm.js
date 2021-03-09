@@ -87,6 +87,7 @@ export default class ThemeSelectorForm extends React.Component {
                             value={this.state.theme}
                             onChange={this.handleChange}
                             defaultValue={this.defaultTheme}
+                            style={{ color: '#ffffff'}}
                             inputProps={{
                                 style: {
                                     color: 'white'

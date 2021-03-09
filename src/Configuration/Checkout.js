@@ -17,7 +17,6 @@ import {
     Step,
     StepLabel,
     Button,
-    Link,
     Typography,
     Box,
     StepConnector,
@@ -27,29 +26,7 @@ import {
     IconButton
 } from "@material-ui/core";
 import {Helmet} from "react-helmet";
-
-function Copyright() {
-    return (
-        <div style={{
-            position: 'fixed',
-            bottom: '10px',
-            left: '50%',
-            transform: 'translate(-50%, -50%)'
-        }}>
-            <Typography variant="body2" color="textSecondary" align="center" style={{
-                backgroundColor: '#282D35',
-                color: 'white'
-            }}>
-                {'Copyright © '}
-                <Link color="inherit" href="https://github.com/Emolitt/blindtest-generator">
-                    Emolitt
-                </Link>{' '}
-                {new Date().getFullYear()}
-                {'.'}
-            </Typography>
-        </div>
-    );
-}
+import Copyright from "../Copyright";
 
 //Progress Bar
 const QontoConnector = withStyles({
@@ -106,7 +83,7 @@ function QontoStepIcon(props) {
     return (
         <div
             className={clsx(classes.root, {
-                [classes.active]: active,
+                [classes.active]: active
             })}
         >
             {completed ? <Check className={classes.completed} /> : <div className={classes.circle} />}
@@ -144,6 +121,7 @@ export default class Checkout extends React.Component {
         this.handleBack = this.handleBack.bind(this);
         this.handleNext = this.handleNext.bind(this);
         this.startBlindtest = this.startBlindtest.bind(this);
+        this.navigateToMenu = this.navigateToMenu.bind(this);
 
         window.localStorage.setItem('session_id', '');
 
@@ -197,6 +175,10 @@ export default class Checkout extends React.Component {
         this.setAnchorEl(null);
     };
 
+    navigateToMenu() {
+        this.props.history.push('/')
+    }
+
     render() {
         return (
             <div style={{ overflow: 'hidden' }}>
@@ -205,9 +187,11 @@ export default class Checkout extends React.Component {
                     <CssBaseline />
                     <AppBar position="absolute" style={{backgroundColor : '#282D35', flex: 1}}>
                         <Toolbar>
-                            <Typography variant="h6" color="inherit" noWrap>
-                                Blindtest Generator
-                            </Typography>
+                            <Button onClick={this.navigateToMenu} style={{color: '#ffffff'}}>
+                                <Typography variant="h6" color="inherit" noWrap>
+                                    Blindtest Generator
+                                </Typography>
+                            </Button>
                             <div style={{ marginLeft: 'auto' }}>
                                 <IconButton
                                     edge="end"
@@ -272,7 +256,7 @@ export default class Checkout extends React.Component {
                         </Typography>
                         <Stepper style={{backgroundColor : '#282D35'}} alternativeLabel activeStep={this.state.activeStep} connector={<QontoConnector />}>
                             {steps.map((label) => (
-                                <Step key={label} >
+                                <Step key={label}>
                                     <StepLabel StepIconComponent={QontoStepIcon}>{label}</StepLabel>
                                 </Step>
                             ))}

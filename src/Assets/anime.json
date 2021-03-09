@@ -39,6 +39,24 @@
     ]
   },
   {
+    "name": "ben 10",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=C4AF8Q_TD4w",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "beyblade metal fury",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=YL2wLEPdr1U",
+        "start": 2
+      }
+    ]
+  },
+  {
     "name": "black clover",
     "url": [
       {
@@ -52,6 +70,15 @@
     "url": [
       {
         "link": "https://www.youtube.com/watch?v=3U8NnnYzV7A",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "bob le bricoleur",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=XTIDgq-taCo",
         "start": 0
       }
     ]
@@ -80,6 +107,24 @@
       {
         "link": "https://www.youtube.com/watch?v=FGN0fQIA0cE",
         "start": 0
+      }
+    ]
+  },
+  {
+    "name": "code lyoko",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=GOADRla8JJA",
+        "start": 52
+      }
+    ]
+  },
+  {
+    "name": "corneil et bernie",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=O-TO3erDQmY",
+        "start": 2
       }
     ]
   },
@@ -120,6 +165,10 @@
       {
         "link": "https://www.youtube.com/watch?v=17QwzxR81XQ",
         "start": 0
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=8FzPkYJjFTs",
+        "start": 0
       }
     ]
   },
@@ -138,6 +187,15 @@
       {
         "link": "https://www.youtube.com/watch?v=pmanD_s7G3U",
         "start": 0
+      }
+    ]
+  },
+  {
+    "name": "denver",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=uzcsqG35ib4",
+        "start": 2
       }
     ]
   },
@@ -196,11 +254,29 @@
     ]
   },
   {
+    "name": "fineas et pherb",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=aQlWZ3nY9UY",
+        "start": 4
+      }
+    ]
+  },
+  {
     "name": "fire force",
     "url": [
       {
         "link": "https://www.youtube.com/watch?v=JBqxVX_LXvk",
         "start": 36
+      }
+    ]
+  },
+  {
+    "name": "foot 2 rue",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=OalJZhbmO8E",
+        "start": 4
       }
     ]
   },
@@ -232,6 +308,24 @@
     ]
   },
   {
+    "name": "galactik football",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=Qu2HVS8pEmY",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "garfield",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=yq8cgBKdhX0",
+        "start": 0
+      }
+    ]
+  },
+  {
     "name": "gto",
     "url": [
       {
@@ -255,6 +349,10 @@
       {
         "link": "https://www.youtube.com/watch?v=kDfqdmrRRSA",
         "start": 0
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=sVRkrUTWANk",
+        "start": 30
       }
     ]
   },
@@ -273,324 +371,9 @@
       {
         "link": "https://www.youtube.com/watch?v=faqmNf_fZlE",
         "start": 0
-      }
-    ]
-  },
-  {
-    "name": "jujutsu no kaisen",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=GwaRztMaoY0",
-        "start": 42
-      }
-    ]
-  },
-  {
-    "name": "kuroko no basket",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=LIBPhMB4nZw",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "mirrai nikki",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=DU4IelmT1ow",
-        "start": 2
-      }
-    ]
-  },
-  {
-    "name": "my hero academia",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=v1YojYU5nPQ",
-        "start": 0
       },
       {
-        "link": "https://www.youtube.com/watch?v=Q7w5IMyJ3pM",
-        "start": 58
-      }
-    ]
-  },
-  {
-    "name": "nanatsu no taizai",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=Hz96H5YVzgw",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "naruto",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=XwJEFzsqNoY",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "naruto shippuden",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=r6EPMvIhtyA",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "neon genesis evangelion",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=nU21rCWkuJw",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "no game no life",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=6CBp4qylX6I",
-        "start": 40
-      }
-    ]
-  },
-  {
-    "name": "one piece",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=8_92ErLH5s4",
-        "start": 63
-      }
-    ]
-  },
-  {
-    "name": "one punch man",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=atxYe-nOa9w",
-        "start": 33
-      }
-    ]
-  },
-  {
-    "name": "overlord",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=KOWcj7XKnfQ",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "parasyte",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=Rm8UjBAS3cs",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "rakudai kishi no cavalry",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=07sg564pM9U",
-        "start": 50
-      }
-    ]
-  },
-  {
-    "name": "re:zero",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=0Vwwr3VGsYg",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "saint seiya",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=CsCcPHRPnBo",
-        "start": 31
-      }
-    ]
-  },
-  {
-    "name": "samurai champloo",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=Eq6EYcpWB_c",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "shingeki no kyojin",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=CID-sYQNCew",
-        "start": 41
-      }
-    ]
-  },
-  {
-    "name": "shokugeki no soma",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=vm6R8MgqR9A",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "soul eater",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=zzJ8U8OtEsE",
-        "start": 15
-      }
-    ]
-  },
-  {
-    "name": "sword art online",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=OsLY7DXWsF4",
-        "start": 41
-      }
-    ]
-  },
-  {
-    "name": "the promised neverland",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=4GDVEl3qw2M",
-        "start": 62
-      }
-    ]
-  },
-  {
-    "name": "tokyo ghoul",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=uMeR2W19wT0",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "your lie in april",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=pMTF1RCDmhg",
-        "start": 46
-      }
-    ]
-  },
-  {
-    "name": "yuri on ice",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=ORDXWrL5EuQ",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "ben 10",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=C4AF8Q_TD4w",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "beyblade metal fury",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=YL2wLEPdr1U",
-        "start": 2
-      }
-    ]
-  },
-  {
-    "name": "bob le bricoleur",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=XTIDgq-taCo",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "code lyoko",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=GOADRla8JJA",
-        "start": 52
-      }
-    ]
-  },
-  {
-    "name": "corneil et bernie",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=iXGp15q_kIU",
-        "start": 2
-      }
-    ]
-  },
-  {
-    "name": "denver",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=uzcsqG35ib4",
-        "start": 2
-      }
-    ]
-  },
-  {
-    "name": "fineas et pherb",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=aQlWZ3nY9UY",
-        "start": 4
-      }
-    ]
-  },
-  {
-    "name": "foot 2 rue",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=r6jTVUchspM",
-        "start": 3
-      }
-    ]
-  },
-  {
-    "name": "galactik football",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=Qu2HVS8pEmY",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "garfield",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=yq8cgBKdhX0",
+        "link": "https://www.youtube.com/watch?v=fhAKgOvIQsM",
         "start": 0
       }
     ]
@@ -614,6 +397,45 @@
     ]
   },
   {
+    "name": "jojo's bizarre adventure",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=XtiJVkz2inI",
+        "start": 10
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=2MtOpB5LlUA",
+        "start": 0
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=XUhVCoTsBaM",
+        "start": 0
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=AQx_KMoCgJU",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "jujutsu no kaisen",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=GwaRztMaoY0",
+        "start": 42
+      }
+    ]
+  },
+  {
+    "name": "kuroko no basket",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=LIBPhMB4nZw",
+        "start": 0
+      }
+    ]
+  },
+  {
     "name": "le laboratoire de dexter",
     "url": [
       {
@@ -628,15 +450,6 @@
       {
         "link": "https://www.youtube.com/watch?v=QLRADI_lcvg",
         "start": 6
-      }
-    ]
-  },
-  {
-    "name": "le petit dinosaure",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=QLRADI_lcvg",
-        "start": 0
       }
     ]
   },
@@ -686,6 +499,81 @@
     ]
   },
   {
+    "name": "mirrai nikki",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=DU4IelmT1ow",
+        "start": 2
+      }
+    ]
+  },
+  {
+    "name": "my hero academia",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=v1YojYU5nPQ",
+        "start": 0
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=Q7w5IMyJ3pM",
+        "start": 58
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=4jIXcSxBP7U",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "nanatsu no taizai",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=Hz96H5YVzgw",
+        "start": 0
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=2weOheyKgMM",
+        "start": 70
+      }
+    ]
+  },
+  {
+    "name": "naruto",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=XwJEFzsqNoY",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "naruto shippuden",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=r6EPMvIhtyA",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "neon genesis evangelion",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=nU21rCWkuJw",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "no game no life",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=6CBp4qylX6I",
+        "start": 40
+      }
+    ]
+  },
+  {
     "name": "oggy et les cafards",
     "url": [
       {
@@ -704,6 +592,59 @@
     ]
   },
   {
+    "name": "one piece",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=8_92ErLH5s4",
+        "start": 63
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=daFi4MScfl8",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "one punch man",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=atxYe-nOa9w",
+        "start": 33
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=rW7OB_HDCGQ",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "overlord",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=KOWcj7XKnfQ",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "parasyte",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=Rm8UjBAS3cs",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "promare",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=RSrJV6jO0ms",
+        "start": 41
+      }
+    ]
+  },
+  {
     "name": "pokemon",
     "url": [
       {
@@ -713,11 +654,64 @@
     ]
   },
   {
-    "name": "shuriken school",
+    "name": "rakudai kishi no cavalry",
     "url": [
       {
-        "link": "https://www.youtube.com/watch?v=QJmYXKIHN4A",
-        "start": 3
+        "link": "https://www.youtube.com/watch?v=07sg564pM9U",
+        "start": 50
+      }
+    ]
+  },
+  {
+    "name": "re:zero",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=0Vwwr3VGsYg",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "saint seiya",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=CsCcPHRPnBo",
+        "start": 31
+      }
+    ]
+  },
+  {
+    "name": "samurai champloo",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=Eq6EYcpWB_c",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "shingeki no kyojin",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=CID-sYQNCew",
+        "start": 41
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=SZOr9K01Eno",
+        "start": 95
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=yMclXr3IGCQ",
+        "start": 27
+      }
+    ]
+  },
+  {
+    "name": "shokugeki no soma",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=vm6R8MgqR9A",
+        "start": 0
       }
     ]
   },
@@ -727,6 +721,15 @@
       {
         "link": "https://www.youtube.com/watch?v=QJmYXKIHN4A",
         "start": 3
+      }
+    ]
+  },
+  {
+    "name": "soul eater",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=zzJ8U8OtEsE",
+        "start": 15
       }
     ]
   },
@@ -740,10 +743,46 @@
     ]
   },
   {
+    "name": "sword art online",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=OsLY7DXWsF4",
+        "start": 41
+      }
+    ]
+  },
+  {
+    "name": "the garden of words",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=PjR2K-3rUaE",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "the promised neverland",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=4GDVEl3qw2M",
+        "start": 62
+      }
+    ]
+  },
+  {
     "name": "titeuf",
     "url": [
       {
         "link": "https://www.youtube.com/watch?v=LnkmmWcv7x0",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "tokyo ghoul",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=uMeR2W19wT0",
         "start": 0
       }
     ]
@@ -776,10 +815,45 @@
     ]
   },
   {
+    "name": "your lie in april",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=c5rgwNvlrmo",
+        "start": 46
+      }
+    ]
+  },
+  {
+    "name": "your name",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=a2GujJZfXpg",
+        "start": 1
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=wIUXC9fxAt8",
+        "start": 0
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=iP6ZABrm8Lo",
+        "start": 0
+      }
+    ]
+  },
+  {
     "name": "yu gi oh",
     "url": [
       {
         "link": "https://www.youtube.com/watch?v=ErhzuwW9uGs",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "yuri on ice",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=ORDXWrL5EuQ",
         "start": 0
       }
     ]

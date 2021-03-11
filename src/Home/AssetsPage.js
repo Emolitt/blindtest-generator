@@ -1,13 +1,11 @@
 import React from "react";
 import {
     List,
-    ListSubheader,
     ListItem,
     ListItemText, Button
 } from "@material-ui/core";
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import PropTypes from 'prop-types';
-import { FixedSizeList } from 'react-window';
 import {Helmet} from "react-helmet";
 import Copyright from "../Copyright";
 
@@ -15,13 +13,6 @@ import games from '../Assets/game.json'
 import film from '../Assets/film.json'
 import anime from '../Assets/anime.json'
 import TextField from "@material-ui/core/TextField";
-
-const containerController = {
-    display: 'flex',
-    alignItems: 'center',
-    color: 'white',
-    overflow: 'hidden'
-}
 
 function renderRow(props) {
     const { index, style } = props;

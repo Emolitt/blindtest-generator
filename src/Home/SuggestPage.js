@@ -1,5 +1,5 @@
 import React from "react";
-import {Box, Button, FormControl, List, ListItem, ListItemText} from "@material-ui/core";
+import {Box, Button, FormControl, List, ListItem} from "@material-ui/core";
 import {Helmet} from "react-helmet";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import TextField from "@material-ui/core/TextField";
@@ -129,7 +129,6 @@ export default class SuggestPage extends React.Component {
     }
 
     renderAssetSearch(asset, name) {
-        const associatedValue = `selection-${name}`
         return <div style={{
             backgroundColor: '#ffffff',
             display: 'inline-block',
@@ -233,11 +232,13 @@ export default class SuggestPage extends React.Component {
                         <MenuItem value='animes'>Anime</MenuItem>
                         <MenuItem value='films'>Films</MenuItem>
                     </Select>
-                    {this.renderAssetSearch(AssetsManager.ThemeList.games, "Asset Name")}
+                    {this.state.theme === 'games' && this.renderAssetSearch(AssetsManager.ThemeList.games, "Asset Name")}
+                    {this.state.theme === 'animes' && this.renderAssetSearch(AssetsManager.ThemeList.animes, "Asset Name")}
+                    {this.state.theme === 'films' && this.renderAssetSearch(AssetsManager.ThemeList.films, "Asset Name")}
                     {this.renderUrlList()}
-                    <Button variant="contained" style={{backgroundColor: '#4a6b58'}} onClick={this.onAddUrl}>
+                    {this.state.theme && <Button variant="contained" style={{backgroundColor: '#4a6b58'}} onClick={this.onAddUrl}>
                         Add Url
-                    </Button>
+                    </Button>}
                 </FormControl>
             </Box>
             <div  style={{

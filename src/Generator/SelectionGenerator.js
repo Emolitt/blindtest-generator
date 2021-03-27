@@ -1,16 +1,14 @@
-import games from '../Assets/game.json'
-import film from '../Assets/film.json'
-import anime from '../Assets/anime.json'
 //const fs = require('fs');
-const { Random, MersenneTwister19937 } = require('random-js');
+import { Random, MersenneTwister19937 } from 'random-js';
 //const path = require('path');
+import AssetsManager from "../Database/AssetsManager";
 
 const random = new Random(MersenneTwister19937.autoSeed());
 
 const ThemeList = {
-    games: games,
-    animes: anime,
-    film: film
+    games: AssetsManager.ThemeList.games,
+    animes: AssetsManager.ThemeList.animes,
+    films: AssetsManager.ThemeList.films
 }
 
 /*function getDirectories(source) {

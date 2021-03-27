@@ -3,10 +3,11 @@
 - Afficher le nom du jeu une fois la réponse tombée
 - Afficher un compteur de musique au format: musiqueActuel/TailleDePlaylist
 - Faire une page d'accueil pour choisir trois options:
-    - jouer => redirige vers le checkout
-    - Visionner la bibliotèque de donnée
-    - Visionner les contributeurs
+    - jouer => redirige vers le checkout - OK
+    - Visionner la bibliotèque de donnée - OK
+    - Visionner les contributeurs - OK
 - Faire une refonte graphique
+- Passer les assets sur firebase pour permettre à aux utilisateur de proposer des modifications depuis le site - OK
 
 
 #A experimenter

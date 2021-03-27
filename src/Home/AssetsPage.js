@@ -9,10 +9,8 @@ import PropTypes from 'prop-types';
 import {Helmet} from "react-helmet";
 import Copyright from "../Copyright";
 
-import games from '../Assets/game.json'
-import film from '../Assets/film.json'
-import anime from '../Assets/anime.json'
 import TextField from "@material-ui/core/TextField";
+import AssetsManager from "../Database/AssetsManager";
 
 function renderRow(props) {
     const { index, style } = props;
@@ -70,6 +68,7 @@ export default class AssetsPage extends React.Component {
 
         this.onListSearchUpdate = this.onListSearchUpdate.bind(this)
         this.navigateToMenu = this.navigateToMenu.bind(this)
+        this.navigateToSuggest = this.navigateToSuggest.bind(this)
     }
 
     redirectToUrl(event, url) {
@@ -92,7 +91,7 @@ export default class AssetsPage extends React.Component {
                 returnObj[associatedKey] = value !== null ? value : {};
             }
             return returnObj;
-        }.bind(event)();
+        }();
 
         this.setState(stateObject)
     }
@@ -105,7 +104,7 @@ export default class AssetsPage extends React.Component {
         </div>*/
         const associatedKey = `selection-${name}`.toLowerCase()
 
-        if (!this.state[associatedKey].url) {
+        if (!this.state[associatedKey] || !this.state[associatedKey].url) {
             return <div/>
         }
         return <div style={classes.root}>
@@ -145,6 +144,10 @@ export default class AssetsPage extends React.Component {
         this.props.history.push('/')
     }
 
+    navigateToSuggest() {
+        this.props.history.push('/assets/suggest')
+    }
+
     render() {
         return <div>
             <Helmet bodyAttributes={{style: 'background-color : #282D35'}}/>
@@ -159,9 +162,22 @@ export default class AssetsPage extends React.Component {
                 left: '50%',
                 transform: 'translate(-50%, -50%)'
             }}>
-                {this.renderAssetSearch(games, 'Games')}
-                {this.renderAssetSearch(anime, 'Animes')}
-                {this.renderAssetSearch(film, 'Films')}
+                {this.renderAssetSearch(AssetsManager.ThemeList.games, 'Games')}
+                {this.renderAssetSearch(AssetsManager.ThemeList.animes, 'Animes')}
+                {this.renderAssetSearch(AssetsManager.ThemeList.films, 'Films')}
+            </div>
+            <div  style={{
+                position: 'fixed',
+                bottom: '77px',
+                right: '20px'
+            }}>
+                <Button
+                    variant="contained"
+                    style={{backgroundColor : '#0FDC06'}}
+                    onClick={this.navigateToSuggest}
+                >
+                   Suggest Asset
+                </Button>
             </div>
             <Copyright />
         </div>

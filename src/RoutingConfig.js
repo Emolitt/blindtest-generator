@@ -5,6 +5,8 @@ import BlindtestGenerator from "./Session/BlindtestGenerator";
 import HomePage from "./Home/HomePage";
 import ContributorsPage from "./Home/ContributorsPage";
 import AssetsPage from "./Home/AssetsPage";
+import SuggestPage from "./Home/SuggestPage";
+import AdminSuggestionPage from "./Home/AdminSuggestionPage";
 
 class RoutingConfig extends Component {
 
@@ -16,7 +18,9 @@ class RoutingConfig extends Component {
                     <Route exact path="/checkout" component={Checkout}/>
                     <Route exact path="/contributors" component={ContributorsPage}/>
                     <Route exact path="/assets" component={AssetsPage}/>
+                    <Route exact path="/assets/suggest" component={SuggestPage}/>
                     <Route exact path="/blindtest" component={BlindtestGenerator}/>
+                    <Route exact path="/admin/suggestions" component={AdminSuggestionPage}/>
                 </div>
             </HashRouter>
         );

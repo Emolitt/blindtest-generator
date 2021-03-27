@@ -39,6 +39,15 @@
     ]
   },
   {
+    "name": "albator",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=AMIrFNHAGyE",
+        "start": 0
+      }
+    ]
+  },
+  {
     "name": "american dad",
     "url": [
       {
@@ -62,6 +71,15 @@
       {
         "link": "https://www.youtube.com/watch?v=cMLHQHKN8vY",
         "start": 0
+      }
+    ]
+  },
+  {
+    "name": "belle et sebastien",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=d6r_EHuv22I",
+        "start": 2
       }
     ]
   },
@@ -123,10 +141,28 @@
     ]
   },
   {
+    "name": "bob l'eponge",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=0wGq5gpkBC0",
+        "start": 0
+      }
+    ]
+  },
+  {
     "name": "bob le bricoleur",
     "url": [
       {
         "link": "https://www.youtube.com/watch?v=XTIDgq-taCo",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "bonne nuit les petits",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=4UNkj-AsZRs",
         "start": 0
       }
     ]
@@ -137,6 +173,24 @@
       {
         "link": "https://www.youtube.com/watch?v=48wCQXl83-s",
         "start": 50
+      }
+    ]
+  },
+  {
+    "name": "capitaine flam",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=NtxZsN6Em3g",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "cedric",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=5TZNL7SWUkA",
+        "start": 22
       }
     ]
   },
@@ -253,6 +307,15 @@
       {
         "link": "https://www.youtube.com/watch?v=uzcsqG35ib4",
         "start": 2
+      }
+    ]
+  },
+  {
+    "name": "digimon",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=a5c_YLOBxEs",
+        "start": 20
       }
     ]
   },
@@ -390,6 +453,15 @@
     ]
   },
   {
+    "name": "franklin",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=q7LKEW8r8A4",
+        "start": 0
+      }
+    ]
+  },
+  {
     "name": "free",
     "url": [
       {
@@ -413,10 +485,6 @@
       {
         "link": "https://www.youtube.com/watch?v=X59yPeVk_70",
         "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=cRA5gsdCf4c",
-        "start": 42
       },
       {
         "link": "https://www.youtube.com/watch?v=cRA5gsdCf4c",
@@ -518,6 +586,24 @@
     ]
   },
   {
+    "name": "hamtaro",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=t5rHzHDwnBg",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "heidi",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=FUb9Pg7KmEM",
+        "start": 5
+      }
+    ]
+  },
+  {
     "name": "high school of the dead",
     "url": [
       {
@@ -576,6 +662,15 @@
     ]
   },
   {
+    "name": "johnny test",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=qexIzdAenC4",
+        "start": 12
+      }
+    ]
+  },
+  {
     "name": "jojo's bizarre adventure",
     "url": [
       {
@@ -606,6 +701,15 @@
     ]
   },
   {
+    "name": "kangoo junior",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=gXTL9pMaxhw",
+        "start": 5
+      }
+    ]
+  },
+  {
     "name": "kuroko no basket",
     "url": [
       {
@@ -619,10 +723,28 @@
     ]
   },
   {
+    "name": "kid paddle",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=qaLeO-2Fytg",
+        "start": 2
+      }
+    ]
+  },
+  {
     "name": "kill la kill",
     "url": [
       {
         "link": "https://www.youtube.com/watch?v=qaLeO-2Fytg",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "kim possible",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=GkKx5fz31w8",
         "start": 0
       }
     ]
@@ -638,6 +760,15 @@
   },
   {
     "name": "l'ile aux enfants",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=cRiPwQuBNCs",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "la bande a piscou",
     "url": [
       {
         "link": "https://www.youtube.com/watch?v=cRiPwQuBNCs",
@@ -664,6 +795,15 @@
     ]
   },
   {
+    "name": "le dino train",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=6H144ZVQ8ic",
+        "start": 31
+      }
+    ]
+  },
+  {
     "name": "le laboratoire de dexter",
     "url": [
       {
@@ -682,11 +822,29 @@
     ]
   },
   {
+    "name": "le petit nicolas",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=8QZVr_Kd21A",
+        "start": 0
+      }
+    ]
+  },
+  {
     "name": "les daltons",
     "url": [
       {
         "link": "https://www.youtube.com/watch?v=hmW3uCRA-Jk",
         "start": 5
+      }
+    ]
+  },
+  {
+    "name": "les histoires du pere castor",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=_ZIC02PzYME",
+        "start": 10
       }
     ]
   },
@@ -727,11 +885,11 @@
     ]
   },
   {
-    "name": "linus et boom",
+    "name": "les supers nanas",
     "url": [
       {
-        "link": "https://www.youtube.com/watch?v=s_-Nm0GEIIQ",
-        "start": 0
+        "link": "https://www.youtube.com/watch?v=9SfjOlHd9ZE",
+        "start": 30
       }
     ]
   },
@@ -740,6 +898,15 @@
     "url": [
       {
         "link": "https://www.youtube.com/watch?v=mbd2linSia4",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "linus et boom",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=s_-Nm0GEIIQ",
         "start": 0
       }
     ]
@@ -772,6 +939,15 @@
     ]
   },
   {
+    "name": "martin matin",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=CuERzx4JNUs",
+        "start": 7
+      }
+    ]
+  },
+  {
     "name": "martin mystere",
     "url": [
       {
@@ -786,6 +962,15 @@
       {
         "link": "https://www.youtube.com/watch?v=LnIyoJP_o0A",
         "start": 0
+      }
+    ]
+  },
+  {
+    "name": "miraculous",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=IrPEf0xUHMg",
+        "start": 35
       }
     ]
   },
@@ -853,8 +1038,8 @@
         "start": 0
       },
       {
-        "link": "https://www.youtube.com/watch?v=xYKzdx-B1w0",
-        "start": 0
+        "link": "https://www.youtube.com/watch?v=mWEHGrFq6oQ",
+        "start": 50
       }
     ]
   },
@@ -947,6 +1132,15 @@
     ]
   },
   {
+    "name": "pacman",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=n1JKSsmeFzA",
+        "start": 0
+      }
+    ]
+  },
+  {
     "name": "parasyte",
     "url": [
       {
@@ -973,6 +1167,10 @@
       },
       {
         "link": "https://www.youtube.com/watch?v=3pPR6IOV7Rg",
+        "start": 0
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=nfowKC-Qk2U",
         "start": 0
       }
     ]
@@ -1032,6 +1230,15 @@
     ]
   },
   {
+    "name": "samsam",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=q_vAWijsUaQ",
+        "start": 4
+      }
+    ]
+  },
+  {
     "name": "scooby doo",
     "url": [
       {
@@ -1052,8 +1259,8 @@
         "start": 95
       },
       {
-        "link": "https://www.youtube.com/watch?v=yMclXr3IGCQ",
-        "start": 27
+        "link": "https://www.youtube.com/watch?v=wvFmOIkuOfg",
+        "start": 259
       }
     ]
   },
@@ -1228,6 +1435,15 @@
     ]
   },
   {
+    "name": "toupou",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=0Joli9LM7ME",
+        "start": 15
+      }
+    ]
+  },
+  {
     "name": "yakari",
     "url": [
       {
@@ -1268,6 +1484,15 @@
       {
         "link": "https://www.youtube.com/watch?v=ErhzuwW9uGs",
         "start": 0
+      }
+    ]
+  },
+  {
+    "name": "yu gi oh gx",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=4yzssYYz9mw",
+        "start": 3
       }
     ]
   },

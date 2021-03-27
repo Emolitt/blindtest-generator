@@ -7,7 +7,7 @@ import {
 const ThemeList = {
     games: "Video Games",
     animes: "Animes",
-    film: "Movies"
+    films: "Movies"
 }
 
 function getTheme() {

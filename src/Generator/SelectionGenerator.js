@@ -106,7 +106,15 @@ const FlatMapAssets = (assets) => {
 }
 
 export const GenerateSelectionFromJSON = (theme, size, reuseGame) => {
-    const assets = random.shuffle(ThemeList[theme]);
+    let assets;
+    if (theme === 'all') {
+        assets = random.shuffle(ThemeList.games.concat(ThemeList.animes).concat(ThemeList.films))
+    } else {
+        if(!(theme in ThemeList)) {
+            return []
+        }
+        assets = random.shuffle(ThemeList[theme]);
+    }
 
     if (reuseGame === true) {
         const flatMappedAssets = FlatMapAssets(assets)

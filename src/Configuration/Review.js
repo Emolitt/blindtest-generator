@@ -8,6 +8,7 @@ const ThemeList = {
     games: "Video Games",
     animes: "Animes",
     films: "Movies",
+    musics: "Musics",
     all: "All Genre"
 }
 

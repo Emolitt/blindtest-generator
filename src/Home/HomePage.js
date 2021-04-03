@@ -44,7 +44,7 @@ export default class HomePage extends React.Component {
         return <div style={{ overflow: 'hidden' }}>
             <Helmet bodyAttributes={{style: 'background-color : #282D35'}}/>
             <div style={containerController}>
-                <p style={{color: 'white'}}>Update: You can now Add assets by suggesting them in the Asset page !</p>
+                <p style={{color: 'white'}}>Update: A big thanks to Dorian You for providing new Musics in playlist !</p>
                 <Button variant="contained" style={buttonStyle('#0FDC06')} onClick={this.navigateToCheckout}>
                     Generate Blindtest
                 </Button>

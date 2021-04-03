@@ -231,10 +231,12 @@ export default class SuggestPage extends React.Component {
                         <MenuItem value='games'>Video Games</MenuItem>
                         <MenuItem value='animes'>Anime</MenuItem>
                         <MenuItem value='films'>Films</MenuItem>
+                        <MenuItem value='musics'>Musics</MenuItem>
                     </Select>
                     {this.state.theme === 'games' && this.renderAssetSearch(AssetsManager.ThemeList.games, "Asset Name")}
                     {this.state.theme === 'animes' && this.renderAssetSearch(AssetsManager.ThemeList.animes, "Asset Name")}
                     {this.state.theme === 'films' && this.renderAssetSearch(AssetsManager.ThemeList.films, "Asset Name")}
+                    {this.state.theme === 'musics' && this.renderAssetSearch(AssetsManager.ThemeList.musics, "Asset Name")}
                     {this.renderUrlList()}
                     {this.state.theme && <Button variant="contained" style={{backgroundColor: '#4a6b58'}} onClick={this.onAddUrl}>
                         Add Url

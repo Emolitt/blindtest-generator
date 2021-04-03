@@ -145,7 +145,7 @@ export default class AssetsPage extends React.Component {
     }
 
     navigateToSuggest() {
-        //AssetsManager.setAssetsOfCollection(require('../Assets/film.json'), 'films')
+        //AssetsManager.setAssetsOfCollection(require('../Assets/musiques.json'), 'musics')
         this.props.history.push('/assets/suggest')
     }
 
@@ -166,6 +166,7 @@ export default class AssetsPage extends React.Component {
                 {this.renderAssetSearch(AssetsManager.ThemeList.games, 'Games')}
                 {this.renderAssetSearch(AssetsManager.ThemeList.animes, 'Animes')}
                 {this.renderAssetSearch(AssetsManager.ThemeList.films, 'Films')}
+                {this.renderAssetSearch(AssetsManager.ThemeList.musics, 'Musics')}
             </div>
             <div  style={{
                 position: 'fixed',

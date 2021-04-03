@@ -8,7 +8,8 @@ const random = new Random(MersenneTwister19937.autoSeed());
 const ThemeList = {
     games: AssetsManager.ThemeList.games,
     animes: AssetsManager.ThemeList.animes,
-    films: AssetsManager.ThemeList.films
+    films: AssetsManager.ThemeList.films,
+    musics: AssetsManager.ThemeList.musics,
 }
 
 /*function getDirectories(source) {
@@ -108,7 +109,7 @@ const FlatMapAssets = (assets) => {
 export const GenerateSelectionFromJSON = (theme, size, reuseGame) => {
     let assets;
     if (theme === 'all') {
-        assets = random.shuffle(ThemeList.games.concat(ThemeList.animes).concat(ThemeList.films))
+        assets = random.shuffle(ThemeList.games.concat(ThemeList.animes).concat(ThemeList.films).concat(ThemeList.musics))
     } else {
         if(!(theme in ThemeList)) {
             return []

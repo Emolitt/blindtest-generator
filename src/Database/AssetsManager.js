@@ -8,7 +8,8 @@ export default class AssetsManager {
     static ThemeList = {
         games: AssetsManager.getAssetsOfCollection('games'),
         animes: AssetsManager.getAssetsOfCollection('animes'),
-        films: AssetsManager.getAssetsOfCollection('films')
+        films: AssetsManager.getAssetsOfCollection('films'),
+        musics: AssetsManager.getAssetsOfCollection('musics')
     }
 
     /** @param {string} collectionName **/

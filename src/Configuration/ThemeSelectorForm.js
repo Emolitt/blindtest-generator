@@ -101,6 +101,7 @@ export default class ThemeSelectorForm extends React.Component {
                             <MenuItem value='games'>Video Games</MenuItem>
                             <MenuItem value='animes'>Anime</MenuItem>
                             <MenuItem value='films'>Films</MenuItem>
+                            <MenuItem value='musics'>Musics</MenuItem>
                             <MenuItem value='all'>All Genre</MenuItem>
                         </Select>
                     </FormControl>

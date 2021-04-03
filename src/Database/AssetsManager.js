@@ -32,6 +32,19 @@ export default class AssetsManager {
         })
     }
 
+    /** @param {string} collection
+     * @param {string} assetName
+     * @param {string} link
+     * **/
+    static HandleError(collection, assetName, link) {
+        //TODO en cours de dev. trouver comment on peut supprimer un element d'un array
+        /*
+        const assetRef = firebase.firestore().collection(collection).doc(assetName)
+        assetRef.update({
+            url: firebase.firestore().FieldValue.delete()
+        })*/
+    }
+
     /** @param {$ObjMap} asset **/
     static suggestNewAsset(asset) {
         const uid = v4()

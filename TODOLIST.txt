@@ -1,6 +1,6 @@
 #A Faire
 - Afficher le nom du jeu dans la popup d'erreur - OK
-- Afficher le nom du jeu une fois la réponse tombée
+- Afficher le nom du jeu une fois la réponse tombée - OK
 - Afficher un compteur de musique au format: musiqueActuel/TailleDePlaylist
 - Faire une page d'accueil pour choisir trois options:
     - jouer => redirige vers le checkout - OK
@@ -8,8 +8,10 @@
     - Visionner les contributeurs - OK
 - Faire une refonte graphique
 - Passer les assets sur firebase pour permettre à aux utilisateur de proposer des modifications depuis le site - OK
+- retirer le lien corrompu et le mettre dans une collection "Errors"
+- Faire un bouton caché pout passer sur la page admin
 
 
 #A experimenter
-- Faire un formulaire pour ajouter des musiqus directement depuis le site (voir si c'est possible avec la solution build)
+- Faire un formulaire pour ajouter des musiqus directement depuis le site (voir si c'est possible avec la solution build) - OK
 

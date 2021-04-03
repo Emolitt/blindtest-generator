@@ -145,6 +145,7 @@ export default class AssetsPage extends React.Component {
     }
 
     navigateToSuggest() {
+        //AssetsManager.setAssetsOfCollection(require('../Assets/film.json'), 'films')
         this.props.history.push('/assets/suggest')
     }
 

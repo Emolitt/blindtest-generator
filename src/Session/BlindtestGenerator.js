@@ -323,8 +323,13 @@ export default class BlindtestGenerator extends React.Component {
                 {this.state.counter}
             </div>
             }
-            <div style={{ display: this.state.display ? '' : 'none' }}>
-                {this.state.player}
+            <div style={{ display: this.state.display ? '' : 'none', position: 'relative' }}>
+                <div style={{ position: 'absolute'}}>
+                    {this.state.player}
+                </div>
+                <div style={{ position: 'absolute', 'z-index': 1, margin: '10px', color: '#ffffff', fontWeight: 'bold', fontSize: '50px', 'text-transform': 'capitalize' }}>
+                    {this.state.currMusic.name}
+                </div>
             </div>
             <div style={{ display: 'none' }}>
                 <KeyboardEventHandler

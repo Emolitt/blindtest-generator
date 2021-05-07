@@ -145,8 +145,10 @@ export default class AssetsPage extends React.Component {
     }
 
     navigateToSuggest() {
-        //AssetsManager.setAssetsOfCollection(require('../Assets/musiques.json'), 'musics')
-        this.props.history.push('/assets/suggest')
+        AssetsManager.setAssetsOfCollection(require('../Assets/musiques.json'), 'musics')
+        AssetsManager.setAssetsOfCollection(require('../Assets/game.json'), 'games')
+        AssetsManager.setAssetsOfCollection(require('../Assets/anime.json'), 'animes')
+        //this.props.history.push('/assets/suggest')
     }
 
     render() {

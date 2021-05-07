@@ -1672,6 +1672,28 @@
     ]
   },
   {
+    "name": "Guilty Gear Xrd",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=F577tB8JvOc&l",
+        "start": 0
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=ANsFFoxh1LU&l",
+        "start": 0
+      }
+    ]
+  },
+  {
+    "name": "Guilty Gear Xrd Rev 2",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=EPNq5L6nY-0&l",
+        "start": 0
+      }
+    ]
+  },
+  {
     "name": "guitar hero",
     "url": [
       {
@@ -2397,6 +2419,14 @@
     "url": [
       {
         "link": "https://www.youtube.com/watch?v=N3472Q6kvg0",
+        "start": 0
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=h-rj8HVW3PQ",
+        "start": 0
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=CXRxRTW6nXg",
         "start": 0
       }
     ]
@@ -3754,6 +3784,10 @@
       {
         "link": "https://www.youtube.com/watch?v=sn-TsS5_6ys",
         "start": 0
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=raY6iUIYyeY",
+        "start": 0
       }
     ]
   },
@@ -4231,7 +4265,7 @@
     "url": [
       {
         "link": "https://www.youtube.com/watch?v=978mWJl6aCY",
-        "start": 0
+        "start": 165
       }
     ]
   },
@@ -4477,6 +4511,15 @@
     ]
   },
   {
+    "name": "Wizard Legend",
+    "url": [
+      {
+        "link": "https://www.youtube.com/watch?v=t7LzawbZYZw",
+        "start": 110
+      }
+    ]
+  },
+  {
     "name": "wolcen",
     "url": [
       {
@@ -4527,11 +4570,27 @@
         "start": 0
       },
       {
-        "link": "https://www.youtube.com/watch?v=7duPLBnaeGk",
+        "link": "https://www.youtube.com/watch?v=jLw5MX7bZqI",
         "start": 0
       },
       {
-        "link": "https://www.youtube.com/watch?v=jLw5MX7bZqI",
+        "link": "https://www.youtube.com/watch?v=Tc5j2wosINE&",
+        "start": 0
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=3m51oKG3BKA&",
+        "start": 35
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=OK0L1MhMlYY&",
+        "start": 110
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=3-o8viwAgNA&",
+        "start": 0
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=Uc8vvnFSQ5Y&",
         "start": 0
       }
     ]
@@ -4578,6 +4637,10 @@
       {
         "link": "https://www.youtube.com/watch?v=g3jCAyPai2Y",
         "start": 60
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=2O4YXW-GmGI",
+        "start": 14
       }
     ]
   },

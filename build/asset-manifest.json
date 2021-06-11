@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/blindtest-generator/static/css/main.7d180cbf.chunk.css",
-    "main.js": "/blindtest-generator/static/js/main.3ecffefa.chunk.js",
-    "main.js.map": "/blindtest-generator/static/js/main.3ecffefa.chunk.js.map",
+    "main.js": "/blindtest-generator/static/js/main.e4f843dd.chunk.js",
+    "main.js.map": "/blindtest-generator/static/js/main.e4f843dd.chunk.js.map",
     "runtime-main.js": "/blindtest-generator/static/js/runtime-main.0366818d.js",
     "runtime-main.js.map": "/blindtest-generator/static/js/runtime-main.0366818d.js.map",
-    "static/js/2.470a4447.chunk.js": "/blindtest-generator/static/js/2.470a4447.chunk.js",
-    "static/js/2.470a4447.chunk.js.map": "/blindtest-generator/static/js/2.470a4447.chunk.js.map",
+    "static/js/2.282888b9.chunk.js": "/blindtest-generator/static/js/2.282888b9.chunk.js",
+    "static/js/2.282888b9.chunk.js.map": "/blindtest-generator/static/js/2.282888b9.chunk.js.map",
     "static/js/3.24604f28.chunk.js": "/blindtest-generator/static/js/3.24604f28.chunk.js",
     "static/js/3.24604f28.chunk.js.map": "/blindtest-generator/static/js/3.24604f28.chunk.js.map",
     "index.html": "/blindtest-generator/index.html",
     "static/css/main.7d180cbf.chunk.css.map": "/blindtest-generator/static/css/main.7d180cbf.chunk.css.map",
-    "static/js/2.470a4447.chunk.js.LICENSE.txt": "/blindtest-generator/static/js/2.470a4447.chunk.js.LICENSE.txt"
+    "static/js/2.282888b9.chunk.js.LICENSE.txt": "/blindtest-generator/static/js/2.282888b9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0366818d.js",
-    "static/js/2.470a4447.chunk.js",
+    "static/js/2.282888b9.chunk.js",
     "static/css/main.7d180cbf.chunk.css",
-    "static/js/main.3ecffefa.chunk.js"
+    "static/js/main.e4f843dd.chunk.js"
   ]
 }

@@ -3,14 +3,92 @@ import { Random, MersenneTwister19937 } from 'random-js';
 //const path = require('path');
 import AssetsManager from "../Database/AssetsManager";
 
-const random = new Random(MersenneTwister19937.autoSeed());
-
 const ThemeList = {
     games: AssetsManager.ThemeList.games,
     animes: AssetsManager.ThemeList.animes,
     films: AssetsManager.ThemeList.films,
     musics: AssetsManager.ThemeList.musics,
 }
+
+class SelectionGenerator {
+    random = new Random(MersenneTwister19937.autoSeed());
+
+    setSeed(seed) {
+        this.random = new Random(MersenneTwister19937.seed(seed));
+    }
+
+    FlatMapAssets(assets) {
+        //isolate wanted number of selection
+        const flatMappedAssets = assets.map(asset => {
+            const flatMappedAsset = asset.url.map(url => {
+                const fullName = asset.name.concat(url.name ? ` - ${url.name}` : '');
+                return ({
+                    name: fullName,
+                    url:  url.link.split('=')[1],
+                    start: url.start
+                })
+            })
+            return (flatMappedAsset)
+        })
+
+        return (this.random.shuffle(flatMappedAssets.flat(1)))
+    }
+
+    EqualizeAllGenreSelection(size, reuseAsset) {
+        let partSize = size / Object.keys(ThemeList).length;
+
+        if (partSize <= 0) {
+            partSize = 1;
+        }
+
+        return  this.GenerateSelectionFromJSON('games', partSize, reuseAsset)
+            .concat(this.GenerateSelectionFromJSON('animes', partSize, reuseAsset))
+            .concat(this.GenerateSelectionFromJSON('films', partSize, reuseAsset))
+            .concat(this.GenerateSelectionFromJSON('musics', partSize, reuseAsset));
+    }
+
+    GenerateSelectionFromJSON(theme, size, reuseGame) {
+        let assets;
+        if (theme === 'all') {
+            return this.random.shuffle(this.EqualizeAllGenreSelection(size, reuseGame));
+        } else {
+            if(!(theme in ThemeList)) {
+                return []
+            }
+            assets = this.random.shuffle(ThemeList[theme]);
+        }
+
+        if (reuseGame === true) {
+            const flatMappedAssets = this.FlatMapAssets(assets)
+
+            //isolate wanted number of selection
+            return (flatMappedAssets.slice(0, size));
+        }
+
+        //isolate wanted number of selection
+        const selectionArray = assets.slice(0, size);
+
+        //get random info to display for each selection
+        const parsedSelectionArray = selectionArray.map(asset => {
+            const winnerChoice = this.random.shuffle(asset.url)[0];
+            const fullName = asset.name.concat(winnerChoice.name ? ` - ${winnerChoice.name}` : '');
+            return ({
+                name: fullName,
+                url: winnerChoice.link.split('=')[1],
+                start: winnerChoice.start
+            })
+        })
+
+        return(parsedSelectionArray);
+    }
+
+}
+
+const selectionGenerator = new SelectionGenerator();
+
+export {
+    selectionGenerator
+};
 
 /*function getDirectories(source) {
     const dirs = fs.readdir(source, { withFileTypes: true }, err => {console.log('error: ' + err)})
@@ -90,67 +168,4 @@ const getFiles = source =>
     return undefined;
 }*/
 
-const FlatMapAssets = (assets) => {
-    //isolate wanted number of selection
-    const flatMappedAssets = assets.map(asset => {
-        const flatMappedAsset = asset.url.map(url => {
-            const fullName = asset.name.concat(url.name ? ` - ${url.name}` : '');
-            return ({
-                name: fullName,
-                url:  url.link.split('=')[1],
-                start: url.start
-            })
-        })
-        return (flatMappedAsset)
-    })
 
-    return (random.shuffle(flatMappedAssets.flat(1)))
-}
-
-const EqualizeAllGenreSelection = (size, reuseAsset) => {
-    let partSize = size / Object.keys(ThemeList).length;
-
-    if (partSize <= 0) {
-        partSize = 1;
-    }
-
-    return  GenerateSelectionFromJSON('games', partSize, reuseAsset)
-        .concat(GenerateSelectionFromJSON('animes', partSize, reuseAsset))
-        .concat(GenerateSelectionFromJSON('films', partSize, reuseAsset))
-        .concat(GenerateSelectionFromJSON('musics', partSize, reuseAsset));
-}
-
-export const GenerateSelectionFromJSON = (theme, size, reuseGame) => {
-    let assets;
-    if (theme === 'all') {
-        return random.shuffle(EqualizeAllGenreSelection(size, reuseGame));
-    } else {
-        if(!(theme in ThemeList)) {
-            return []
-        }
-        assets = random.shuffle(ThemeList[theme]);
-    }
-
-    if (reuseGame === true) {
-        const flatMappedAssets = FlatMapAssets(assets)
-
-        //isolate wanted number of selection
-        return (flatMappedAssets.slice(0, size));
-    }
-
-    //isolate wanted number of selection
-    const selectionArray = assets.slice(0, size);
-
-    //get random info to display for each selection
-    const parsedSelectionArray = selectionArray.map(asset => {
-        const winnerChoice = random.shuffle(asset.url)[0];
-        const fullName = asset.name.concat(winnerChoice.name ? ` - ${winnerChoice.name}` : '');
-        return ({
-            name: fullName,
-            url: winnerChoice.link.split('=')[1],
-            start: winnerChoice.start
-        })
-    })
-
-    return(parsedSelectionArray);
-}

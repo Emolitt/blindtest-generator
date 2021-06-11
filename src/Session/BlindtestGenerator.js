@@ -1,5 +1,5 @@
 import React from "react";
-import {GenerateSelectionFromJSON} from '../Generator/SelectionGenerator'
+import {selectionGenerator} from '../Generator/SelectionGenerator'
 import KeyboardEventHandler from "react-keyboard-event-handler";
 import {Helmet} from "react-helmet";
 import KeyboardEvents from './KeyboardEvent';
@@ -17,6 +17,7 @@ export default class BlindtestGenerator extends React.Component {
     constructor(props) {
         super(props);
         const sessionId = window.localStorage.getItem('session_id');
+        const seed = window.localStorage.getItem('seed');
 
         //Playlist Configuration
         const playlistSize = window.localStorage.getItem('playlist_size')
@@ -27,7 +28,8 @@ export default class BlindtestGenerator extends React.Component {
         this.guessTime = parseInt(window.localStorage.getItem('guess_time'))
         this.waitTime = parseInt(window.localStorage.getItem('wait_time'))
 
-        this.playlist = GenerateSelectionFromJSON(theme, playlistSize, allowSameLicence)
+        selectionGenerator.setSeed(seed)
+        this.playlist = selectionGenerator.GenerateSelectionFromJSON(theme, playlistSize, allowSameLicence)
 
         this.state = {
             display: false,

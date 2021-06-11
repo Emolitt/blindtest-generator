@@ -11,6 +11,7 @@ import {
     FormGroup
 } from "@material-ui/core"
 import withStyles from "@material-ui/core/styles/withStyles";
+import {MersenneTwister19937} from "random-js";
 
 const GreenSwitch = withStyles({
     switchBase: {
@@ -66,6 +67,7 @@ export default class BlindtestCustomizerForm extends React.Component {
             guessTime: this.defaultGuessTime,
             waitTime: this.defaultWaitTime,
             allowSameLicence: allowSameLicence,
+            seed: MersenneTwister19937.autoSeed().next(),
             classes:  makeStyles((theme) => ({
                 formControl: {
                     margin: theme.spacing(1),
@@ -78,6 +80,7 @@ export default class BlindtestCustomizerForm extends React.Component {
         this.updateGuessTime = this.updateGuessTime.bind(this);
         this.updateWaitTime = this.updateWaitTime.bind(this);
         this.handleSwitchChange = this.handleSwitchChange.bind(this);
+        this.updateSeed = this.updateSeed.bind(this);
     }
 
     valuetext(value) {
@@ -94,6 +97,18 @@ export default class BlindtestCustomizerForm extends React.Component {
             playlistSize: newPlaylistSize
         })
         window.localStorage.setItem('playlist_size', !newPlaylistSize ? '0' : newPlaylistSize.toString())
+    }
+
+    updateSeed(event) {
+        const newSeed = parseInt(event.target.value)
+
+        if (!newSeed) {
+            window.localStorage.setItem('seed', '0')
+        }
+        this.setState({
+            seed: newSeed
+        })
+        window.localStorage.setItem('seed', !newSeed ? '0' : newSeed)
     }
 
     updateGuessTime(event) {
@@ -187,6 +202,20 @@ export default class BlindtestCustomizerForm extends React.Component {
                             <Box align='center'>
                                 <GreenSwitch checked={this.state.allowSameLicence} onChange={this.handleSwitchChange} name="allow-same_licence"/>
                             </Box>
+                        </FormGroup>
+                        <FormGroup>
+                            <Typography align='center' style={{ marginTop: '40px', color: '#DCDDDC' }}>
+                                Seed
+                            </Typography>
+                            <TextField
+                                type="number"
+                                inputProps={{style: { textAlign: 'center', color: 'white' }}}
+                                value={this.state.seed}
+                                onChange={this.updateSeed}
+                                name="seed"
+                                id="formatted-seed-input"
+
+                            />
                         </FormGroup>
                     </FormControl>
                 </Box>

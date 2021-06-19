@@ -21,7 +21,8 @@
     "react-window": "^1.8.6",
     "react-youtube": "^7.13.0",
     "uuid": "^8.3.2",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "write-json-file": "^4.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -65,7 +66,9 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.1.0",
+    "google-auth-library": "^7.1.2",
+    "googleapis": "^76.0.0"
   },
   "homepage": "http://emolitt.github.io/blindtest-generator"
 }

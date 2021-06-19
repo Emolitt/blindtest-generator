@@ -168,4 +168,20 @@ const getFiles = source =>
     return undefined;
 }*/
 
+export const FlatMapAssets = (assets) => {
+    //isolate wanted number of selection
+    const flatMappedAssets = assets.map(asset => {
+        const flatMappedAsset = asset.url.map(url => {
+            const fullName = asset.name.concat(url.name ? ` - ${url.name}` : '');
+            return ({
+                name: fullName,
+                id:  url.link.split('=')[1],
+                start: url.start
+            })
+        })
+        return (flatMappedAsset)
+    })
+
+    return (flatMappedAssets.flat(1))
+}
 

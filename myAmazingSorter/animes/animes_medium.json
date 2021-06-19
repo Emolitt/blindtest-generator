@@ -1,0 +1,777 @@
+[
+    {
+        "title": "albator",
+        "url": [
+            {
+                "name": "Eric Charden - Generique",
+                "link": "https://www.youtube.com/watch?v=AMIrFNHAGyE",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "american dad",
+        "url": [
+            {
+                "name": "Intro",
+                "link": "https://www.youtube.com/watch?v=_EDS7pt4kno",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "angel beats",
+        "url": [
+            {
+                "name": "Opening 1 - Lia - My Soul, Your Beats!",
+                "link": "https://www.youtube.com/watch?v=Turf7WDB3iY",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "ao no exorcist",
+        "url": [
+            {
+                "name": "Opening 1",
+                "link": "https://www.youtube.com/watch?v=80-W822k6Vw",
+                "start": 10
+            }
+        ]
+    },
+    {
+        "title": "belle et sebastien",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=d6r_EHuv22I",
+                "start": 2
+            }
+        ]
+    },
+    {
+        "title": "ben 10",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=C4AF8Q_TD4w",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "bonne nuit les petits",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=4UNkj-AsZRs",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "btooom",
+        "url": [
+            {
+                "name": "Opening 1",
+                "link": "https://www.youtube.com/watch?v=5GjbLOe_cgw",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "capitaine flam",
+        "url": [
+            {
+                "name": "Richard Simon - Generique",
+                "link": "https://www.youtube.com/watch?v=NtxZsN6Em3g",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "charlotte",
+        "url": [
+            {
+                "name": "Opening 1 - Lia - Bravely You",
+                "link": "https://www.youtube.com/watch?v=WhRsyIGN-cA",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "code geass r2",
+        "url": [
+            {
+                "name": "Opening 2 - Flow - World's End",
+                "link": "https://www.youtube.com/watch?v=aoFr6V1tY8I",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "corneil et bernie",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=O-TO3erDQmY",
+                "start": 2
+            }
+        ]
+    },
+    {
+        "title": "denver",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=uzcsqG35ib4",
+                "start": 2
+            }
+        ]
+    },
+    {
+        "title": "digimon",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=a5c_YLOBxEs",
+                "start": 20
+            }
+        ]
+    },
+    {
+        "title": "dinosaur king",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=z_s81YG7CEM",
+                "start": 7
+            }
+        ]
+    },
+    {
+        "title": "dora l'exploratrice",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=Zt7Lj67ux8g",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "dragon ball",
+        "url": [
+            {
+                "name": "Opening 1",
+                "link": "https://www.youtube.com/watch?v=FJqGirLjQn4",
+                "start": 0
+            },
+            {
+                "name": "Ariane - Generique",
+                "link": "https://www.youtube.com/watch?v=usb0Gxh6QRo",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "dragon ball kai",
+        "url": [
+            {
+                "name": "Opening 1 - Takayoshi Tanimoto - Dragon Soul",
+                "link": "https://www.youtube.com/watch?v=odhuGelEH3g",
+                "start": 4
+            }
+        ]
+    },
+    {
+        "title": "dragon ball super",
+        "url": [
+            {
+                "name": "Opening 1 - Kazuya Yoshii - Chozetsu Dynamic",
+                "link": "https://www.youtube.com/watch?v=S1uu7NWvu6k",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "erased",
+        "url": [
+            {
+                "name": "Opening 1 - Asian Kung-fu - Re:Re:",
+                "link": "https://www.youtube.com/watch?v=fodAJ-1dN3I",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "fairy tail",
+        "url": [
+            {
+                "name": "Opening 3 - Funkist - ft.",
+                "link": "https://www.youtube.com/watch?v=T60pzAKu60Q",
+                "start": 0
+            },
+            {
+                "name": "Natsu Theme - Dragon Force",
+                "link": "https://www.youtube.com/watch?v=7q7j0-LkdNE",
+                "start": 25
+            }
+        ]
+    },
+    {
+        "title": "fate",
+        "url": [
+            {
+                "name": "Zero Opening 1 - Lisa - Oath Sign",
+                "link": "https://www.youtube.com/watch?v=HxaND2UdVDE",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "franklin",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=q7LKEW8r8A4",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "free",
+        "url": [
+            {
+                "name": "Opening",
+                "link": "https://www.youtube.com/watch?v=JXkq0JWGMM8",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "gto",
+        "url": [
+            {
+                "name": "Opening 2 - Porno Graffitti - Hitori no Yoru",
+                "link": "https://www.youtube.com/watch?v=xpAg0spgFJA",
+                "start": 49
+            }
+        ]
+    },
+    {
+        "title": "guilty crown",
+        "url": [
+            {
+                "name": "Opening 2 - Egoist - Everlasting",
+                "link": "https://www.youtube.com/watch?v=Hv4znGv6lzg",
+                "start": 49
+            }
+        ]
+    },
+    {
+        "title": "haikyuu",
+        "url": [
+            {
+                "name": "Ost - Chimu no Jiriki",
+                "link": "https://www.youtube.com/watch?v=sVRkrUTWANk",
+                "start": 30
+            }
+        ]
+    },
+    {
+        "title": "hamtaro",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=t5rHzHDwnBg",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "high school of the dead",
+        "url": [
+            {
+                "name": "Opening 1",
+                "link": "https://www.youtube.com/watch?v=TQwQMeb-44g",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "hunter x hunter",
+        "url": [
+            {
+                "name": "Ost - Legend of the Martial Artist",
+                "link": "https://www.youtube.com/watch?v=_T6oBCiIWeY",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "il etait une fois la vie",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=kNnpHAszq64",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "inazuma eleven",
+        "url": [
+            {
+                "name": "Opening 1",
+                "link": "https://www.youtube.com/watch?v=pMTF1RCDmhg",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "inspecteur gadget",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=i0mlC026Wwk",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "jacky chan adventure",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=p3RMOO1lP-I",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "jimmy neutron",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=8lxchoqEUZg",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "kangoo junior",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=gXTL9pMaxhw",
+                "start": 5
+            }
+        ]
+    },
+    {
+        "title": "kim possible",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=GkKx5fz31w8",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "kuroko no basket",
+        "url": [
+            {
+                "name": "Opening 3 - GRANRODEO - The Other Self",
+                "link": "https://www.youtube.com/watch?v=m_eZs7Ix9-s",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "l'ane trotro",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=j57NOc52Gdk",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "la panthere rose",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=cRiPwQuBNCs",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "le dino train",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=6H144ZVQ8ic",
+                "start": 31
+            }
+        ]
+    },
+    {
+        "title": "le laboratoire de dexter",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=4ZUa5eXQ1X4",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "les razmokets",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=DUBudt7vQFc",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "les zinzins de l'espace",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=mbd2linSia4",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "lucky luke",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=QrDX78AFZo4",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "made in abyss",
+        "url": [
+            {
+                "name": "Opening 1",
+                "link": "https://www.youtube.com/watch?v=e91G8m9uM_0",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "magi the labyrinth of magic",
+        "url": [
+            {
+                "name": "Opening 1",
+                "link": "https://www.youtube.com/watch?v=M8JuOhB7-U0",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "marcelino",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=MtLkGTJg-jg",
+                "start": 25
+            }
+        ]
+    },
+    {
+        "title": "marsupilami",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=LnIyoJP_o0A",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "martin mystere",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=EUuiwzfJt2k",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "my hero academia",
+        "url": [
+            {
+                "name": "Ost - You can become a Hero",
+                "link": "https://www.youtube.com/watch?v=n608d8oQiSM",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "nanatsu no taizai",
+        "url": [
+            {
+                "name": "Opening 1 - Ikimonogakari - Netsujou no Spectrum",
+                "link": "https://www.youtube.com/watch?v=OFaAhMftWtM",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "naruto shippuden",
+        "url": [
+            {
+                "name": "Naruto Bijuu Mode Theme",
+                "link": "https://www.youtube.com/watch?v=nvJrnkfASIw",
+                "start": 50
+            },
+            {
+                "name": "Itachi Uchiha Theme - Senya",
+                "link": "https://www.youtube.com/watch?v=440UkXOXL0E",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "oggy et les cafards",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=2apJXX46ce0",
+                "start": 2
+            }
+        ]
+    },
+    {
+        "title": "olive et tom",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=juQl2UbcD7w",
+                "start": 30
+            }
+        ]
+    },
+    {
+        "title": "one piece",
+        "url": [
+            {
+                "name": "Stampede Theme Song - WANIMA - GONG",
+                "link": "https://www.youtube.com/watch?v=lyAutaUH4ws",
+                "start": 22
+            },
+            {
+                "name": "Opening 18 - GENERATIONS from EXILE TRIBE - Hard Knowk Days",
+                "link": "https://www.youtube.com/watch?v=jJHDDYd6PrM",
+                "start": 1
+            }
+        ]
+    },
+    {
+        "title": "one punch man",
+        "url": [
+            {
+                "name": "Ost - Seigi Shikkou",
+                "link": "https://www.youtube.com/watch?v=rW7OB_HDCGQ",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "psycho-pass",
+        "url": [
+            {
+                "name": "Opening 2",
+                "link": "https://www.youtube.com/watch?v=3DSQmBQ9EJk",
+                "start": 10
+            }
+        ]
+    },
+    {
+        "title": "rage of bahamut",
+        "url": [
+            {
+                "name": "Opening - SiM - EXiSTENCE",
+                "link": "https://www.youtube.com/watch?v=nsi_gBdRdt4",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "rakudai kishi no cavalry",
+        "url": [
+            {
+                "name": "Opening",
+                "link": "https://www.youtube.com/watch?v=07sg564pM9U",
+                "start": 50
+            }
+        ]
+    },
+    {
+        "title": "re:creators",
+        "url": [
+            {
+                "name": "Opening 1 - Tielle & Gernie - GravityWall",
+                "link": "https://www.youtube.com/watch?v=U51juOCIhzo",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "rick et morty",
+        "url": [
+            {
+                "name": "Opening",
+                "link": "https://www.youtube.com/watch?v=E6TUs69Cw94",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "saint seiya",
+        "url": [
+            {
+                "name": "Opening - Make-Up - Pegasus Fantasy",
+                "link": "https://www.youtube.com/watch?v=CsCcPHRPnBo",
+                "start": 31
+            }
+        ]
+    },
+    {
+        "title": "shingeki no kyojin",
+        "url": [
+            {
+                "name": "Ost - YouSeeBIGGIRL/T:T",
+                "link": "https://www.youtube.com/watch?v=wvFmOIkuOfg",
+                "start": 259
+            }
+        ]
+    },
+    {
+        "title": "tales of zesteria the x",
+        "url": [
+            {
+                "name": "Opening - Flow - Kaze no Uta",
+                "link": "https://www.youtube.com/watch?v=9vjsu3Lb9Co",
+                "start": 50
+            }
+        ]
+    },
+    {
+        "title": "thomas le train",
+        "url": [
+            {
+                "name": "Main Theme",
+                "link": "https://www.youtube.com/watch?v=fkB3F4-NI8A",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "titi et grosminet",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=iteNiJUYhvg",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "tortue ninja",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=ZxUzL4Q1Tvw",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "tottaly spies",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=-tlDSnc5dmo",
+                "start": 12
+            },
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=cG-tr6FGHns",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "vinland saga",
+        "url": [
+            {
+                "name": "Opening 1 - Survive Said The Prophet - MUKANJYO",
+                "link": "https://www.youtube.com/watch?v=7U7BDn-gU18",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "violet evergarden",
+        "url": [
+            {
+                "name": "Opening - TRUE - Sincerely",
+                "link": "https://www.youtube.com/watch?v=BGn6WOw6BtA",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "woody woodpecker",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=1PWcc3y_NlY",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "yakari",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=IXWsy5ZKW3E",
+                "start": 3
+            }
+        ]
+    },
+    {
+        "title": "your name",
+        "url": [
+            {
+                "name": "Mitsuha Theme",
+                "link": "https://www.youtube.com/watch?v=iP6ZABrm8Lo",
+                "start": 0
+            }
+        ]
+    },
+    {
+        "title": "yu gi oh",
+        "url": [
+            {
+                "name": "Generique",
+                "link": "https://www.youtube.com/watch?v=ErhzuwW9uGs",
+                "start": 0
+            }
+        ]
+    }
+]

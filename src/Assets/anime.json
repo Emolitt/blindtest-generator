@@ -1,1755 +1,2182 @@
 [
-  {
-    "name": "ao no exorcist",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=80-W822k6Vw",
-        "start": 10
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=VnjqjtNgKIE",
-        "start": 15
-      }
-    ]
-  },
-  {
-    "name": "ace of diamond",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=ViBE_zYivNc",
-        "start": 46
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=CfZQBj-1PKg",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=lx4624150kI",
-        "start": 47
-      }
-    ]
-  },
-  {
-    "name": "akame ga kill",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=KS9UfmCFn_Y",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "albator",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=AMIrFNHAGyE",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "american dad",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=_EDS7pt4kno",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "assasination classroom",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=KS9UfmCFn_Y",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "atomic betty",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=cMLHQHKN8vY",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "belle et sebastien",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=d6r_EHuv22I",
-        "start": 2
-      }
-    ]
-  },
-  {
-    "name": "ben 10",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=C4AF8Q_TD4w",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "beyblade metal fury",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=YL2wLEPdr1U",
-        "start": 2
-      }
-    ]
-  },
-  {
-    "name": "black clover",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=dsK8SsfqdHE",
-        "start": 42
-      }
-    ]
-  },
-  {
-    "name": "bleach",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=3U8NnnYzV7A",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=suwfJMiXauU",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=7O87OdsVOIE",
-        "start": 53
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=z3Vw2_mAxzk",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "blend-s",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=4NnYhatt6eQ",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "bob l'eponge",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=0wGq5gpkBC0",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "bob le bricoleur",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=XTIDgq-taCo",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "bonne nuit les petits",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=4UNkj-AsZRs",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "boruto",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=48wCQXl83-s",
-        "start": 50
-      }
-    ]
-  },
-  {
-    "name": "capitaine flam",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=NtxZsN6Em3g",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "cedric",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=5TZNL7SWUkA",
-        "start": 22
-      }
-    ]
-  },
-  {
-    "name": "charlotte aux fraises",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=AQyk89sw8zk",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "code geass",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=cZ7zQbMxm28",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "code geass r2",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=FGN0fQIA0cE",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "code lyoko",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=GOADRla8JJA",
-        "start": 52
-      }
-    ]
-  },
-  {
-    "name": "corneil et bernie",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=O-TO3erDQmY",
-        "start": 2
-      }
-    ]
-  },
-  {
-    "name": "cowboy bebop",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=NRI_8PUXx2A",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "days",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=hmHA51KXCok",
-        "start": 41
-      }
-    ]
-  },
-  {
-    "name": "deadman wonderland",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=_5WvUPHF5f8",
-        "start": 4
-      }
-    ]
-  },
-  {
-    "name": "death note",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=8QE9cmfxx4s",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=17QwzxR81XQ",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=8FzPkYJjFTs",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "death parade",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=OgPWakn5b0c",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "demon slayer",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=1H6lPlQ7jr8",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "denver",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=uzcsqG35ib4",
-        "start": 2
-      }
-    ]
-  },
-  {
-    "name": "digimon",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=a5c_YLOBxEs",
-        "start": 20
-      }
-    ]
-  },
-  {
-    "name": "dinosaur king",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=z_s81YG7CEM",
-        "start": 7
-      }
-    ]
-  },
-  {
-    "name": "dora l'exploratrice",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=Zt7Lj67ux8g",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "dr stone",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=tF4faMbs5oQ",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "dragon ball",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=FJqGirLjQn4",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=usb0Gxh6QRo",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "dragon ball kai",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=odhuGelEH3g",
-        "start": 4
-      }
-    ]
-  },
-  {
-    "name": "dragon ball super",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=S1uu7NWvu6k",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "dragon ball z",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=0liOFNYuNMc",
-        "start": 12
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=QSOjj8Q_9b4",
-        "start": 10
-      }
-    ]
-  },
-  {
-    "name": "durarara!!x2",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=5r0jdlfqeE4",
-        "start": 74
-      }
-    ]
-  },
-  {
-    "name": "fairy tail",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=T60pzAKu60Q",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=MkBVsAYUc-g",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=7q7j0-LkdNE",
-        "start": 25
-      }
-    ]
-  },
-  {
-    "name": "family guy",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=eeNHV2C5m3w",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "fineas et pherb",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=aQlWZ3nY9UY",
-        "start": 4
-      }
-    ]
-  },
-  {
-    "name": "fire force",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=JBqxVX_LXvk",
-        "start": 36
-      }
-    ]
-  },
-  {
-    "name": "foot 2 rue",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=OalJZhbmO8E",
-        "start": 4
-      }
-    ]
-  },
-  {
-    "name": "franklin",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=q7LKEW8r8A4",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "free",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=JXkq0JWGMM8",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "full metal alchemist",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=UHKSiBjrmx4",
-        "start": 4
-      }
-    ]
-  },
-  {
-    "name": "full metal alchemist: brotherhood",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=X59yPeVk_70",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=cRA5gsdCf4c",
-        "start": 50
-      }
-    ]
-  },
-  {
-    "name": "galactik football",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=0u0bm_0fDpY",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "garfield",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=yq8cgBKdhX0",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "georges de la jungle",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=irjjzSPA4BQ",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "gintama",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=iXpGVuaQwXo",
-        "start": 38
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=-YgeQvUfPJk",
-        "start": 50
-      }
-    ]
-  },
-  {
-    "name": "gormiti",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=g10ap4qrYlI",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "gto",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=xpAg0spgFJA",
-        "start": 49
-      }
-    ]
-  },
-  {
-    "name": "guilty crown",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=Hv4znGv6lzg",
-        "start": 49
-      }
-    ]
-  },
-  {
-    "name": "gurren lagann",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=FwgMxjhXkKo",
-        "start": 47
-      }
-    ]
-  },
-  {
-    "name": "haikyuu",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=kDfqdmrRRSA",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=sVRkrUTWANk",
-        "start": 30
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=UwjH9Hhm048",
-        "start": 75
-      }
-    ]
-  },
-  {
-    "name": "hamtaro",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=t5rHzHDwnBg",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "heidi",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=FUb9Pg7KmEM",
-        "start": 5
-      }
-    ]
-  },
-  {
-    "name": "high school of the dead",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=TQwQMeb-44g",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "hunter x hunter",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=faqmNf_fZlE",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=fhAKgOvIQsM",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=7l_x9R6yAxQ",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=_T6oBCiIWeY",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "inazuma eleven",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=pMTF1RCDmhg",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "initial d",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=dv13gl0a-FA",
-        "start": 49
-      }
-    ]
-  },
-  {
-    "name": "inspecteur gadget",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=i0mlC026Wwk",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "jimmy neutron",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=8lxchoqEUZg",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "johnny test",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=qexIzdAenC4",
-        "start": 12
-      }
-    ]
-  },
-  {
-    "name": "jojo's bizarre adventure",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=XtiJVkz2inI",
-        "start": 10
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=2MtOpB5LlUA",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=XUhVCoTsBaM",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=AQx_KMoCgJU",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=OchozLuSHM0",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "jujutsu no kaisen",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=GwaRztMaoY0",
-        "start": 42
-      }
-    ]
-  },
-  {
-    "name": "kangoo junior",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=gXTL9pMaxhw",
-        "start": 5
-      }
-    ]
-  },
-  {
-    "name": "kuroko no basket",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=LIBPhMB4nZw",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=m_eZs7Ix9-s",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "kid paddle",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=gUzx4rMiJf4",
-        "start": 2
-      }
-    ]
-  },
-  {
-    "name": "kill la kill",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=qaLeO-2Fytg",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "kim possible",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=GkKx5fz31w8",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "l'ane trotro",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=j57NOc52Gdk",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "l'ile aux enfants",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=8_wehKqaG24",
-        "start": 2
-      }
-    ]
-  },
-  {
-    "name": "la bande a piscou",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=WaEgGGma8kI",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "la météo de gulli",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=H-nnoTDofow",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "la panthere rose",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=cRiPwQuBNCs",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "le dino train",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=6H144ZVQ8ic",
-        "start": 31
-      }
-    ]
-  },
-  {
-    "name": "le laboratoire de dexter",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=4ZUa5eXQ1X4",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "le monde fou de tex avery",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=QLRADI_lcvg",
-        "start": 6
-      }
-    ]
-  },
-  {
-    "name": "le petit nicolas",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=8QZVr_Kd21A",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "les daltons",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=hmW3uCRA-Jk",
-        "start": 5
-      }
-    ]
-  },
-  {
-    "name": "les histoires du pere castor",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=_ZIC02PzYME",
-        "start": 10
-      }
-    ]
-  },
-  {
-    "name": "les mysterieuses cites d'or",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=WXdHU28e3mM",
-        "start": 3
-      }
-    ]
-  },
-  {
-    "name": "les ratz",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=sBfimllcI7Q",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "les razmokets",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=DUBudt7vQFc",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "les simpsons",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=_JGfbB4UbHc",
-        "start": 1
-      }
-    ]
-  },
-  {
-    "name": "les supers nanas",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=9SfjOlHd9ZE",
-        "start": 30
-      }
-    ]
-  },
-  {
-    "name": "les zinzins de l'espace",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=mbd2linSia4",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "linus et boom",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=s_-Nm0GEIIQ",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "lucky luke",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=QrDX78AFZo4",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "magi the labyrinth of magic",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=M8JuOhB7-U0",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "marcelino",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=MtLkGTJg-jg",
-        "start": 25
-      }
-    ]
-  },
-  {
-    "name": "martin matin",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=CuERzx4JNUs",
-        "start": 7
-      }
-    ]
-  },
-  {
-    "name": "martin mystere",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=EUuiwzfJt2k",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "marsupilami",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=LnIyoJP_o0A",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "maya l'abeille",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=l5igWxSPDaI",
-        "start": 6
-      }
-    ]
-  },
-  {
-    "name": "miraculous",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=IrPEf0xUHMg",
-        "start": 35
-      }
-    ]
-  },
-  {
-    "name": "mirrai nikki",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=DU4IelmT1ow",
-        "start": 2
-      }
-    ]
-  },
-  {
-    "name": "my hero academia",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=v1YojYU5nPQ",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=Q7w5IMyJ3pM",
-        "start": 58
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=4jIXcSxBP7U",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=lsHCzboWK0U",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=n608d8oQiSM",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=lsHCzboWK0U",
-        "start": 229
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=ehCT9UO9Je8",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "nanatsu no taizai",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=OFaAhMftWtM",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=2weOheyKgMM",
-        "start": 70
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=5-Ltm-3lmss",
-        "start": 80
-      }
-    ]
-  },
-  {
-    "name": "naruto",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=XwJEFzsqNoY",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=e6XlfB-nIC4",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "naruto shippuden",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=r6EPMvIhtyA",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=SavhHnWla6c",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=mWEHGrFq6oQ",
-        "start": 50
-      }
-    ]
-  },
-  {
-    "name": "neon genesis evangelion",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=nU21rCWkuJw",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "no game no life",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=6CBp4qylX6I",
-        "start": 40
-      }
-    ]
-  },
-  {
-    "name": "noragami",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=gWCnKoEgfP0",
-        "start": 40
-      }
-    ]
-  },
-  {
-    "name": "oggy et les cafards",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=2apJXX46ce0",
-        "start": 2
-      }
-    ]
-  },
-  {
-    "name": "olive et tom",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=juQl2UbcD7w",
-        "start": 30
-      }
-    ]
-  },
-  {
-    "name": "one piece",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=8_92ErLH5s4",
-        "start": 63
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=daFi4MScfl8",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=lyAutaUH4ws",
-        "start": 22
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=jJHDDYd6PrM",
-        "start": 1
-      }
-    ]
-  },
-  {
-    "name": "one punch man",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=atxYe-nOa9w",
-        "start": 33
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=rW7OB_HDCGQ",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "overlord",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=KOWcj7XKnfQ",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "pacman",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=n1JKSsmeFzA",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "parasyte",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=Rm8UjBAS3cs",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "promare",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=RSrJV6jO0ms",
-        "start": 41
-      }
-    ]
-  },
-  {
-    "name": "pokemon",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=CTq2fzdP7FI",
-        "start": 4
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=3pPR6IOV7Rg",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=nfowKC-Qk2U",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "psycho-pass",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=3DSQmBQ9EJk",
-        "start": 10
-      }
-    ]
-  },
-  {
-    "name": "rakudai kishi no cavalry",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=07sg564pM9U",
-        "start": 50
-      }
-    ]
-  },
-  {
-    "name": "rick et morty",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=E6TUs69Cw94",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "re:zero",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=0Vwwr3VGsYg",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "saint seiya",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=CsCcPHRPnBo",
-        "start": 31
-      }
-    ]
-  },
-  {
-    "name": "samurai champloo",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=Eq6EYcpWB_c",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "samsam",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=q_vAWijsUaQ",
-        "start": 4
-      }
-    ]
-  },
-  {
-    "name": "scooby doo",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=tzJVaEL-Mmg",
-        "start": 2
-      }
-    ]
-  },
-  {
-    "name": "shingeki no kyojin",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=CID-sYQNCew",
-        "start": 41
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=SZOr9K01Eno",
-        "start": 95
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=wvFmOIkuOfg",
-        "start": 259
-      }
-    ]
-  },
-  {
-    "name": "shokugeki no soma",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=vm6R8MgqR9A",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "shuriken school",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=QJmYXKIHN4A",
-        "start": 3
-      }
-    ]
-  },
-  {
-    "name": "sonic x",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=mafrS5fdMlo",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "soul eater",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=zzJ8U8OtEsE",
-        "start": 15
-      }
-    ]
-  },
-  {
-    "name": "south park",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=48tVRaac7WA",
-        "start": 6
-      }
-    ]
-  },
-  {
-    "name": "sword art online",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=OsLY7DXWsF4",
-        "start": 41
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=ad5TszNUVYI",
-        "start": 20
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=GHJM0sDyUtE",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "sword art online 2",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=_9rgFyn6FMM&a",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "sword art online 3",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=5-aazdelI5c&a",
-        "start": 5
-      }
-    ]
-  },
-  {
-    "name": "tales of zesteria the x",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=9vjsu3Lb9Co",
-        "start": 50
-      }
-    ]
-  },
-  {
-    "name": "teen titans",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=Oo9YSDGZ2CE",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "telletubies",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=CXjyLFrwZew",
-        "start": 1
-      }
-    ]
-  },
-  {
-    "name": "the garden of words",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=PjR2K-3rUaE",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "the promised neverland",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=4GDVEl3qw2M",
-        "start": 62
-      }
-    ]
-  },
-  {
-    "name": "titeuf",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=LnkmmWcv7x0",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "titi et grosminet",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=iteNiJUYhvg",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "tokyo ghoul",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=uMeR2W19wT0",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "tom et jerry",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=uJrOUnBdmdw",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "tom sawyer",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=PpGRdkQ-co8",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "tortue ninja",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=ZxUzL4Q1Tvw",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "tottaly spies",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=-tlDSnc5dmo",
-        "start": 12
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=cG-tr6FGHns",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "toupou",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=0Joli9LM7ME",
-        "start": 15
-      }
-    ]
-  },
-  {
-    "name": "yakari",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=IXWsy5ZKW3E",
-        "start": 3
-      }
-    ]
-  },
-  {
-    "name": "your lie in april",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=c5rgwNvlrmo",
-        "start": 46
-      }
-    ]
-  },
-  {
-    "name": "your name",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=a2GujJZfXpg",
-        "start": 1
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=wIUXC9fxAt8",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=iP6ZABrm8Lo",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "yu gi oh",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=ErhzuwW9uGs",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "yu gi oh gx",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=4yzssYYz9mw",
-        "start": 3
-      }
-    ]
-  },
-  {
-    "name": "yuri on ice",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=ORDXWrL5EuQ",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "vinland saga",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=7U7BDn-gU18",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "wakfu",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=flrxYjq25Uw",
-        "start": 16
-      }
-    ]
-  },
-  {
-    "name": "winx",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=FkZCRvNb-Yo",
-        "start": 4
-      }
-    ]
-  },
-  {
-    "name": "woody woodpecker",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=1PWcc3y_NlY",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "la famille pirate",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=XDNyJbqmLCE",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "log horizon",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=lb-4z6mOPHc",
-        "start": 3
-      }
-    ]
-  },
-  {
-    "name": "baki",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=FMXxZ-vQ0EA",
-        "start": 11
-      }
-    ]
-  },
-  {
-    "name": "kengan ashura",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=UGCLGgKOt7c",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "rage of bahamut",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=nsi_gBdRdt4",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "fate",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=HxaND2UdVDE",
-        "start": 0
-      },
-      {
-        "link": "https://www.youtube.com/watch?v=Qy7Q77ZD_ME",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "charlotte",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=WhRsyIGN-cA",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "angel beats",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=zIFV8UUs1-c",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "gambling school",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=nms1m-aXQ-8",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "danganronpa the animation",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=Avr-Iu5vWsM",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "erased",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=fodAJ-1dN3I",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "re creators",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=U51juOCIhzo",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "btooom",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=5GjbLOe_cgw",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "violet evergarden",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=BGn6WOw6BtA",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "made in abyss",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=e91G8m9uM_0",
-        "start": 0
-      }
-    ]
-  },
-  {
-    "name": "tower of god",
-    "url": [
-      {
-        "link": "https://www.youtube.com/watch?v=apII5VFTce0",
-        "start": 0
-      }
-    ]
+    {
+      "name": "Adventure Time",
+      "url": [
+        {
+          "name": "Outro",
+          "link": "https://www.youtube.com/watch?v=CbCLr4RzZSM",
+          "start": 0
+        }
+      ]
+    },
+    {
+        "name": "ao no exorcist",
+        "url": [
+          {
+            "name": "Opening 1",
+            "link": "https://www.youtube.com/watch?v=80-W822k6Vw",
+            "start": 10
+          },
+          {
+            "name": "Opening 2 - ROOKiEZ is PUNK'D - In My World",
+            "link": "https://www.youtube.com/watch?v=VnjqjtNgKIE",
+            "start": 15
+          }
+        ]
+    },
+    {
+        "name": "ace of diamond",
+        "url": [
+          {
+            "name": "Opening 1 - Tom-H@ck - Go EXCEED!!",
+            "link": "https://www.youtube.com/watch?v=ViBE_zYivNc",
+            "start": 46
+          },
+          {
+            "name": "Opening 2 - Tom-H@ck - Perfect HERO",
+            "link": "https://www.youtube.com/watch?v=CfZQBj-1PKg",
+            "start": 0
+          },
+          {
+            "name": "Sawamura Theme - Grow Stronger Day by Day",
+            "link": "https://www.youtube.com/watch?v=lx4624150kI",
+            "start": 47
+          }
+        ]
+    },
+    {
+      "name": "akame ga kill",
+      "url": [
+        {
+          "name": "Opening 2 - Rika Mayama - Liar MAsk",
+          "link": "https://www.youtube.com/watch?v=mAzFWd5WqOg",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "albator",
+      "url": [
+        {
+          "name": "Eric Charden - Generique",
+          "link": "https://www.youtube.com/watch?v=AMIrFNHAGyE",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "alien bazar",
+      "url": [
+        {
+          "name": "Generique 2",
+          "link": "https://www.youtube.com/watch?v=TAyi4pJB-Oo",
+          "start": 0
+        },
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=Bc5dBcZFB5I",
+          "start": 10
+        }
+      ]
+    },
+    {
+      "name": "american dad",
+      "url": [
+        {
+          "name": "Intro",
+          "link": "https://www.youtube.com/watch?v=_EDS7pt4kno",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "angel beats",
+      "url": [
+        {
+          "name": "Opening 1 - Lia - My Soul, Your Beats!",
+          "link": "https://www.youtube.com/watch?v=Turf7WDB3iY",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "assasination classroom",
+      "url": [
+        {
+          "name": "Opening 1",
+          "link": "https://www.youtube.com/watch?v=KS9UfmCFn_Y",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "atomic betty",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=cMLHQHKN8vY",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "baki",
+      "url": [
+        {
+          "name": "Opening 1 - GRANRODEO - Beastful",
+          "link": "https://www.youtube.com/watch?v=FMXxZ-vQ0EA",
+          "start": 11
+        }
+      ]
+    },
+    {
+      "name": "belle et sebastien",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=d6r_EHuv22I",
+          "start": 2
+        }
+      ]
+    },
+    {
+      "name": "ben 10",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=C4AF8Q_TD4w",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "beyblade metal fury",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=YL2wLEPdr1U",
+          "start": 2
+        }
+      ]
+    },
+    {
+        "name": "black clover",
+        "url": [
+          {
+            "name": "Opening 3 - Vickeblanka - BLACK ROVER",
+            "link": "https://www.youtube.com/watch?v=dsK8SsfqdHE",
+            "start": 42
+          }
+        ]
+    },
+    {
+        "name": "bleach",
+        "url": [
+          {
+            "name": "Opening 2 - Aqua Timez - Alones",
+            "link": "https://www.youtube.com/watch?v=3U8NnnYzV7A",
+            "start": 0
+          },
+          {
+            "name": "Arrancar Theme - Clavar La Espada",
+            "link": "https://www.youtube.com/watch?v=suwfJMiXauU",
+            "start": 0
+          },
+          {
+            "name": "Opening 9 - Aqua Timez - Velonica",
+            "link": "https://www.youtube.com/watch?v=7O87OdsVOIE",
+            "start": 53
+          },
+          {
+            "name": "Ost - Nothing can be explained",
+            "link": "https://www.youtube.com/watch?v=z3Vw2_mAxzk",
+            "start": 0
+          }
+        ]
+    },
+    {
+      "name": "blend-s",
+      "url": [
+        {
+          "name": "Opening - Bon AppetitS",
+          "link": "https://www.youtube.com/watch?v=4NnYhatt6eQ",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "bob l'eponge",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=0wGq5gpkBC0",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "bob le bricoleur",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=XTIDgq-taCo",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "bonne nuit les petits",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=4UNkj-AsZRs",
+          "start": 0
+        }
+      ]
+    },
+    {
+        "name": "boruto",
+        "url": [
+          {
+            "name": "Opening 1 - KANA-BOON - Baton Road",
+            "link": "https://www.youtube.com/watch?v=48wCQXl83-s",
+            "start": 50
+          }
+        ]
+    },
+    {
+      "name": "btooom",
+      "url": [
+        {
+          "name": "Opening 1",
+          "link": "https://www.youtube.com/watch?v=5GjbLOe_cgw",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "capitaine flam",
+      "url": [
+        {
+          "name": "Richard Simon - Generique",
+          "link": "https://www.youtube.com/watch?v=NtxZsN6Em3g",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "cedric",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=5TZNL7SWUkA",
+          "start": 22
+        }
+      ]
+    },
+    {
+      "name": "charlotte",
+      "url": [
+        {
+          "name": "Opening 1 - Lia - Bravely You",
+          "link": "https://www.youtube.com/watch?v=WhRsyIGN-cA",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "charlotte aux fraises",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=AQyk89sw8zk",
+          "start": 0
+        }
+      ]
+    },
+    {
+        "name": "code geass",
+        "url": [
+          {
+            "name": "Opening 1",
+            "link": "https://www.youtube.com/watch?v=cZ7zQbMxm28",
+            "start": 0
+          }
+        ]
+    },
+    {
+        "name": "code geass r2",
+        "url": [
+          {
+            "name": "Opening 2 - Flow - World's End",
+            "link": "https://www.youtube.com/watch?v=aoFr6V1tY8I",
+            "start": 0
+          }
+        ]
+    },
+    {
+      "name": "code lyoko",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=GOADRla8JJA",
+          "start": 52
+        }
+      ]
+    },
+    {
+      "name": "corneil et bernie",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=O-TO3erDQmY",
+          "start": 2
+        }
+      ]
+    },
+    {
+        "name": "cowboy bebop",
+        "url": [
+          {
+            "name": "Opening",
+            "link": "https://www.youtube.com/watch?v=NRI_8PUXx2A",
+            "start": 0
+          }
+        ]
+    },
+    {
+      "name": "danganronpa the animation",
+      "url": [
+        {
+          "name": "Opening",
+          "link": "https://www.youtube.com/watch?v=Avr-Iu5vWsM",
+          "start": 0
+        }
+      ]
+    },
+    {
+        "name": "days",
+        "url": [
+          {
+            "name": "Opening 2",
+            "link": "https://www.youtube.com/watch?v=hmHA51KXCok",
+            "start": 41
+          }
+        ]
+    },
+    {
+        "name": "deadman wonderland",
+        "url": [
+          {
+            "name": "Opening - DWB - One Reason ft. fade",
+            "link": "https://www.youtube.com/watch?v=_5WvUPHF5f8",
+            "start": 4
+          }
+        ]
+    },
+    {
+        "name": "death note",
+        "url": [
+          {
+            "name": "Opening 1 - The WORLD",
+            "link": "https://www.youtube.com/watch?v=8QE9cmfxx4s",
+            "start": 0
+          },
+          {
+            "name": "Opening 2",
+            "link": "https://www.youtube.com/watch?v=17QwzxR81XQ",
+            "start": 0
+          },
+          {
+            "name": "Ost - Hideki Taniuchi, Yoshihisa Hirano - Kyrie",
+            "link": "https://www.youtube.com/watch?v=8FzPkYJjFTs",
+            "start": 0
+          }
+        ]
+    },
+    {
+        "name": "death parade",
+        "url": [
+          {
+            "name": "Opening - BRADIO - Flyers",
+            "link": "https://www.youtube.com/watch?v=OgPWakn5b0c",
+            "start": 0
+          }
+        ]
+    },
+    {
+        "name": "demon slayer",
+        "url": [
+          {
+            "name": "Opening - LiSA - Gurenge",
+            "link": "https://www.youtube.com/watch?v=1H6lPlQ7jr8",
+            "start": 0
+          }
+        ]
+    },
+    {
+      "name": "denver",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=uzcsqG35ib4",
+          "start": 2
+        }
+      ]
+    },
+    {
+      "name": "digimon",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=a5c_YLOBxEs",
+          "start": 20
+        }
+      ]
+    },
+    {
+      "name": "dinosaur king",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=z_s81YG7CEM",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "name": "dora l'exploratrice",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=Zt7Lj67ux8g",
+          "start": 0
+        }
+      ]
+    },
+    {
+        "name": "dr stone",
+        "url": [
+          {
+            "name": "Opening 1",
+            "link": "https://www.youtube.com/watch?v=tF4faMbs5oQ",
+            "start": 0
+          }
+        ]
+    },
+    {
+        "name": "dragon ball",
+        "url": [
+          {
+            "name": "Opening 1",
+            "link": "https://www.youtube.com/watch?v=FJqGirLjQn4",
+            "start": 0
+          },
+          {
+            "name": "Ariane - Generique",
+            "link": "https://www.youtube.com/watch?v=usb0Gxh6QRo",
+            "start": 0
+          }
+        ]
+    },
+    {
+        "name": "dragon ball kai",
+        "url": [
+          {
+            "name": "Opening 1 - Takayoshi Tanimoto - Dragon Soul",
+            "link": "https://www.youtube.com/watch?v=odhuGelEH3g",
+            "start": 4
+          }
+        ]
+    },
+    {
+        "name": "dragon ball super",
+        "url": [
+          {
+            "name": "Opening 1 - Kazuya Yoshii - Chozetsu Dynamic",
+            "link": "https://www.youtube.com/watch?v=S1uu7NWvu6k",
+            "start": 0
+          }
+        ]
+    },
+    {
+        "name": "dragon ball z",
+        "url": [
+          {
+            "name": "Opening 1 - Hironobu Kageyama - Cha-La Head-Cha-La",
+            "link": "https://www.youtube.com/watch?v=0liOFNYuNMc",
+            "start": 12
+          },
+          {
+            "name": "Opening 2 - Hironobu Kageyama - We Gotta Power",
+            "link": "https://www.youtube.com/watch?v=QSOjj8Q_9b4",
+            "start": 10
+          } 
+        ]
+    },
+    {
+      "name": "durarara!!x2",
+      "url": [
+        {
+          "name": "Opening 1 - Flow - Steppin'out",
+          "link": "https://www.youtube.com/watch?v=5r0jdlfqeE4",
+          "start": 74
+        }
+      ]
+    },
+    {
+      "name": "erased",
+      "url": [
+        {
+          "name": "Opening 1 - Asian Kung-fu - Re:Re:",
+          "link": "https://www.youtube.com/watch?v=fodAJ-1dN3I",
+          "start": 0
+        }
+      ]
+    },
+    {
+        "name": "fairy tail",
+        "url": [
+          {
+            "name": "Opening 3 - Funkist - ft.",
+            "link": "https://www.youtube.com/watch?v=T60pzAKu60Q",
+            "start": 0
+          },
+          {
+            "name": "Opening 21 - EDGE of LIFE - Believe in Myself",
+            "link": "https://www.youtube.com/watch?v=MkBVsAYUc-g",
+            "start": 0
+          },
+          {
+            "name": "Natsu Theme - Dragon Force",
+            "link": "https://www.youtube.com/watch?v=7q7j0-LkdNE",
+            "start": 25
+          }
+        ]
+    },
+    {
+      "name": "family guy",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=eeNHV2C5m3w",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "fate",
+      "url": [
+        {
+          "name": "Zero Opening 1 - Lisa - Oath Sign",
+          "link": "https://www.youtube.com/watch?v=HxaND2UdVDE",
+          "start": 0
+        },
+        {
+          "name": "Stay Night Opening 1",
+          "link": "https://www.youtube.com/watch?v=Qy7Q77ZD_ME",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "fineas et pherb",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=aQlWZ3nY9UY",
+          "start": 4
+        }
+      ]
+    },
+    {
+        "name": "fire force",
+        "url": [
+          {
+            "name": "Opening 1 - Mrs.GREEN APPLE - Inferno",
+            "link": "https://www.youtube.com/watch?v=JBqxVX_LXvk",
+            "start": 36
+          }
+        ]
+    },
+    {
+      "name": "fish n chips",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=rNovt36DVCA",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "foot 2 rue",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=OalJZhbmO8E",
+          "start": 4
+        }
+      ]
+    },
+    {
+      "name": "franklin",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=q7LKEW8r8A4",
+          "start": 0
+        }
+      ]
+  },
+    {
+        "name": "free",
+        "url": [
+          {
+            "name": "Opening",
+            "link": "https://www.youtube.com/watch?v=JXkq0JWGMM8",
+            "start": 0
+          }
+        ]
+    },
+    {
+        "name": "full metal alchemist",
+        "url": [
+          {
+            "name": "Opening 1",
+            "link": "https://www.youtube.com/watch?v=UHKSiBjrmx4",
+            "start": 4
+          }
+        ]
+    },
+    {
+        "name": "full metal alchemist: brotherhood",
+        "url": [
+          {
+            "name": "Opening 1 - Yui - Again",
+            "link": "https://www.youtube.com/watch?v=X59yPeVk_70",
+            "start": 0
+          },
+          {
+            "name": "Opening 5",
+            "link": "https://www.youtube.com/watch?v=cRA5gsdCf4c",
+            "start": 50
+          }
+        ]
+    },
+    {
+      "name": "galactik football",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=0u0bm_0fDpY",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "gambling school",
+      "url": [
+        {
+          "name": "Opening 1 - Tia - Deal with the evil",
+          "link": "https://www.youtube.com/watch?v=nms1m-aXQ-8",
+          "start": 57
+        }
+      ]
+    },
+    {
+      "name": "garfield",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=yq8cgBKdhX0",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "georges de la jungle",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=irjjzSPA4BQ",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "gintama",
+      "url": [
+        {
+          "name": "Opening 13",
+          "link": "https://www.youtube.com/watch?v=iXpGVuaQwXo",
+          "start": 38
+        },
+        {
+          "name": "Opening 17 - DOES - Know Know Know",
+          "link": "https://www.youtube.com/watch?v=-YgeQvUfPJk",
+          "start": 50
+        }
+      ]
+    },
+    {
+      "name": "gormiti",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=g10ap4qrYlI",
+          "start": 0
+        }
+      ]
+    },
+    {
+        "name": "gto",
+        "url": [
+          {
+            "name": "Opening 2 - Porno Graffitti - Hitori no Yoru",
+            "link": "https://www.youtube.com/watch?v=xpAg0spgFJA",
+            "start": 49
+          }
+        ]
+    },
+    {
+      "name": "guilty crown",
+      "url": [
+        {
+          "name": "Opening 2 - Egoist - Everlasting",
+          "link": "https://www.youtube.com/watch?v=Hv4znGv6lzg",
+          "start": 49
+        }
+      ]
+    },
+    {
+      "name": "gurren lagann",
+      "url": [
+        {
+          "name": "Opening 1",
+          "link": "https://www.youtube.com/watch?v=FwgMxjhXkKo",
+          "start": 47
+        }
+      ]
+    },
+    {
+        "name": "haikyuu",
+        "url": [
+          {
+            "name": "Opening 4 - Burnout Syndromes - Fly High",
+            "link": "https://www.youtube.com/watch?v=kDfqdmrRRSA",
+            "start": 0
+          },
+          {
+            "name": "Ost - Chimu no Jiriki",
+            "link": "https://www.youtube.com/watch?v=sVRkrUTWANk",
+            "start": 30
+          },
+          {
+            "name": "Karasuno vs Shiratorizawa Theme - The Battle of Concepts",
+            "link": "https://www.youtube.com/watch?v=UwjH9Hhm048",
+            "start": 75
+          }
+        ]
+    },
+    {
+      "name": "hamtaro",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=t5rHzHDwnBg",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "heidi",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=FUb9Pg7KmEM",
+          "start": 5
+        }
+      ]
+    },
+    {
+        "name": "high school of the dead",
+        "url": [
+          {
+            "name": "Opening 1",
+            "link": "https://www.youtube.com/watch?v=TQwQMeb-44g",
+            "start": 0
+          }
+        ]
+    },
+    {
+      "name": "hokuto no ken",
+      "url": [
+        {
+          "name": "Ost - Ai wo torimodose",
+          "link": "https://www.youtube.com/watch?v=BbaaI5xf4y8",
+          "start": 0
+        }
+      ]
+    },
+    {
+        "name": "hunter x hunter",
+        "url": [
+          {
+            "name": "Opening 1 - Masatoshi Ono - Departure!",
+            "link": "https://www.youtube.com/watch?v=faqmNf_fZlE",
+            "start": 0
+          },
+          {
+            "name": "Ending 3",
+            "link": "https://www.youtube.com/watch?v=fhAKgOvIQsM",
+            "start": 0
+          },
+          {
+            "name": "Hisoka Theme",
+            "link": "https://www.youtube.com/watch?v=7l_x9R6yAxQ",
+            "start": 0
+          },
+          {
+            "name": "Ost - Legend of the Martial Artist",
+            "link": "https://www.youtube.com/watch?v=_T6oBCiIWeY",
+            "start": 0
+          }
+        ]
+    },
+    {
+      "name": "il etait une fois l'homme",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=b8BrjvOs-eA",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "il etait une fois la vie",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=kNnpHAszq64",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "inazuma eleven",
+      "url": [
+        {
+          "name": "Opening 1",
+          "link": "https://www.youtube.com/watch?v=pMTF1RCDmhg",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "initial d",
+      "url": [
+        {
+          "name": "Opening - Super Eurobeat - Deja vu",
+          "link": "https://www.youtube.com/watch?v=dv13gl0a-FA",
+          "start": 49
+        }
+      ]
+    },
+    {
+      "name": "inspecteur gadget",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=i0mlC026Wwk",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "jacky chan adventure",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=p3RMOO1lP-I",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "jimmy neutron",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=8lxchoqEUZg",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "johnny test",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=qexIzdAenC4",
+          "start": 12
+        }
+      ]
+    },
+    {
+      "name": "jojo's bizarre adventure",
+      "url": [
+        {
+          "name": "Bruno's Theme - Furious Fight",
+          "link": "https://www.youtube.com/watch?v=XtiJVkz2inI",
+          "start": 10
+        },
+        {
+          "name": "Giorno's Theme - Il vento d'oro",
+          "link": "https://www.youtube.com/watch?v=2MtOpB5LlUA",
+          "start": 0
+        },
+        {
+          "name": "Pillar Men Theme - Awaken",
+          "link": "https://www.youtube.com/watch?v=XUhVCoTsBaM",
+          "start": 0
+        },
+        {
+          "name": "Gang Torture Dance - Canzoni Preferite",
+          "link": "https://www.youtube.com/watch?v=AQx_KMoCgJU",
+          "start": 0
+        },
+        {
+          "name": "Vento Aureo Opening 1",
+          "link": "https://www.youtube.com/watch?v=OchozLuSHM0",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "jujutsu kaisen",
+      "url": [
+        {
+          "name": "Opening 1 - Eve - Kaikan Kitan",
+          "link": "https://www.youtube.com/watch?v=GwaRztMaoY0",
+          "start": 42
+        }
+      ]
+    },
+    {
+      "name": "kangoo junior",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=gXTL9pMaxhw",
+          "start": 5
+        }
+      ]
+    },
+    {
+      "name": "kengan ashura",
+      "url": [
+        {
+          "name": "Opening - My First Story - KING & ASHLEY",
+          "link": "https://www.youtube.com/watch?v=UGCLGgKOt7c",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "kid paddle",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=gUzx4rMiJf4",
+          "start": 2
+        }
+      ]
+    },
+    {
+      "name": "kill la kill",
+      "url": [
+        {
+          "name": "Opening 2 - GARNiDELiA - ambiguous",
+          "link": "https://www.youtube.com/watch?v=qaLeO-2Fytg",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "kim possible",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=GkKx5fz31w8",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "kuroko no basket",
+      "url": [
+        {
+          "name": "Opening 1 - GRANRODEO - Can Do",
+          "link": "https://www.youtube.com/watch?v=LIBPhMB4nZw",
+          "start": 0
+        },
+        {
+          "name": "Opening 3 - GRANRODEO - The Other Self",
+          "link": "https://www.youtube.com/watch?v=m_eZs7Ix9-s",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "l'ane trotro",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=j57NOc52Gdk",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "l'ile aux enfants",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=8_wehKqaG24",
+          "start": 2
+        }
+      ]
+    },
+    {
+      "name": "la bande a piscou",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=WaEgGGma8kI",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "la famille pirate",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=XDNyJbqmLCE",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "la météo de gulli",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=H-nnoTDofow",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "la panthere rose",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=cRiPwQuBNCs",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "le bus magique",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=LrvQAlOGXdI",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "name": "le dino train",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=6H144ZVQ8ic",
+          "start": 31
+        }
+      ]
+    },
+    {
+      "name": "le laboratoire de dexter",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=4ZUa5eXQ1X4",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "le monde fou de tex avery",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=QLRADI_lcvg",
+          "start": 6
+        }
+      ]
+    },
+    {
+      "name": "le petit nicolas",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=8QZVr_Kd21A",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "leonard",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=GDYSWgC-hUM",
+          "start": 5
+        }
+      ]
+    },
+    {
+      "name": "les aventures de tintin",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=OA19qsb2rKU",
+          "start": 3
+        }
+      ]
+    },
+    {
+      "name": "les daltons",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=hmW3uCRA-Jk",
+          "start": 5
+        }
+      ]
+    },
+    {
+      "name": "les histoires du pere castor",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=_ZIC02PzYME",
+          "start": 10
+        }
+      ]
+    },
+    {
+      "name": "les minijusticiers",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=7PYUhpqM0cY",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "les mysterieuses cites d'or",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=WXdHU28e3mM",
+          "start": 3
+        }
+      ]
+    },
+    {
+      "name": "les ratz",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=sBfimllcI7Q",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "les razmokets",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=DUBudt7vQFc",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "les simpsons",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=_JGfbB4UbHc",
+          "start": 1
+        }
+      ]
+    },
+    {
+      "name": "les supers nanas",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=9SfjOlHd9ZE",
+          "start": 30
+        }
+      ]
+    },
+    {
+      "name": "les zinzins de l'espace",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=mbd2linSia4",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "linus et boom",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=s_-Nm0GEIIQ",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "log horizon",
+      "url": [
+        {
+          "name": "Opening",
+          "link": "https://www.youtube.com/watch?v=lb-4z6mOPHc",
+          "start": 3
+        }
+      ]
+    },
+    {
+      "name": "lucky luke",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=QrDX78AFZo4",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "made in abyss",
+      "url": [
+        {
+          "name": "Opening 1",
+          "link": "https://www.youtube.com/watch?v=e91G8m9uM_0",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "magi the labyrinth of magic",
+      "url": [
+        {
+          "name": "Opening 1",
+          "link": "https://www.youtube.com/watch?v=M8JuOhB7-U0",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "marcelino",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=MtLkGTJg-jg",
+          "start": 25
+        }
+      ]
+    },
+    {
+      "name": "martin matin",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=CuERzx4JNUs",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "name": "martin mystere",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=EUuiwzfJt2k",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "marsupilami",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=LnIyoJP_o0A",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "maya l'abeille",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=l5igWxSPDaI",
+          "start": 6
+        }
+      ]
+    },
+    {
+      "name": "miraculous",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=IrPEf0xUHMg",
+          "start": 35
+        }
+      ]
+    },
+    {
+        "name": "mirrai nikki",
+        "url": [
+          {
+            "name": "Opening 1",
+            "link": "https://www.youtube.com/watch?v=DU4IelmT1ow",
+            "start": 2
+          }
+        ]
+    },
+    {
+        "name": "my hero academia",
+        "url": [
+          {
+            "name": "Saison 3 Opening 1 - UVERworld - ODD FUTURE",
+            "link": "https://www.youtube.com/watch?v=v1YojYU5nPQ",
+            "start": 0
+          },
+          {
+            "name": "Opening 2 - Kenshi Yonezu - Peace Sign",
+            "link": "https://www.youtube.com/watch?v=Q7w5IMyJ3pM",
+            "start": 58
+          },
+          {
+            "name": "Main Theme",
+            "link": "https://www.youtube.com/watch?v=4jIXcSxBP7U",
+            "start": 0
+          },
+          {
+            "name": "Ost - You Say Run",
+            "link": "https://www.youtube.com/watch?v=lsHCzboWK0U",
+            "start": 0
+          },
+          {
+            "name": "Ost - You can become a Hero",
+            "link": "https://www.youtube.com/watch?v=n608d8oQiSM",
+            "start": 0
+          },
+          {
+            "name": "Ost - Jet Set Run",
+            "link": "https://www.youtube.com/watch?v=lsHCzboWK0U",
+            "start": 229
+          },
+          {
+            "name": "Endeavor Theme - Just Another Hero",
+            "link": "https://www.youtube.com/watch?v=ehCT9UO9Je8",
+            "start": 0
+          },
+          {
+            "name": "Almight Theme - Almight with U.A. Students",
+            "link": "https://www.youtube.com/watch?v=mJgTQvhUiYs",
+            "start": 101
+          }
+        ]
+    },
+    {
+        "name": "nanatsu no taizai",
+        "url": [
+          {
+            "name": "Opening 1 - Ikimonogakari - Netsujou no Spectrum",
+            "link": "https://www.youtube.com/watch?v=OFaAhMftWtM",
+            "start": 0
+          },
+          {
+            "name": "Ost - 7tsuno:the1",
+            "link": "https://www.youtube.com/watch?v=2weOheyKgMM",
+            "start": 70
+          },
+          {
+            "name": "Ost - Perfect Time",
+            "link": "https://www.youtube.com/watch?v=5-Ltm-3lmss",
+            "start": 80
+          }
+        ]
+    },
+    {
+        "name": "naruto",
+        "url": [
+          {
+            "name": "Opening 3 - Little by little - Kanashimi Wo Yasashisa Ni",
+            "link": "https://www.youtube.com/watch?v=XwJEFzsqNoY",
+            "start": 0
+          },
+          {
+            "name": "Ost - Sadness And Sorrow",
+            "link": "https://www.youtube.com/watch?v=e6XlfB-nIC4",
+            "start": 0
+          }
+        ]
+    },
+    {
+        "name": "naruto shippuden",
+        "url": [
+          {
+            "name": "Opening 2 - LONG SHOT PARTY - Distance",
+            "link": "https://www.youtube.com/watch?v=r6EPMvIhtyA",
+            "start": 0
+          },
+          {
+            "name": "Opening 6 - Flow - Sign",
+            "link": "https://www.youtube.com/watch?v=SavhHnWla6c",
+            "start": 0
+          },
+          {
+            "name": "Naruto Bijuu Mode Theme",
+            "link": "https://www.youtube.com/watch?v=nvJrnkfASIw",
+            "start": 50
+          },
+          {
+            "name": "Itachi Uchiha Theme - Senya",
+            "link": "https://www.youtube.com/watch?v=440UkXOXL0E",
+            "start": 0
+          }
+        ]
+    },
+    {
+      "name": "neon genesis evangelion",
+      "url": [
+        {
+          "name": "Opening 1",
+          "link": "https://www.youtube.com/watch?v=nU21rCWkuJw",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "ninjago",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=aR6RDmtfjjA",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "no game no life",
+      "url": [
+        {
+          "name": "Opening - Konomi Suzuki - This Game",
+          "link": "https://www.youtube.com/watch?v=6CBp4qylX6I",
+          "start": 40
+        }
+      ]
+    },
+    {
+      "name": "noragami",
+      "url": [
+        {
+          "name": "Opening 1 - Hello Sleepwalkers - Goya wa Machiawase",
+          "link": "https://www.youtube.com/watch?v=gWCnKoEgfP0",
+          "start": 40
+        }
+      ]
+    },
+    {
+      "name": "oggy et les cafards",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=2apJXX46ce0",
+          "start": 2
+        }
+      ]
+    },
+    {
+      "name": "olive et tom",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=juQl2UbcD7w",
+          "start": 30
+        }
+      ]
+    },
+    {
+        "name": "one piece",
+        "url": [
+          {
+            "name": "Opening 13 - The ROOTLESS - One day",
+            "link": "https://www.youtube.com/watch?v=8_92ErLH5s4",
+            "start": 63
+          },
+          {
+            "name": "Ost - Overtaken",
+            "link": "https://www.youtube.com/watch?v=daFi4MScfl8",
+            "start": 0
+          },
+          {
+            "name": "Stampede Theme Song - WANIMA - GONG",
+            "link": "https://www.youtube.com/watch?v=lyAutaUH4ws",
+            "start": 22
+          },
+          {
+            "name": "Opening 18 - GENERATIONS from EXILE TRIBE - Hard Knowk Days",
+            "link": "https://www.youtube.com/watch?v=jJHDDYd6PrM",
+            "start": 1
+          }
+        ]
+    },
+    {
+        "name": "one punch man",
+        "url": [
+          {
+            "name": "Opening 1 - JAM Project - The Hero!!",
+            "link": "https://www.youtube.com/watch?v=sfFv3MTPdkw",
+            "start": 33
+          },
+          {
+            "name": "Ost - Seigi Shikkou",
+            "link": "https://www.youtube.com/watch?v=rW7OB_HDCGQ",
+            "start": 0
+          }
+        ]
+    },
+    {
+        "name": "overlord",
+        "url": [
+          {
+            "name": "Opening 1 - OxT - Clattanoia",
+            "link": "https://www.youtube.com/watch?v=KOWcj7XKnfQ",
+            "start": 0
+          }
+        ]
+    },
+    {
+      "name": "pacman",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=n1JKSsmeFzA",
+          "start": 0
+        }
+      ]
+    },
+    {
+        "name": "parasyte",
+        "url": [
+          {
+            "name": "Opening - Fear and Loathing in Las Vegas - Acceleration",
+            "link": "https://www.youtube.com/watch?v=Rm8UjBAS3cs",
+            "start": 0
+          },
+          {
+            "name": "Ost - Ken Arai - Next To You",
+            "link": "https://www.youtube.com/watch?v=BZwn2XBQROE",
+            "start": 0
+          }
+        ]
+    },
+    {
+      "name": "promare",
+      "url": [
+        {
+          "name": "Ost - Hiroyuki Sawano - PROMARETHEME",
+          "link": "https://www.youtube.com/watch?v=RSrJV6jO0ms",
+          "start": 41
+        }
+      ]
+    },
+    {
+      "name": "pokemon",
+      "url": [
+        {
+          "name": "Opening 5 - La Quete Ultime",
+          "link": "https://www.youtube.com/watch?v=CTq2fzdP7FI",
+          "start": 4
+        },
+        {
+          "name": "Battle Theme",
+          "link": "https://www.youtube.com/watch?v=3pPR6IOV7Rg",
+          "start": 0
+        },
+        {
+          "name": "Opening 8 - Advanced Battle",
+          "link": "https://www.youtube.com/watch?v=nfowKC-Qk2U",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "psycho-pass",
+      "url": [
+        {
+          "name": "Opening 2",
+          "link": "https://www.youtube.com/watch?v=3DSQmBQ9EJk",
+          "start": 10
+        }
+      ]
+    },
+    {
+      "name": "rage of bahamut",
+      "url": [
+        {
+          "name": "Opening - SiM - EXiSTENCE",
+          "link": "https://www.youtube.com/watch?v=nsi_gBdRdt4",
+          "start": 0
+        }
+      ]
+    },
+    {
+        "name": "rakudai kishi no cavalry",
+        "url": [
+          {
+            "name": "Opening",
+            "link": "https://www.youtube.com/watch?v=07sg564pM9U",
+            "start": 50
+          }
+        ]
+    },
+    {
+      "name": "re:creators",
+      "url": [
+        {
+          "name": "Opening 1 - Tielle & Gernie - GravityWall",
+          "link": "https://www.youtube.com/watch?v=U51juOCIhzo",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "re:zero",
+      "url": [
+        {
+          "name": "Opening 1 - Konomi Suzuki - Redo",
+          "link": "https://www.youtube.com/watch?v=0Vwwr3VGsYg",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "rick et morty",
+      "url": [
+        {
+          "name": "Opening",
+          "link": "https://www.youtube.com/watch?v=E6TUs69Cw94",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "robocar poli",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=DE09Q2rcybs",
+          "start": 3
+        }
+      ]
+    },
+    {
+      "name": "rolie polie olie",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=sfnTdEb2vHk",
+          "start": 21
+        }
+      ]
+    },
+    {
+        "name": "saint seiya",
+        "url": [
+          {
+            "name": "Opening - Make-Up - Pegasus Fantasy",
+            "link": "https://www.youtube.com/watch?v=CsCcPHRPnBo",
+            "start": 31
+          }
+        ]
+    },
+    {
+      "name": "samurai champloo",
+      "url": [
+        {
+          "name": "Opening - Nujabes - Battlecry ft. Shing02",
+          "link": "https://www.youtube.com/watch?v=Eq6EYcpWB_c",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "sam le pompier",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=HVbLlzI54ng",
+          "start": 9
+        }
+      ]
+    },
+    {
+      "name": "samsam",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=q_vAWijsUaQ",
+          "start": 4
+        }
+      ]
+    },
+    {
+      "name": "scan 2 go",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=Xh51yqv0Vyw",
+          "start": 32
+        }
+      ]
+    },
+    {
+      "name": "scooby doo",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=tzJVaEL-Mmg",
+          "start": 2
+        }
+      ]
+    },
+    {
+        "name": "shingeki no kyojin",
+        "url": [
+          {
+            "name": "Saison 2 Opening - Linked Horizon - Shinzou Wo Sasageyou",
+            "link": "https://www.youtube.com/watch?v=YFeHDZsIrm4",
+            "start": 124
+          },
+          {
+            "name": "The Owl Theme",
+            "link": "https://www.youtube.com/watch?v=SZOr9K01Eno",
+            "start": 95
+          },
+          {
+            "name": "Ost - YouSeeBIGGIRL/T:T",
+            "link": "https://www.youtube.com/watch?v=wvFmOIkuOfg",
+            "start": 259
+          }
+        ]
+    },
+    {
+        "name": "shokugeki no soma",
+        "url": [
+          {
+            "name": "Opening 2 - Misokkasu - Rising Rainbow",
+            "link": "https://www.youtube.com/watch?v=vm6R8MgqR9A",
+            "start": 0
+          }
+        ]
+    },
+    {
+      "name": "shuriken school",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=QJmYXKIHN4A",
+          "start": 3
+        }
+      ]
+    },
+    {
+      "name": "sonic x",
+      "url": [
+        {
+          "name": "Opening - Joseph Garrity - Gotta Go Fast",
+          "link": "https://www.youtube.com/watch?v=mafrS5fdMlo",
+          "start": 0
+        }
+      ]
+    },
+    {
+        "name": "soul eater",
+        "url": [
+          {
+            "name": "Opening 1 - T.M. Revolution - Resonance",
+            "link": "https://www.youtube.com/watch?v=zzJ8U8OtEsE",
+            "start": 15
+          }
+        ]
+    },
+    {
+      "name": "south park",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=48tVRaac7WA",
+          "start": 6
+        }
+      ]
+    },
+    {
+      "name": "souvenir de gravity falls",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=cGetgdVe3JY",
+          "start": 2
+        }
+      ]
+    },
+    {
+        "name": "sword art online",
+        "url": [
+          {
+            "name": "Opening 1 - Lisa - Crossing Field",
+            "link": "https://www.youtube.com/watch?v=OsLY7DXWsF4",
+            "start": 41
+          },
+          {
+            "name": "Ost - Swordland",
+            "link": "https://www.youtube.com/watch?v=ad5TszNUVYI",
+            "start": 20
+          },
+          {
+            "name": "Main Theme",
+            "link": "https://www.youtube.com/watch?v=vZOiUrnT7-0",
+            "start": 10
+          },
+          {
+            "name": "Opening 3 - Aoi Eir - Ignite",
+            "link": "https://www.youtube.com/watch?v=_9rgFyn6FMM",
+            "start": 0
+          }
+        ]
+    },
+    {
+      "name": "sword art online alicization",
+      "url": [
+        {
+          "name": "Opening 1 - Lisa - Adamas",
+          "link": "https://www.youtube.com/watch?v=5-aazdelI5c",
+          "start": 5
+        }
+      ]
+    },
+    {
+      "name": "tales of zesteria the x",
+      "url": [
+        {
+          "name": "Opening - Flow - Kaze no Uta",
+          "link": "https://www.youtube.com/watch?v=9vjsu3Lb9Co",
+          "start": 50
+        }
+      ]
+    },
+    {
+      "name": "teen titans",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=Oo9YSDGZ2CE",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "telletubies",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=CXjyLFrwZew",
+          "start": 1
+        }
+      ]
+    },
+    {
+      "name": "the garden of words",
+      "url": [
+        {
+          "name": "Ost - Greenery Rain",
+          "link": "https://www.youtube.com/watch?v=PjR2K-3rUaE",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "the promised neverland",
+      "url": [
+        {
+          "name": "Opening 1 - Growth - one day...",
+          "link": "https://www.youtube.com/watch?v=4GDVEl3qw2M",
+          "start": 62
+        }
+      ]
+    },
+    {
+      "name": "thomas le train",
+      "url": [
+        {
+          "name": "Main Theme",
+          "link": "https://www.youtube.com/watch?v=fkB3F4-NI8A",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "titeuf",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=LnkmmWcv7x0",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "titi et grosminet",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=iteNiJUYhvg",
+          "start": 0
+        }
+      ]
+    },
+    {
+        "name": "tokyo ghoul",
+        "url": [
+          {
+            "name": "Opening 1 - TK - Unravel",
+            "link": "https://www.youtube.com/watch?v=uMeR2W19wT0",
+            "start": 0
+          }
+        ]
+    },
+    {
+      "name": "tom et jerry",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=uJrOUnBdmdw",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "tom sawyer",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=PpGRdkQ-co8",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "tortue ninja",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=ZxUzL4Q1Tvw",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "tottaly spies",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=-tlDSnc5dmo",
+          "start": 12
+        },
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=cG-tr6FGHns",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "toupou",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=0Joli9LM7ME",
+          "start": 15
+        }
+      ]
+    },
+    {
+      "name": "tower of god",
+      "url": [
+        {
+          "name": "Opening 1 - Stray kids - TOP",
+          "link": "https://www.youtube.com/watch?v=apII5VFTce0",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "vinland saga",
+      "url": [
+        {
+          "name": "Opening 1 - Survive Said The Prophet - MUKANJYO",
+          "link": "https://www.youtube.com/watch?v=7U7BDn-gU18",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "violet evergarden",
+      "url": [
+        {
+          "name": "Opening - TRUE - Sincerely",
+          "link": "https://www.youtube.com/watch?v=BGn6WOw6BtA",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "wakfu",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=flrxYjq25Uw",
+          "start": 16
+        }
+      ]
+    },
+    {
+      "name": "winx",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=FkZCRvNb-Yo",
+          "start": 4
+        }
+      ]
+    },
+    {
+      "name": "woody woodpecker",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=1PWcc3y_NlY",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "yakari",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=IXWsy5ZKW3E",
+          "start": 3
+        }
+      ]
+    },
+    {
+        "name": "your lie in april",
+        "url": [
+          {
+            "name": "Opening 1",
+            "link": "https://www.youtube.com/watch?v=c5rgwNvlrmo",
+            "start": 46
+          }
+        ]
+    },
+    {
+      "name": "your name",
+      "url": [
+        {
+          "name": "Main Theme",
+          "link": "https://www.youtube.com/watch?v=a2GujJZfXpg",
+          "start": 1
+        },
+        {
+          "name": "Ost - School Road",
+          "link": "https://www.youtube.com/watch?v=wIUXC9fxAt8",
+          "start": 0
+        },
+        {
+          "name": "Mitsuha Theme",
+          "link": "https://www.youtube.com/watch?v=iP6ZABrm8Lo",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "yu gi oh",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=ErhzuwW9uGs",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "name": "yu gi oh gx",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=4yzssYYz9mw",
+          "start": 3
+        }
+      ]
+    },
+    {
+        "name": "yuri on ice",
+        "url": [
+          {
+            "name": "Opening 1 - Dean Fujioka - History Maker",
+            "link": "https://www.youtube.com/watch?v=ORDXWrL5EuQ",
+            "start": 0
+          }
+        ]
+    },
+    {
+      "name": "zig et sharko",
+      "url": [
+        {
+          "name": "Generique",
+          "link": "https://www.youtube.com/watch?v=deir3mr19MA",
+          "start": 1
+        }
+      ]
   }
-]
+  ]

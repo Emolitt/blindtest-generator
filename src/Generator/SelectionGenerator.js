@@ -21,7 +21,7 @@ class SelectionGenerator {
         //isolate wanted number of selection
         const flatMappedAssets = assets.map(asset => {
             const flatMappedAsset = asset.url.map(url => {
-                const fullName = asset.name.concat(url.name ? ` - ${url.name}` : '');
+                const fullName = asset.title.concat(url.name ? ` - ${url.name}` : '');
                 return ({
                     name: fullName,
                     url:  url.link.split('=')[1],
@@ -34,28 +34,38 @@ class SelectionGenerator {
         return (this.random.shuffle(flatMappedAssets.flat(1)))
     }
 
-    EqualizeAllGenreSelection(size, reuseAsset) {
+    EqualizeAllGenreSelection(size, difficulty, reuseAsset) {
         let partSize = size / Object.keys(ThemeList).length;
 
         if (partSize <= 0) {
             partSize = 1;
         }
 
-        return  this.GenerateSelectionFromJSON('games', partSize, reuseAsset)
-            .concat(this.GenerateSelectionFromJSON('animes', partSize, reuseAsset))
-            .concat(this.GenerateSelectionFromJSON('films', partSize, reuseAsset))
-            .concat(this.GenerateSelectionFromJSON('musics', partSize, reuseAsset));
+       return this.GenerateSelectionFromJSON('games', partSize, difficulty,reuseAsset)
+            .concat(this.GenerateSelectionFromJSON('animes', partSize, difficulty, reuseAsset))
+            .concat(this.GenerateSelectionFromJSON('films', partSize, difficulty, reuseAsset))
+            .concat(this.GenerateSelectionFromJSON('musics', partSize, difficulty, reuseAsset));
     }
 
-    GenerateSelectionFromJSON(theme, size, reuseGame) {
-        let assets;
+    GenerateSelectionFromJSON(theme, size, difficulty, reuseGame) {
+        let assets = [];
         if (theme === 'all') {
-            return this.random.shuffle(this.EqualizeAllGenreSelection(size, reuseGame));
+            return this.random.shuffle(this.EqualizeAllGenreSelection(size, difficulty, reuseGame));
         } else {
             if(!(theme in ThemeList)) {
                 return []
             }
-            assets = this.random.shuffle(ThemeList[theme]);
+            // get Difficulty
+            if (difficulty.easy) {
+                assets = assets.concat(ThemeList[theme].easy)
+            }
+            if (difficulty.medium) {
+                assets = assets.concat(ThemeList[theme].medium)
+            }
+            if (difficulty.hard) {
+                assets = assets.concat(ThemeList[theme].hard)
+            }
+            assets = this.random.shuffle(assets);
         }
 
         if (reuseGame === true) {
@@ -71,7 +81,7 @@ class SelectionGenerator {
         //get random info to display for each selection
         const parsedSelectionArray = selectionArray.map(asset => {
             const winnerChoice = this.random.shuffle(asset.url)[0];
-            const fullName = asset.name.concat(winnerChoice.name ? ` - ${winnerChoice.name}` : '');
+            const fullName = asset.title.concat(winnerChoice.name ? ` - ${winnerChoice.name}` : '');
             return ({
                 name: fullName,
                 url: winnerChoice.link.split('=')[1],

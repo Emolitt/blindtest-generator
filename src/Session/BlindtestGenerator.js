@@ -21,6 +21,7 @@ export default class BlindtestGenerator extends React.Component {
 
         //Playlist Configuration
         const playlistSize = window.localStorage.getItem('playlist_size')
+        const difficulty = JSON.parse(window.localStorage.getItem('difficulty'))
         const allowSameLicence = (window.localStorage.getItem('allow_same_licence') === 'true')
         const theme = window.localStorage.getItem('theme')
 
@@ -29,7 +30,7 @@ export default class BlindtestGenerator extends React.Component {
         this.waitTime = parseInt(window.localStorage.getItem('wait_time'))
 
         selectionGenerator.setSeed(seed)
-        this.playlist = selectionGenerator.GenerateSelectionFromJSON(theme, playlistSize, allowSameLicence)
+        this.playlist = selectionGenerator.GenerateSelectionFromJSON(theme, playlistSize, difficulty, allowSameLicence)
 
         this.state = {
             display: false,
@@ -54,7 +55,7 @@ export default class BlindtestGenerator extends React.Component {
         this.handleKeyDown = this.handleKeyDown.bind(this)
         //this._onStateChange = this._onStateChange.bind(this)
 
-        if (this.playlist.length === 0 || !sessionId) {
+        if (!sessionId) {
             this.props.history.push('/')
         }
     }
@@ -305,7 +306,9 @@ export default class BlindtestGenerator extends React.Component {
 
     //---------------------------------------------------------Renderer
     componentWillMount() {
-        this.nextGuess(true);
+        setTimeout(() => {
+            this.nextGuess(true);
+        }, 2000);
     }
 
     componentDidMount() {
@@ -329,9 +332,9 @@ export default class BlindtestGenerator extends React.Component {
                 <div style={{ position: 'absolute'}}>
                     {this.state.player}
                 </div>
-                <div style={{ position: 'absolute', 'z-index': 1, margin: '10px', color: '#ffffff', fontWeight: 'bold', fontSize: '50px', 'text-transform': 'capitalize' }}>
+                {this.state.currMusic != null && <div style={{ position: 'absolute', 'z-index': 1, margin: '10px', color: '#ffffff', fontWeight: 'bold', fontSize: '50px', 'text-transform': 'capitalize' }}>
                     {this.state.currMusic.name}
-                </div>
+                </div>}
             </div>
             <div style={{ display: 'none' }}>
                 <KeyboardEventHandler

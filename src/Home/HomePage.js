@@ -44,7 +44,7 @@ export default class HomePage extends React.Component {
         return <div style={{ overflow: 'hidden' }}>
             <Helmet bodyAttributes={{style: 'background-color : #282D35'}}/>
             <div style={containerController}>
-                <p style={{color: 'white'}}>Update: Some music are now named ! This add more challenges during session !</p>
+                <p style={{color: 'white'}}>Update: Difficulty added ! You can now play this Blindtest even if oyu are a beginner !</p>
                 <Button variant="contained" style={buttonStyle('#0FDC06')} onClick={this.navigateToCheckout}>
                     Generate Blindtest
                 </Button>

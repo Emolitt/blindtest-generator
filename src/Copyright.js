@@ -13,7 +13,7 @@ export default function Copyright() {
                 backgroundColor: '#282D35',
                 color: 'white'
             }}>
-                {'v4.6 - Copyright © '}
+                {'v4.7 - Copyright © '}
                 <Link color="inherit" href="https://github.com/Emolitt/blindtest-generator" target='_blank'>
                     Emolitt
                 </Link>{' '}

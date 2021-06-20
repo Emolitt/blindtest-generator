@@ -1,35 +1,88 @@
-import firebase from "./FirebaseConfig";
-import DtoAsset from "./DtoAsset";
+import {firestore} from "./FirebaseConfig";
+import {DtoAsset} from "./DtoAsset";
 import { v4 } from "uuid";
 import DtoSuggestion from "./DtoSuggestion";
+import { default as axios } from "axios";
+
+const projectId = '20542294';
+const accessToken = 'nNeL_egaj8PhyWJHkYXk';
 
 export default class AssetsManager {
 
-    static ThemeList = {
+    /*static ThemeList = {
         games: AssetsManager.getAssetsOfCollection('games'),
         animes: AssetsManager.getAssetsOfCollection('animes'),
         films: AssetsManager.getAssetsOfCollection('films'),
         musics: AssetsManager.getAssetsOfCollection('musics')
+    }*/
+    static ThemeList = {
+        games: AssetsManager.getAssetFromGitlab('Game'),
+        animes: AssetsManager.getAssetFromGitlab('Anime'),
+        films: AssetsManager.getAssetFromGitlab('Film'),
+        musics: AssetsManager.getAssetFromGitlab('Musique')
     }
 
-    /** @param {string} collectionName **/
+    static areThemeLoaded() {
+       const gamesLoaded = !!this.ThemeList.games.easy && !!this.ThemeList.games.medium && !!this.ThemeList.games.hard
+       const animesLoaded = !!this.ThemeList.animes.easy && !!this.ThemeList.animes.medium && !!this.ThemeList.animes.hard
+       const musicsLoaded = !!this.ThemeList.musics.easy && !!this.ThemeList.musics.medium && !!this.ThemeList.musics.hard
+       const filmsLoaded = !!this.ThemeList.films.easy && !!this.ThemeList.films.medium && !!this.ThemeList.films.hard
+
+        return gamesLoaded && animesLoaded && musicsLoaded && filmsLoaded
+    }
+
+
+    static getAssetFromGitlab(assetName) {
+        //const url = `https://gitlab.com/RomainJolidon/blindtest-assets/-/raw/master/assets%20json/${assetName}.json`;
+        const url = `https://gitlab.com/api/v4/projects/${projectId}/repository/files/assets%20json%2F${assetName}.json/raw?ref=master`
+        let res = new DtoAsset();
+
+        axios.get(url, {
+            headers: {
+                "PRIVATE-TOKEN": accessToken
+            }
+        }).then(value => {
+            res.fromJson(value.data);
+        });
+        return res;
+    }
+
+    /** @param {string} collectionName
+     *  @return {DtoAsset}
+     * **/
     static getAssetsOfCollection(collectionName) {
-        const assetList = [];
+        const asset = {};
 
-        firebase.firestore().collection(collectionName).get().then(doc => {
+        console.log(collectionName);
+        firestore.collection(collectionName).get().then(doc => {
+            console.log(doc);
             doc.docs.forEach(element => {
-                assetList.push(new DtoAsset(element.data()))
-            })
-        })
-        return (assetList);
+                element.ref.listCollections().then(subCollection => {
+                    console.log(subCollection);
+                })
+            });
+        }).catch(reason => console.error(reason))
+        return new DtoAsset(asset);
     }
 
-    /** @param {$ObjMap} assets
+    /** @param {DtoAsset} assets
      * @param {string} collectionName
      * **/
     static setAssetsOfCollection(assets, collectionName) {
-        assets.forEach(asset => {
-            firebase.firestore().collection(collectionName).doc(asset.name).set(asset)
+        assets.easy.forEach(asset => {
+            asset.url.forEach(url => {
+                firestore.collection(collectionName).doc('easy').collection(asset.title).add(url)
+            })
+        })
+        assets.medium.forEach(asset => {
+            asset.url.forEach(url => {
+                firestore.collection(collectionName).doc('medium').collection(asset.title).add(url)
+            })
+        })
+        assets.hard.forEach(asset => {
+            asset.url.forEach(url => {
+                firestore.collection(collectionName).doc('hard').collection(asset.title).add(url)
+            })
         })
     }
 
@@ -49,13 +102,13 @@ export default class AssetsManager {
     /** @param {$ObjMap} asset **/
     static suggestNewAsset(asset) {
         const uid = v4()
-        firebase.firestore().collection('suggestions').doc(uid).set(asset)
+        firestore.collection('suggestions').doc(uid).set(asset)
     }
 
     static getSuggestions() {
         const assetList = [];
 
-        firebase.firestore().collection('suggestions').get().then(doc => {
+        firestore.collection('suggestions').get().then(doc => {
             doc.docs.forEach(element => {
                 assetList.push(new DtoSuggestion(element.data(), element.id))
             })
@@ -69,15 +122,15 @@ export default class AssetsManager {
     static HandleSuggestion(suggestion, validate) {
         //FIXME il ne s'est rien passé
         if (validate) {
-            firebase.firestore().collection(suggestion.theme).doc(suggestion.name).get().then(doc => {
+            firestore.collection(suggestion.theme).doc(suggestion.name).get().then(doc => {
                 const data = new DtoAsset(doc.data());
                 data.url = data.url.concat(suggestion.url)
-                firebase.firestore().collection(suggestion.theme).doc(suggestion.name).set(data.toJson())
+                firestore.collection(suggestion.theme).doc(suggestion.name).set(data.toJson())
             }).catch(err => {
-                firebase.firestore().collection(suggestion.theme).doc(suggestion.name).set(new DtoAsset(suggestion).toJson())
+                firestore.collection(suggestion.theme).doc(suggestion.name).set(new DtoAsset(suggestion).toJson())
             })
         }
-        firebase.firestore().collection('suggestions').doc(suggestion.uid).delete()
+        firestore.collection('suggestions').doc(suggestion.uid).delete()
     }
 }
 

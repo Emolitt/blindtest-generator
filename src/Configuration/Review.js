@@ -20,6 +20,33 @@ function getTheme() {
     return result;
 }
 
+function getFormattedDifficulty() {
+    const difficulty = JSON.parse(window.localStorage.getItem('difficulty'))
+
+    if (difficulty.easy && !difficulty.medium && !difficulty.hard) {
+        return 'Easy mode, for beginners'
+    } else if (!difficulty.easy && difficulty.medium && !difficulty.hard) {
+        return 'Normal mode, for some good surprises !'
+    } else if (!difficulty.easy && !difficulty.medium && difficulty.hard) {
+        return 'Hard mode, for tryharders !'
+    } else if (difficulty.easy && difficulty.medium && !difficulty.hard) {
+        return 'Easy and Medium mode, for more content without difficulty !'
+    } else if (difficulty.easy && !difficulty.medium && difficulty.hard) {
+        return 'Easy and Hard mode, because why not ?'
+    } else if (!difficulty.easy && difficulty.medium && difficulty.hard) {
+        return 'Medium and Hard mode, best combo for training !'
+    } else if (difficulty.easy && difficulty.medium && difficulty.hard) {
+        return 'All in one ! Harder Better Faster !'
+    } else {
+        window.localStorage.setItem('difficulty', JSON.stringify({
+            easy: true,
+            medium: true,
+            hard: false,
+        }));
+        return 'Easy and Medium mode, for more content without difficulty !'
+    }
+}
+
 function getFormattedPlaylistSize() {
     const playlistSize = window.localStorage.getItem('playlist_size');
 
@@ -48,6 +75,14 @@ export default function Review() {
                         </Grid>
                         <Grid item xs={6}>
                             <Typography gutterBottom style={{ color: 'white' }}>{getTheme()}</Typography>
+                        </Grid>
+                    </React.Fragment>
+                    <React.Fragment key="Difficulty">
+                        <Grid item xs={6}>
+                            <Typography gutterBottom style={{ color: 'white' }}>Difficulty</Typography>
+                        </Grid>
+                        <Grid item xs={6}>
+                            <Typography gutterBottom style={{ color: 'white' }}>{getFormattedDifficulty()}</Typography>
                         </Grid>
                     </React.Fragment>
                     <React.Fragment key="Size of Playlist">

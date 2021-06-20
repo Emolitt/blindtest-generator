@@ -7,11 +7,13 @@ import {
     Slider,
     Box,
     FormLabel,
+    Checkbox,
     Switch,
     FormGroup
 } from "@material-ui/core"
 import withStyles from "@material-ui/core/styles/withStyles";
 import {MersenneTwister19937} from "random-js";
+import FormControlLabel from "@material-ui/core/FormControlLabel";
 
 const GreenSwitch = withStyles({
     switchBase: {
@@ -53,6 +55,7 @@ export default class BlindtestCustomizerForm extends React.Component {
     constructor(props) {
         super(props);
         const playlistSize = parseInt(window.localStorage.getItem('playlist_size'))
+        const difficulty = JSON.parse(window.localStorage.getItem('difficulty'))
         const guessTime = parseInt(window.localStorage.getItem('guess_time'))
         const waitTime = parseInt(window.localStorage.getItem('wait_time'))
         const allowSameLicence = (window.localStorage.getItem('allow_same_licence') === 'true')
@@ -64,6 +67,7 @@ export default class BlindtestCustomizerForm extends React.Component {
         this.state = {
             opened: false,
             playlistSize: this.defaultplaylistSize,
+            difficulty: difficulty,
             guessTime: this.defaultGuessTime,
             waitTime: this.defaultWaitTime,
             allowSameLicence: allowSameLicence,
@@ -77,6 +81,7 @@ export default class BlindtestCustomizerForm extends React.Component {
         }
 
         this.updatePlaylistSize = this.updatePlaylistSize.bind(this);
+        this.updateDifficulty = this.updateDifficulty.bind(this);
         this.updateGuessTime = this.updateGuessTime.bind(this);
         this.updateWaitTime = this.updateWaitTime.bind(this);
         this.handleSwitchChange = this.handleSwitchChange.bind(this);
@@ -97,6 +102,18 @@ export default class BlindtestCustomizerForm extends React.Component {
             playlistSize: newPlaylistSize
         })
         window.localStorage.setItem('playlist_size', !newPlaylistSize ? '0' : newPlaylistSize.toString())
+    }
+
+    updateDifficulty(difficulty) {
+        const difficulties = this.state.difficulty;
+
+        difficulties[difficulty] = !difficulties[difficulty];
+
+        window.localStorage.setItem('difficulty', JSON.stringify(difficulties));
+
+        this.setState({
+            difficulty: difficulties
+        });
     }
 
     updateSeed(event) {
@@ -165,8 +182,25 @@ export default class BlindtestCustomizerForm extends React.Component {
 
                             />
                         </FormGroup>
+                        <FormGroup row>
+                            <FormLabel component="legend" style={{ marginBottom: '40px', marginRight: '40px', marginTop: '40px', color: '#DCDDDC' }}>
+                                Difficulty:
+                            </FormLabel>
+                            <FormControlLabel style={{ color: 'white' }}
+                                control={<Checkbox style={{ color: '#0CB804' }} checked={this.state.difficulty.easy} onClick={() => this.updateDifficulty('easy')} name="easy" />}
+                                label="Easy"
+                            />
+                            <FormControlLabel style={{ color: 'white' }}
+                                control={<Checkbox style={{ color: '#0CB804' }} checked={this.state.difficulty.medium} onClick={() => this.updateDifficulty('medium')} name="medium" />}
+                                label="Medium"
+                            />
+                            <FormControlLabel style={{ color: 'white' }}
+                                control={<Checkbox style={{ color: '#0CB804' }} checked={this.state.difficulty.hard} onClick={()=> this.updateDifficulty('hard')} name="hard" />}
+                                label="Hard"
+                            />
+                        </FormGroup>
                         <FormGroup>
-                            <FormLabel component="legend" style={{ marginBottom: '40px', marginTop: '40px', color: '#DCDDDC' }}>
+                            <FormLabel component="legend" style={{ marginBottom: '40px', color: '#DCDDDC' }}>
                                 Guess Time
                             </FormLabel>
                             <CustomSlider

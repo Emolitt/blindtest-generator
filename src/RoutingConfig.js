@@ -7,7 +7,6 @@ import ContributorsPage from "./Home/ContributorsPage";
 import AssetsPage from "./Home/AssetsPage";
 import SuggestPage from "./Home/SuggestPage";
 import AdminSuggestionPage from "./Home/AdminSuggestionPage";
-import DifficultyPage from "./Session/JsonSorter";
 
 class RoutingConfig extends Component {
 
@@ -21,7 +20,6 @@ class RoutingConfig extends Component {
                     <Route exact path="/assets" component={AssetsPage}/>
                     <Route exact path="/assets/suggest" component={SuggestPage}/>
                     <Route exact path="/blindtest" component={BlindtestGenerator}/>
-                    <Route exact path="/difficulty" component={DifficultyPage}/>
                     <Route exact path="/admin/suggestions" component={AdminSuggestionPage}/>
                 </div>
             </HashRouter>

@@ -132,7 +132,7 @@ export default class AssetsPage extends React.Component {
                           onChange={this.onListSearchUpdate}
                           id={`combo-box-${name}`}
                           options={asset}
-                          getOptionLabel={(option) => option.name}
+                          getOptionLabel={(option) => option.title}
                           style={{ width: 300 }}
                           renderInput={(params) => <TextField {...params} value={this.state[associatedValue]} label={name} variant="outlined" />}
             />
@@ -145,7 +145,7 @@ export default class AssetsPage extends React.Component {
     }
 
     navigateToSuggest() {
-        AssetsManager.setAssetsOfCollection(require('../Assets/musiques.json'), 'musics')
+        AssetsManager.setAssetsOfCollection(require('../Assets/musique.json'), 'musics')
         AssetsManager.setAssetsOfCollection(require('../Assets/game.json'), 'games')
         AssetsManager.setAssetsOfCollection(require('../Assets/anime.json'), 'animes')
         //this.props.history.push('/assets/suggest')
@@ -165,10 +165,10 @@ export default class AssetsPage extends React.Component {
                 left: '50%',
                 transform: 'translate(-50%, -50%)'
             }}>
-                {this.renderAssetSearch(AssetsManager.ThemeList.games, 'Games')}
-                {this.renderAssetSearch(AssetsManager.ThemeList.animes, 'Animes')}
-                {this.renderAssetSearch(AssetsManager.ThemeList.films, 'Films')}
-                {this.renderAssetSearch(AssetsManager.ThemeList.musics, 'Musics')}
+                {this.renderAssetSearch(AssetsManager.ThemeList.games.flatMap(), 'Games')}
+                {this.renderAssetSearch(AssetsManager.ThemeList.animes.flatMap(), 'Animes')}
+                {this.renderAssetSearch(AssetsManager.ThemeList.films.flatMap(), 'Films')}
+                {this.renderAssetSearch(AssetsManager.ThemeList.musics.flatMap(), 'Musics')}
             </div>
             <div  style={{
                 position: 'fixed',

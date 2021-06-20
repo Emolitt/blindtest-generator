@@ -306,9 +306,7 @@ export default class BlindtestGenerator extends React.Component {
 
     //---------------------------------------------------------Renderer
     componentWillMount() {
-        setTimeout(() => {
-            this.nextGuess(true);
-        }, 2000);
+        this.nextGuess(true);
     }
 
     componentDidMount() {

@@ -5,7 +5,7 @@ import DtoSuggestion from "./DtoSuggestion";
 import { default as axios } from "axios";
 
 const projectId = '20542294';
-const accessToken = 'nNeL_egaj8PhyWJHkYXk';
+const accessToken = 'Fuz47ZkyM7aJSsQRsiqH';
 
 export default class AssetsManager {
 

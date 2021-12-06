@@ -3,7 +3,7 @@ import {Route, Routes, BrowserRouter, useNavigate} from 'react-router-dom';
 import GeneratorPage from './pages/Configuration/GeneratorPage';
 import BlindtestGenerator from "./pages/Session/BlindtestGenerator";
 import HomePage from "./pages/HomePage";
-import ContributorsPage from "./pages/ContributorsPage";
+import ContributorsPage from "./pages/Contributors/ContributorsPage";
 import AssetsPage from "./pages/Assets/AssetsPage";
 import {StoreConsumerHook} from "./store/store";
 

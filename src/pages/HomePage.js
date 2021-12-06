@@ -38,7 +38,7 @@ export default function HomePage () {
     return <div style={{ overflow: 'hidden' }}>
         <Helmet bodyAttributes={{style: 'background-color : #282D35'}}/>
         <div style={containerController}>
-            <UpdateDisplayPanel message={'Update: Complete rework on blindtest configuration ! You can now choose multiple themes of you choice !'}/>
+            <UpdateDisplayPanel message={'Update: Complete rework on blindtest configuration ! You can now choose multiple themes of your choice !'}/>
             <Button variant="contained" style={buttonStyle('#0FDC06')} onClick={navigateToCheckout}>
                 Generate Blindtest
             </Button>

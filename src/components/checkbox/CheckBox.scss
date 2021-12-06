@@ -1,0 +1,37 @@
+.checkbox-container {
+  background-image: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 16px;
+
+  box-shadow: 0 0 5px 1px black;
+  opacity: 0.6;
+  padding: 10px;
+  margin: 16px;
+  transition: all 0.4s;
+  text-align: center;
+
+  span {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 800;
+    color: white;
+    user-select: none;
+  }
+}
+
+.active {
+  box-shadow: 0 0 5px 1px white;
+  opacity: 1;
+}
+
+.checkbox-container:hover {
+  opacity: 1;
+  box-shadow: 0 0 10px 2px white;
+}

@@ -1,0 +1,21 @@
+
+.step-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stepper {
+    .MuiStepLabel-label {
+        color: white;
+        font-size: 18px;
+
+        &.Mui-active {
+            color: white;
+        }
+
+        &.Mui-completed {
+            color: #0FDC06;
+        }
+    }
+}

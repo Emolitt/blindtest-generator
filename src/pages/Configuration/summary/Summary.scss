@@ -1,0 +1,44 @@
+.summary-container {
+  width: fit-content;
+
+  .title {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    h1 {
+      text-align: center;
+      color: white;
+    }
+  }
+
+  .row-centered {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item-flex-start {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 50px;
+  }
+
+  .item-flex-end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 50px;
+  }
+
+  .play-btn-container {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+  }
+
+}

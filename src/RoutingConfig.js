@@ -1,30 +1,26 @@
-import React, {Component} from 'react';
-import {Route, HashRouter} from 'react-router-dom';
-import Checkout from './Configuration/Checkout';
-import BlindtestGenerator from "./Session/BlindtestGenerator";
-import HomePage from "./Home/HomePage";
-import ContributorsPage from "./Home/ContributorsPage";
-import AssetsPage from "./Home/AssetsPage";
-import SuggestPage from "./Home/SuggestPage";
-import AdminSuggestionPage from "./Home/AdminSuggestionPage";
+import React from 'react';
+import {Route, Routes, BrowserRouter, useNavigate} from 'react-router-dom';
+import GeneratorPage from './pages/Configuration/GeneratorPage';
+import BlindtestGenerator from "./pages/Session/BlindtestGenerator";
+import HomePage from "./pages/HomePage";
+import ContributorsPage from "./pages/ContributorsPage";
+import AssetsPage from "./pages/Assets/AssetsPage";
+import {StoreConsumerHook} from "./store/store";
 
-class RoutingConfig extends Component {
-
-    render() {
-        return (
-            <HashRouter basename='/'>
-                <div>
-                    <Route exact path="/" component={HomePage}/>
-                    <Route exact path="/checkout" component={Checkout}/>
-                    <Route exact path="/contributors" component={ContributorsPage}/>
-                    <Route exact path="/assets" component={AssetsPage}/>
-                    <Route exact path="/assets/suggest" component={SuggestPage}/>
-                    <Route exact path="/blindtest" component={BlindtestGenerator}/>
-                    <Route exact path="/admin/suggestions" component={AdminSuggestionPage}/>
-                </div>
-            </HashRouter>
-        );
-    }
+function WrapBlindtest() {
+    const {assetManager} = StoreConsumerHook();
+    const navigate = useNavigate();
+    return <BlindtestGenerator assetManager={assetManager} navigate={navigate}/>
 }
 
-export default RoutingConfig;
+export default function RoutingConfig() {
+     return <BrowserRouter basename='/'>
+            <Routes>
+                <Route path="/" element={<HomePage/>}/>
+                <Route path="/generate" element={<GeneratorPage/>}/>
+                <Route path="/contributors" element={<ContributorsPage/>}/>
+                <Route path="/assets" element={<AssetsPage/>}/>
+                <Route path="/blindtest" element={<WrapBlindtest/>}/>
+            </Routes>
+        </BrowserRouter>
+}

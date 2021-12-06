@@ -2,22 +2,18 @@
   "name": "blindtest-generator",
   "version": "0.1.0",
   "private": true,
+  "main": "src/index.js",
   "dependencies": {
-    "@material-ui/core": "^4.11.1",
-    "@material-ui/icons": "^4.9.1",
-    "@material-ui/lab": "^4.0.0-alpha.57",
     "axios": "^0.21.1",
     "clsx": "^1.1.1",
-    "firebase": "^8.3.0",
     "js-cookie": "^2.2.1",
     "prop-types": "^15.7.2",
     "random-js": "^2.1.0",
     "react": "^17.0.1",
-    "react-countdown": "^2.3.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-keyboard-event-handler": "^1.5.4",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.1",
     "react-window": "^1.8.6",
     "react-youtube": "^7.13.0",
@@ -53,23 +49,39 @@
   },
   "babel": {
     "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
+      "@babel/env",
+      [
+        "@babel/preset-react",
+        {
+          "pragma": "dom",
+          "pragmaFrag": "DomFrag",
+          "throwIfNamespace": false,
+          "runtime": "automatic"
+        }
+      ]
     ],
     "plugins": [
-      "@babel/plugin-proposal-class-properties"
+      "@babel/plugin-transform-runtime"
     ]
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
-    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
     "@babel/plugin-syntax-class-properties": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.0",
+    "@mui/material": "^5.1.0",
+    "@mui/styles": "^5.1.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "gh-pages": "^3.1.0",
-    "google-auth-library": "^7.1.2",
-    "googleapis": "^76.0.0"
+    "react-spring": "^9.3.2",
+    "sass": "^1.43.4"
   },
   "homepage": "http://emolitt.github.io/blindtest-generator"
 }

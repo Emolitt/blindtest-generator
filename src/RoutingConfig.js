@@ -14,7 +14,7 @@ function WrapBlindtest() {
 }
 
 export default function RoutingConfig() {
-     return <BrowserRouter basename='/'>
+     return <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route path="/" element={<HomePage/>}/>
                 <Route path="/generate" element={<GeneratorPage/>}/>

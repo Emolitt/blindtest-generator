@@ -19,6 +19,19 @@ const accessToken = 'glpat-QNSwxVMb-11Dzf_kbt81';
         .catch(error => console.log('error', error));
 }*/
 
+export const AssetThemeToLabel = {
+    games: "Game",
+    animes: "Anime",
+    movies: "Movie",
+    tvShows: "TV Show",
+    series: "Serie",
+    songs: "Music"
+}
+
+
+//FIXME attention ça pete quand ya un tableau vide parmis les elements
+const transpose = (elements) => elements.reduce((r, a) => (a.forEach((a, i) => (r[i] = r[i] || []).push(a)), r), []).reduce((a, b) => a.concat(b));
+
 
 export default class AssetsManager {
 
@@ -90,20 +103,23 @@ export default class AssetsManager {
     }
 
     equalizeThemesSelection(themes, size, difficulty, reuseAsset) {
-        let partSize = size / themes.length;
+        let partSize = Math.floor(size / themes.length);
 
         if (partSize <= 0) {
             partSize = 1;
         }
 
-        return Promise.all(themes.map(((theme) => this.generateSelection(theme, partSize, difficulty,reuseAsset))));
+        const shuffledThemes = this.random.shuffle(themes);
+
+        return Promise.all(shuffledThemes.map(((theme) => this.generateSelection(theme, partSize, difficulty, reuseAsset))));
     }
 
     generateSelection(themes, size, difficulties, reuseGame) {
         return new Promise((resolve, reject) => {
             if (Array.isArray(themes)) {
                 this.equalizeThemesSelection(themes, size, difficulties, reuseGame).then(result => {
-                    resolve(this.random.shuffle(result.flatMap(asset => asset)));
+                    //resolve(this.random.shuffle(result.flatMap(asset => asset)));
+                    resolve(transpose(result))
                 });
             } else {
                 let theme = themes;
@@ -117,7 +133,8 @@ export default class AssetsManager {
                     const flatMappedAssets = this.flatMapAssets(assets)
 
                     //isolate wanted number of selection
-                    resolve(flatMappedAssets.slice(0, size));
+                    resolve(this.random.shuffle(flatMappedAssets.slice(0, size)));
+                    return;
                 }
 
                 //isolate wanted number of selection
@@ -127,14 +144,22 @@ export default class AssetsManager {
                 const parsedSelectionArray = selectionArray.map(asset => {
                     const winnerChoice = this.random.shuffle(asset.url)[0];
                     const fullName = asset.title.concat(winnerChoice.name ? ` - ${winnerChoice.name}` : '');
-                    return ({
-                        name: fullName,
-                        url: winnerChoice.link.split('=')[1],
-                        start: winnerChoice.start
-                    })
+                    if (winnerChoice.link.indexOf('=') !== -1) {
+                        return ({
+                            name: fullName,
+                            url:  winnerChoice.link.split('=')[1],
+                            start: winnerChoice.start
+                        });
+                    } else {
+                        return ({
+                            name: fullName,
+                            url:  winnerChoice.link.split('/')[1],
+                            start: winnerChoice.start
+                        })
+                    }
                 })
 
-                resolve(parsedSelectionArray);
+                resolve(this.random.shuffle(parsedSelectionArray));
             }
         });
     }

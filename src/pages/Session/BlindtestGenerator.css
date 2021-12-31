@@ -1,4 +1,8 @@
 
+.guess-container {
+
+}
+
 .counter {
     position: absolute;
     left: 50%;
@@ -9,12 +13,28 @@
     font-weight: bold
 }
 
+.asset-info-container {
+    width: 1920px;
+    height: 1080px;
+    z-index: 1;
+}
+
 .asset-label {
     position: absolute;
-    z-index: 1;
     margin: 10px;
     color: #ffffff;
     font-weight: bold;
     font-size: 50px;
     text-transform: capitalize;
+}
+
+.asset-counter {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: left;
 }

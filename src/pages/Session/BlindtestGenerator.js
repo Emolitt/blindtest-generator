@@ -21,6 +21,7 @@ export default class BlindtestGenerator extends React.Component {
         const sessionId = window.localStorage.getItem('session_id');
 
         this.playlist = [];
+        this.playlistSize = 0;
         const timeline = localStorageHelper.getTimeline();
         this.guessTime = timeline[0];
         this.answerTime = timeline[1];
@@ -305,6 +306,7 @@ export default class BlindtestGenerator extends React.Component {
         this.props.assetManager.generateSelection(themes, playlistSize, difficulties, allowSameLicence)
             .then(assets => {
                 this.playlist = assets;
+                this.playlistSize = assets.length;
                 this.nextGuess(true);
             });
     }
@@ -315,18 +317,25 @@ export default class BlindtestGenerator extends React.Component {
     render() {
         return <div>
             <Helmet bodyAttributes={{style: 'background-color : #242629'}}/>
-            {!this.state.display &&
-            <div className="counter">
-                {this.state.counter}
-            </div>
-            }
+            {!this.state.display && <div className="guess-container">
+                <div className="counter">
+                    {this.state.counter}
+                </div>
+                <div className="asset-counter">
+                    {`${this.playlistSize - this.playlist.length} / ${this.playlistSize}`}
+                </div>
+            </div>}
             <div style={{ display: this.state.display ? '' : 'none', position: 'relative' }}>
                 <div style={{ position: 'absolute'}}>
                     {this.state.player}
                 </div>
-                {this.state.currMusic != null && <div className="asset-label">
-                    {this.state.currMusic.name}
+
+                {this.state.currMusic != null && <div className="asset-info-container">
+                    <div className="asset-label">
+                        {this.state.currMusic.name}
+                    </div>
                 </div>}
+
             </div>
             <div style={{ display: 'none' }}>
                 <KeyboardEventHandler

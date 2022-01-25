@@ -6,6 +6,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "clsx": "^1.1.1",
+    "firebase": "^9.6.1",
     "js-cookie": "^2.2.1",
     "prop-types": "^15.7.2",
     "random-js": "^2.1.0",

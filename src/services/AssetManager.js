@@ -115,6 +115,8 @@ export default class AssetsManager {
     }
 
     generateSelection(themes, size, difficulties, reuseGame) {
+        this.random = new Random(MersenneTwister19937.autoSeed());
+
         return new Promise((resolve, reject) => {
             if (Array.isArray(themes)) {
                 this.equalizeThemesSelection(themes, size, difficulties, reuseGame).then(result => {

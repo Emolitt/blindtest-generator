@@ -8,7 +8,6 @@ import {useNavigate} from "react-router-dom";
 import Grid from "@mui/material/Grid";
 import './ContributorsPage.scss'
 import PropTypes from 'prop-types';
-import profilePicture from '../../resources/background.JPG';
 import malo from '../../resources/contributors/malo.jpg';
 import hugo from '../../resources/contributors/hugo.jpg';
 import jules from '../../resources/contributors/jules.jpg';

@@ -94,25 +94,6 @@
     align-items: center;
     justify-content: center;
 
-    .MuiSwitch-root {
-      .MuiSwitch-switchBase {
-        color: darkslategrey;
-
-        .Mui-checked {
-          color: darkslategrey;
-
-          .MuiSwitch-track {
-            background-color: lightgray;
-          }
-        }
-      }
-
-      .MuiSwitch-track {
-        background-color: darkgrey;
-      }
-
-    }
-
   }
 }
 

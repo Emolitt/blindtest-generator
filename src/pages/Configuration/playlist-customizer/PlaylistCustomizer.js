@@ -7,6 +7,7 @@ import styled from "@emotion/styled";
 import Slider from "@mui/material/Slider";
 import Switch from "@mui/material/Switch";
 import Input from "@mui/material/Input";
+import {CustomSwitch} from "../../../components";
 
 const StyledInput = styled(Input)`
   width: 100px;
@@ -148,10 +149,9 @@ export function PlaylistCustomizer() {
             </div>
             <h3>Allow Multiple Selection per Licence </h3>
             <div className="multiple-licence-selection">
-                <Switch
+                <CustomSwitch
                     checked={multipleLicence}
                     onChange={handleMultipleLicenceChange}
-                    size={"medium"}
                 />
             </div>
         </div>

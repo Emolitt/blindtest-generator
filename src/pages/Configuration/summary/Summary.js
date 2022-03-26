@@ -1,8 +1,8 @@
-import React from "react";
+import React, {useState} from "react";
 
 import './Summary.scss'
 import Grid from "@mui/material/Grid";
-import {CustomButton} from "../../../components";
+import {CustomButton, CustomSwitch} from "../../../components";
 import {localStorageHelper} from "../../../utils/localStorageHelper";
 import {useNavigate} from "react-router-dom";
 
@@ -77,6 +77,14 @@ function getFormattedGuessTime() {
 }
 
 export function SummaryPage() {
+    const savedDrinkMode = localStorageHelper.getDrinkMode();
+    const [drinkMode, setDrinkMode] = useState(savedDrinkMode);
+
+    const handleDrinkModeChange = (event) => {
+        setDrinkMode(event.target.checked);
+        localStorageHelper.setDrinkMode(event.target.checked);
+    };
+
     return <div className="summary-container">
         <div className="title">
             <h1>Summary</h1>
@@ -107,5 +115,9 @@ export function SummaryPage() {
                 {getFormattedGuessTime()}
             </Grid>
         </Grid>
+        <div>
+            <h2>Drink mode</h2>
+            <CustomSwitch checked={drinkMode} onChange={handleDrinkModeChange} />
+        </div>
     </div>
 }

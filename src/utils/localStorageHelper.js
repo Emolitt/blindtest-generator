@@ -20,6 +20,7 @@ const defaultPlaylistSize = 100;
 const defaultTimeline =  [13, 18];
 
 const defaultAllowMultipleLicence = false;
+const defaultDrinkMode = false;
 
 
 const setThemes = function (themes) {
@@ -122,6 +123,21 @@ const getAllowMultipleLicence = function () {
     }
 }
 
+const setDrinkMode = function (allowMultipleLicence) {
+    localStorage.setItem('blindtest-drink-mode', JSON.stringify(allowMultipleLicence));
+}
+
+const getDrinkMode = function () {
+    const drinkMode = localStorage.getItem('blindtest-drink-mode');
+
+    if (drinkMode !== null) {
+        return JSON.parse(drinkMode);
+    } else {
+        setDrinkMode(defaultDrinkMode)
+        return defaultDrinkMode;
+    }
+}
+
 const resetSessionId = function () {
     return localStorage.setItem('blindtest-session-id', null);
 }
@@ -145,6 +161,8 @@ export const localStorageHelper = {
     getTimeline,
     setAllowMultipleLicence,
     getAllowMultipleLicence,
+    setDrinkMode,
+    getDrinkMode,
     getActiveThemes,
     getActiveDifficulties,
     getSessionId,

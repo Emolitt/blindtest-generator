@@ -7,3 +7,4 @@ export { default as CustomCheckout } from './checkout/Checkout';
 export { default as CheckBox } from './checkbox/CheckBox.js';
 export { default as Copyright } from './copyright/Copyright';
 export { default as UpdateDisplayPanel } from './update-display-panel/UpdateDisplayPanel';
+export { default as CustomTooltip } from './custom-tooltip/CustomTooltip';

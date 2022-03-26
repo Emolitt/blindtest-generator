@@ -10,7 +10,6 @@ import styled from "@mui/material/styles/styled";
 import easyDifficultyImg from '../../../resources/difficulties/easy.jpg';
 import mediumDifficultyImg from '../../../resources/difficulties/medium.jpg';
 import hardDifficultyImg from '../../../resources/difficulties/hard.jpg';
-import PropTypes from "prop-types";
 
 const ColorButton = styled(Button)(({ theme }) => ({
     color: theme.palette.getContrastText("#000000"),

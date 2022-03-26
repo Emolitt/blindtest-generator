@@ -10,7 +10,6 @@ import {ThemeGetter} from "./theme-selection/ThemeGetter";
 import {PlaylistCustomizer} from "./playlist-customizer/PlaylistCustomizer";
 import {DifficultyGetter} from "./difficulty_selection/DifficultyGetter";
 import {SummaryPage} from "./summary/Summary";
-import {useNavigate} from "react-router-dom";
 import {localStorageHelper} from "../../utils/localStorageHelper";
 
 const stepsLabel = ['Select theme', 'Customize Playlist', 'Select Difficulty','Validate'];

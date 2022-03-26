@@ -38,7 +38,7 @@ export default function HomePage () {
     return <div style={{ overflow: 'hidden' }}>
         <Helmet bodyAttributes={{style: 'background-color : #282D35'}}/>
         <div style={containerController}>
-            <UpdateDisplayPanel message={'Update: Complete rework on blindtest configuration ! You can now choose multiple themes of your choice !'}/>
+            <UpdateDisplayPanel message={'Update: Drink mode added, you can now increase the challenge with random drink distribution ! (Alcohol abuse is dangerous for your health)'}/>
             <Button variant="contained" style={buttonStyle('#0FDC06')} onClick={navigateToCheckout}>
                 Generate Blindtest
             </Button>

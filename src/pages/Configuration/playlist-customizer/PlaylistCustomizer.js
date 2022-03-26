@@ -5,7 +5,6 @@ import {localStorageHelper} from '../../../utils/localStorageHelper';
 import styled from "@emotion/styled";
 
 import Slider from "@mui/material/Slider";
-import Switch from "@mui/material/Switch";
 import Input from "@mui/material/Input";
 import {CustomSwitch} from "../../../components";
 

@@ -5,7 +5,7 @@ import KeyboardEvents from './KeyboardEvent';
 import YouTube from "react-youtube";
 import PropTypes from "prop-types";
 import {localStorageHelper} from "../../utils/localStorageHelper";
-import './BlindtestGenerator.css'
+import './BlindtestGenerator.scss'
 
 const Status = {
     None: -1,
@@ -18,7 +18,8 @@ const Status = {
 export default class BlindtestGenerator extends React.Component {
     constructor(props) {
         super(props);
-        const sessionId = window.localStorage.getItem('session_id');
+        const sessionId = localStorageHelper.getSessionId();
+        this.drinkMode = localStorageHelper.getDrinkMode();
 
         this.playlist = [];
         this.playlistSize = 0;
@@ -34,6 +35,7 @@ export default class BlindtestGenerator extends React.Component {
             playerObj: null,
             playlistIndex: 0,
             currMusic: null,
+            drinkAmount: 0,
             loaded: false,
             error: false,
             stop: false
@@ -52,6 +54,11 @@ export default class BlindtestGenerator extends React.Component {
         if (!sessionId) {
             this.props.navigate('/')
         }
+    }
+
+    //---------------------------------------------------------Utils
+    randomNumber(min, max) {
+        return Math.floor(Math.random() * (max - min) + min);
     }
 
     //---------------------------------------------------------Iframe Handler
@@ -147,7 +154,8 @@ export default class BlindtestGenerator extends React.Component {
             console.log("init Player");
             this.setState({
                 currMusic: music,
-                playerOpts: opt
+                playerOpts: opt,
+                drinkAmount: this.randomNumber(1, 4)
             });
 
             const timer = setInterval(() => {
@@ -290,6 +298,7 @@ export default class BlindtestGenerator extends React.Component {
         }
     }
 
+
     //---------------------------------------------------------Renderer
     componentWillMount() {
         const playlistSize = localStorageHelper.getPlaylistSize();
@@ -306,13 +315,13 @@ export default class BlindtestGenerator extends React.Component {
 
     componentDidMount() {
     }
-
     render() {
         return <div>
             <Helmet bodyAttributes={{style: 'background-color : #242629'}}/>
             {!this.state.display && <div className="guess-container">
                 <div className="counter">
-                    {this.state.counter}
+                    <h1>{this.state.counter}</h1>
+                    {this.drinkMode && <h2>{this.state.drinkAmount} drinks</h2>}
                 </div>
                 <div className="asset-counter">
                     {`${this.playlistSize - this.playlist.length} / ${this.playlistSize}`}

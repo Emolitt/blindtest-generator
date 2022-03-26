@@ -2,9 +2,9 @@ import React, {useState} from "react";
 
 import './Summary.scss'
 import Grid from "@mui/material/Grid";
-import {CustomButton, CustomSwitch} from "../../../components";
+import {CustomSwitch, CustomTooltip} from "../../../components";
 import {localStorageHelper} from "../../../utils/localStorageHelper";
-import {useNavigate} from "react-router-dom";
+import {Typography} from "@mui/material";
 
 
 const FormattedThemes = {
@@ -115,9 +115,21 @@ export function SummaryPage() {
                 {getFormattedGuessTime()}
             </Grid>
         </Grid>
-        <div>
-            <h2>Drink mode</h2>
-            <CustomSwitch checked={drinkMode} onChange={handleDrinkModeChange} />
+        <div className="drink-mode-container">
+            <div className="drink-mode-warning-message">
+                <h2>Drink mode</h2>
+                {drinkMode && <p>Alcohol abuse is dangerous for your health</p>}
+            </div>
+            <CustomTooltip
+                title={
+                    <React.Fragment>
+                        <Typography color="inherit">Rules</Typography>
+                        <p>The player who find the music can distribute the number of drinks displayed on the screen</p>
+                    </React.Fragment>
+                }
+            >
+                <CustomSwitch checked={drinkMode} onChange={handleDrinkModeChange} />
+            </CustomTooltip>
         </div>
     </div>
 }

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/blindtest-generator/static/css/main.b429ba10.chunk.css",
-    "main.js": "/blindtest-generator/static/js/main.4a6815ac.chunk.js",
-    "main.js.map": "/blindtest-generator/static/js/main.4a6815ac.chunk.js.map",
-    "runtime-main.js": "/blindtest-generator/static/js/runtime-main.a54509f9.js",
-    "runtime-main.js.map": "/blindtest-generator/static/js/runtime-main.a54509f9.js.map",
-    "static/js/2.95bbb871.chunk.js": "/blindtest-generator/static/js/2.95bbb871.chunk.js",
-    "static/js/2.95bbb871.chunk.js.map": "/blindtest-generator/static/js/2.95bbb871.chunk.js.map",
-    "static/js/3.a080808a.chunk.js": "/blindtest-generator/static/js/3.a080808a.chunk.js",
-    "static/js/3.a080808a.chunk.js.map": "/blindtest-generator/static/js/3.a080808a.chunk.js.map",
+    "main.css": "/blindtest-generator/static/css/main.3f7d1127.chunk.css",
+    "main.js": "/blindtest-generator/static/js/main.ecc379c7.chunk.js",
+    "main.js.map": "/blindtest-generator/static/js/main.ecc379c7.chunk.js.map",
+    "runtime-main.js": "/blindtest-generator/static/js/runtime-main.e3536cb6.js",
+    "runtime-main.js.map": "/blindtest-generator/static/js/runtime-main.e3536cb6.js.map",
+    "static/js/2.80ec872e.chunk.js": "/blindtest-generator/static/js/2.80ec872e.chunk.js",
+    "static/js/2.80ec872e.chunk.js.map": "/blindtest-generator/static/js/2.80ec872e.chunk.js.map",
+    "static/js/3.5c7e6de6.chunk.js": "/blindtest-generator/static/js/3.5c7e6de6.chunk.js",
+    "static/js/3.5c7e6de6.chunk.js.map": "/blindtest-generator/static/js/3.5c7e6de6.chunk.js.map",
     "index.html": "/blindtest-generator/index.html",
-    "static/css/main.b429ba10.chunk.css.map": "/blindtest-generator/static/css/main.b429ba10.chunk.css.map",
-    "static/js/2.95bbb871.chunk.js.LICENSE.txt": "/blindtest-generator/static/js/2.95bbb871.chunk.js.LICENSE.txt",
+    "static/css/main.3f7d1127.chunk.css.map": "/blindtest-generator/static/css/main.3f7d1127.chunk.css.map",
+    "static/js/2.80ec872e.chunk.js.LICENSE.txt": "/blindtest-generator/static/js/2.80ec872e.chunk.js.LICENSE.txt",
     "static/media/animes.90129c5b.jpg": "/blindtest-generator/static/media/animes.90129c5b.jpg",
     "static/media/easy.8f94ee7f.jpg": "/blindtest-generator/static/media/easy.8f94ee7f.jpg",
     "static/media/gomes.856c57ce.jpg": "/blindtest-generator/static/media/gomes.856c57ce.jpg",
@@ -32,9 +32,9 @@
     "static/media/video-games.5a19e227.png": "/blindtest-generator/static/media/video-games.5a19e227.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a54509f9.js",
-    "static/js/2.95bbb871.chunk.js",
-    "static/css/main.b429ba10.chunk.css",
-    "static/js/main.4a6815ac.chunk.js"
+    "static/js/runtime-main.e3536cb6.js",
+    "static/js/2.80ec872e.chunk.js",
+    "static/css/main.3f7d1127.chunk.css",
+    "static/js/main.ecc379c7.chunk.js"
   ]
 }

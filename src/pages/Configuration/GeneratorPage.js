@@ -17,7 +17,6 @@ const stepsLabel = ['Select theme', 'Customize Playlist', 'Select Difficulty','V
 const stepsComponents = [<ThemeGetter />, <PlaylistCustomizer />,  <DifficultyGetter />, <SummaryPage />];
 
 export default function GeneratorPage() {
-    const navigate = useNavigate();
     useEffect(() => {
         localStorageHelper.resetSessionId();
     }, []);

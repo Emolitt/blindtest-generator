@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import {Check} from "@mui/icons-material";
 import PropTypes from "prop-types";
 import React from "react";

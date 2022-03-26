@@ -7,12 +7,11 @@ import {
     Autocomplete,
     TextField
 } from "@mui/material";
-import PropTypes from 'prop-types';
 import {Helmet} from "react-helmet";
 import {Copyright} from "../../components";
 import {useNavigate} from "react-router-dom";
 import {StoreConsumerHook} from "../../store/store";
-import type {JsonMusic, JsonMusicUrl} from "../../models/DtoAsset";
+import type {JsonMusicUrl} from "../../models/DtoAsset";
 
 const classes = {
     root: {

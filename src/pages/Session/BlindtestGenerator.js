@@ -30,7 +30,7 @@ export default class BlindtestGenerator extends React.Component {
             display: false,
             status: Status.None,
             counter: this.guessTime,
-            player: undefined,
+            playerOpts: {},
             playerObj: null,
             playlistIndex: 0,
             currMusic: null,
@@ -147,14 +147,7 @@ export default class BlindtestGenerator extends React.Component {
             console.log("init Player");
             this.setState({
                 currMusic: music,
-                player: <YouTube videoId={music.url}
-                                opts={opt}
-                                onReady={this._onReady}
-                                onPlay={this._onPlay}
-                                onEnd={this._onEnd}
-                                onError={this._onError}
-                                onStateChange={this._onStateChange}
-                />
+                playerOpts: opt
             });
 
             const timer = setInterval(() => {
@@ -260,7 +253,7 @@ export default class BlindtestGenerator extends React.Component {
 
     //---------------------------------------------------------User Inputs
     handleKeyDown(key, event) {
-        if (this.state.player === null) {
+        if (this.state.playerObj === null) {
             return
         }
         console.log("receiving key: " + key)
@@ -325,18 +318,23 @@ export default class BlindtestGenerator extends React.Component {
                     {`${this.playlistSize - this.playlist.length} / ${this.playlistSize}`}
                 </div>
             </div>}
-            <div style={{ display: this.state.display ? '' : 'none', position: 'relative' }}>
+            {this.state.currMusic != null && <div style={{ display: this.state.display ? '' : 'none', position: 'relative' }}>
                 <div style={{ position: 'absolute'}}>
-                    {this.state.player}
+                    <YouTube videoId={this.state.currMusic.url}
+                             opts={this.state.playerOpts}
+                             onReady={this._onReady}
+                             onPlay={this._onPlay}
+                             onEnd={this._onEnd}
+                             onError={this._onError}
+                             onStateChange={this._onStateChange}
+                    />
                 </div>
-
-                {this.state.currMusic != null && <div className="asset-info-container">
+                <div className="asset-info-container">
                     <div className="asset-label">
                         {this.state.currMusic.name}
                     </div>
-                </div>}
-
-            </div>
+                </div>
+            </div>}
             <div style={{ display: 'none' }}>
                 <KeyboardEventHandler
                     handleKeys={['up', 'down', 'left', 'right', 'space', 'esc']}
